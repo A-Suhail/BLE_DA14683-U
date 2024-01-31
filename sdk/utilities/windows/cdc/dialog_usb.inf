@@ -1,0 +1,77 @@
+;
+; Device installation file for
+; USB 2 COM port emulation
+; Copyright (C) 2016. Dialog Semiconductor
+;
+; This file supports:
+;     Windows 2000
+;     Windows XP
+;     Windows Server 2003 x86, x64
+;     Windows Vista x86, x64
+;     Windows 7 x86,x64
+;     Windows Server 2008 x86,x64
+;     Windows 8 x86,x64
+;     Windows 8.1 x86,x64
+;     Windows 10 x86,x64
+;
+[Version]
+Signature="$Windows NT$"
+Class=Ports
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider=%MFGNAME%
+DriverVer=03/12/2015,6.0.2600.5
+CatalogFile=usbser.cat
+
+[Manufacturer]
+%MFGNAME%=CDCDevice,NT,NTamd64
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[CDCDevice.NT]
+%DESCRIPTION%=DriverInstall,USB\VID_2DCF&PID_6001
+%DESCRIPTION%=DriverInstall,USB\VID_2DCF&PID_6002
+%DESCRIPTION%=DriverInstall,USB\VID_2DCF&PID_6003&MI_00
+
+[CDCDevice.NTamd64]
+%DESCRIPTION%=DriverInstall,USB\VID_2DCF&PID_6001
+%DESCRIPTION%=DriverInstall,USB\VID_2DCF&PID_6002
+%DESCRIPTION%=DriverInstall,USB\VID_2DCF&PID_6003&MI_00
+
+[DriverInstall]
+Include=mdmcpq.inf
+CopyFiles=FakeModemCopyFileSection
+AddReg=DriverInstall.AddReg
+
+[DriverInstall.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+[DriverInstall.Services]
+AddService=usbser, 0x00000002, DriverServiceInst
+
+[DriverServiceInst]
+DisplayName=%SERVICE%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\usbser.sys
+
+[SourceDisksNames.amd64]
+1=%DiskName%,,
+
+[SourceDisksFiles.amd64]
+
+[SourceDisksNames.x86]
+1=%DiskName%,,
+
+[SourceDisksFiles.x86]
+
+[FakeModemCopyFileSection]
+
+[Strings]
+MFGNAME = "DIALOG"
+DESCRIPTION = "USB CDC serial port emulation"
+SERVICE = "USB CDC serial port emulation"
+DiskName="DIALOG USB CDC Installation Disk"

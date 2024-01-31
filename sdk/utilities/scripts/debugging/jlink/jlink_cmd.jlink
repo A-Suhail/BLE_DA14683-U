@@ -1,0 +1,16 @@
+r0
+r1
+sleep 1000
+speed 4000
+si swd
+device CORTEX-M0
+w4 0x7fd0000, 0xdeadbeef
+w4 0x7fd0004, 0xdeadbeef
+w4 0x7fd0008, 0xdeadbeef
+w4 0x7fd000c, 0xdead10cc
+w4 0x400c3050, 1
+sleep 1000
+r 0
+h
+exit
+

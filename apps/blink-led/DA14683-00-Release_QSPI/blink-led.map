@@ -1,0 +1,2894 @@
+Archive member included because of file (symbol)
+
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
+                              ./sdk/sys_man/sys_clock_mgr.o (__gnu_thumb1_case_sqi)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                              ./sdk/peripherals/src/hw_dma.o (__gnu_thumb1_case_uqi)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_shi.o)
+                              ./sdk/sys_man/sys_charger.o (__gnu_thumb1_case_shi)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                              ./sdk/sys_man/sys_clock_mgr.o (__aeabi_uidiv)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                              ./sdk/peripherals/src/hw_gpadc.o (__aeabi_idiv)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-aeabi_memcpy.o)
+                              ./sdk/adapters/src/ad_crypto.o (__aeabi_memcpy)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+                              c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                              c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                              c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcmp.o)
+                              ./sdk/free_rtos/tasks.o (memcmp)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+                              ./sdk/sys_man/sys_trng.o (memcpy)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                              c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+                              c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+pxOverflowDelayedCoRoutineList
+                    0x4               ./sdk/free_rtos/croutine.o
+pxDelayedCoRoutineList
+                    0x4               ./sdk/free_rtos/croutine.o
+charge_initiation_state
+                    0x1               ./sdk/sys_man/sys_charger.o
+ulTimeSpentSleepingInTicks
+                    0x4               ./sdk/sys_man/sys_power_mgr.o
+xPendingReadyCoRoutineList
+                    0x14              ./sdk/free_rtos/croutine.o
+xDelayedCoRoutineList2
+                    0x14              ./sdk/free_rtos/croutine.o
+xDelayedCoRoutineList1
+                    0x14              ./sdk/free_rtos/croutine.o
+pxReadyCoRoutineLists
+                    0x28              ./sdk/free_rtos/croutine.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x00000000        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 ./startup/config.o
+ .data          0x00000000        0x0 ./startup/config.o
+ .bss           0x00000000        0x0 ./startup/config.o
+ .text._write   0x00000000       0x38 ./startup/config.o
+ .text._read    0x00000000       0x38 ./startup/config.o
+ .text._ttywrch
+                0x00000000       0x10 ./startup/config.o
+ .data          0x00000000        0x0 ./startup/startup_ARMCM0.o
+ .bss           0x00000000        0x0 ./startup/startup_ARMCM0.o
+ .text          0x00000000        0x0 ./startup/system_ARMCM0.o
+ .data          0x00000000        0x0 ./startup/system_ARMCM0.o
+ .bss           0x00000000        0x0 ./startup/system_ARMCM0.o
+ .text._sbrk    0x00000000       0x30 ./startup/system_ARMCM0.o
+ .text.black_orca_phy_addr
+                0x00000000       0x24 ./startup/system_ARMCM0.o
+ retention_mem_uninit
+                0x00000000        0x4 ./startup/system_ARMCM0.o
+ retention_mem_init
+                0x00000000        0x4 ./startup/system_ARMCM0.o
+ .rodata.remap.8135
+                0x00000000       0x20 ./startup/system_ARMCM0.o
+ .text          0x00000000        0x0 ./startup/vector_table.o
+ .data          0x00000000        0x0 ./startup/vector_table.o
+ .bss           0x00000000        0x0 ./startup/vector_table.o
+ .text          0x00000000        0x0 ./sdk/sys_man/sys_charger.o
+ .data          0x00000000        0x0 ./sdk/sys_man/sys_charger.o
+ .bss           0x00000000        0x0 ./sdk/sys_man/sys_charger.o
+ .text.usb_charger_timer_cb
+                0x00000000       0x14 ./sdk/sys_man/sys_charger.o
+ .text.usb_attach_critical
+                0x00000000      0x110 ./sdk/sys_man/sys_charger.o
+ .text.usb_attach
+                0x00000000       0x54 ./sdk/sys_man/sys_charger.o
+ .text.secure_check_attach_proc
+                0x00000000       0x34 ./sdk/sys_man/sys_charger.o
+ .text.usb_charger_task
+                0x00000000       0xa0 ./sdk/sys_man/sys_charger.o
+ .text.unlikely.start_charging_default
+                0x00000000       0x40 ./sdk/sys_man/sys_charger.o
+ .text.usb_charger_fsm_task
+                0x00000000      0x31c ./sdk/sys_man/sys_charger.o
+ .text.hw_charger_usb_cb
+                0x00000000       0x40 ./sdk/sys_man/sys_charger.o
+ .text.hw_charger_suspended_cb
+                0x00000000       0x30 ./sdk/sys_man/sys_charger.o
+ .text.hw_charger_resumed_cb
+                0x00000000       0x30 ./sdk/sys_man/sys_charger.o
+ .text.hw_charger_vbus_cb
+                0x00000000       0x38 ./sdk/sys_man/sys_charger.o
+ .text.usb_set_precharge_current
+                0x00000000       0x24 ./sdk/sys_man/sys_charger.o
+ .text.usb_reset_precharge_current
+                0x00000000        0xc ./sdk/sys_man/sys_charger.o
+ .text.usb_charger_init
+                0x00000000       0x9c ./sdk/sys_man/sys_charger.o
+ .text.usb_charger_connected
+                0x00000000       0x2c ./sdk/sys_man/sys_charger.o
+ .text.usb_charger_disconnected
+                0x00000000       0x14 ./sdk/sys_man/sys_charger.o
+ .bss.voltage_overflow_cnt
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.timer_cnt
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.configured_current_limit
+                0x00000000        0x2 ./sdk/sys_man/sys_charger.o
+ .bss.time_in_cv_mode
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.pending_charge_finish_cnt
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.detach_in_progress
+                0x00000000        0x1 ./sdk/sys_man/sys_charger.o
+ .bss.hit_time  0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .rodata.charge_level
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.precharging_timer_cnt
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.vbat_current_sample
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .rodata.str1.1
+                0x00000000       0x14 ./sdk/sys_man/sys_charger.o
+ .bss.time_in_cc_mode
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.suspend_S3_requested
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.temp_error_cnt
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.usb_contact
+                0x00000000        0x1 ./sdk/sys_man/sys_charger.o
+ .bss.no_vbus_timer_cnt
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ .bss.vbat_sampling_period
+                0x00000000        0x4 ./sdk/sys_man/sys_charger.o
+ privileged_data_zi
+                0x00000000       0x1c ./sdk/sys_man/sys_charger.o
+ COMMON         0x00000000        0x1 ./sdk/sys_man/sys_charger.o
+ .text          0x00000000        0x0 ./sdk/sys_man/sys_clock_mgr.o
+ .data          0x00000000        0x0 ./sdk/sys_man/sys_clock_mgr.o
+ .bss           0x00000000        0x0 ./sdk/sys_man/sys_clock_mgr.o
+ .text.__cm_sys_clk_set
+                0x00000000       0x60 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_sys_clk_get
+                0x00000000       0x4c ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_cpu_clk_get
+                0x00000000       0x24 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_ahb_get_clock_divider_fromISR
+                0x00000000        0xc ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_apb_get_clock_divider_fromISR
+                0x00000000        0xc ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_wait_xtal16m_ready
+                0x00000000       0x54 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_sys_enable_xtal16m.part.6
+                0x00000000       0x16 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_sys_clk_set
+                0x00000000       0x64 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_cpu_clk_set
+                0x00000000       0xf8 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_calibrate_rc32k
+                0x00000000        0x2 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_calibrate_rcx_update
+                0x00000000       0x4c ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_rcx_us_2_lpcycles_low_acc
+                0x00000000       0x20 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_set_trim_values
+                0x00000000        0x2 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_wait_lp_clk_ready
+                0x00000000       0x34 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_lp_clk_wakeup
+                0x00000000       0x14 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_wait_xtal16m_ready_fromISR
+                0x00000000       0x50 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_cpu_clk_set_fromISR
+                0x00000000       0x44 ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_sys_restore_sysclk
+                0x00000000       0x2c ./sdk/sys_man/sys_clock_mgr.o
+ .rodata.rcx_period_dividend
+                0x00000000        0x8 ./sdk/sys_man/sys_clock_mgr.o
+ .rodata.cpu_clk_configuration
+                0x00000000       0x18 ./sdk/sys_man/sys_clock_mgr.o
+ .text          0x00000000        0x0 ./sdk/sys_man/sys_power_mgr.o
+ .data          0x00000000        0x0 ./sdk/sys_man/sys_power_mgr.o
+ .bss           0x00000000        0x0 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_wait_debugger_detach
+                0x00000000       0x26 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_set_1v8_state
+                0x00000000       0x44 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_get_1v8_state
+                0x00000000       0x44 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_set_wakeup_mode
+                0x00000000       0x44 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_get_wakeup_mode
+                0x00000000       0x44 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_set_sleep_mode
+                0x00000000       0x30 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_get_sleep_mode
+                0x00000000       0x1c ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_stay_alive
+                0x00000000       0x54 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_stay_idle
+                0x00000000       0x54 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_resume_sleep
+                0x00000000       0x4c ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_unregister_adapter
+                0x00000000       0x68 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_resource_sleeps_until
+                0x00000000       0x50 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_resource_is_awake
+                0x00000000       0x1c ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_defer_sleep_for
+                0x00000000       0x84 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_get_mac_wakeup_time
+                0x00000000       0x24 ./sdk/sys_man/sys_power_mgr.o
+ .text          0x00000000        0x0 ./sdk/sys_man/sys_rtc.o
+ .data          0x00000000        0x0 ./sdk/sys_man/sys_rtc.o
+ .bss           0x00000000        0x0 ./sdk/sys_man/sys_rtc.o
+ .text          0x00000000        0x0 ./sdk/sys_man/sys_socf.o
+ .data          0x00000000        0x0 ./sdk/sys_man/sys_socf.o
+ .bss           0x00000000        0x0 ./sdk/sys_man/sys_socf.o
+ .debug_line    0x00000000        0x0 ./sdk/sys_man/sys_socf.o
+ .debug_str     0x00000000      0x10c ./sdk/sys_man/sys_socf.o
+ .comment       0x00000000       0x71 ./sdk/sys_man/sys_socf.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/sys_man/sys_socf.o
+ .text          0x00000000        0x0 ./sdk/sys_man/sys_trng.o
+ .data          0x00000000        0x0 ./sdk/sys_man/sys_trng.o
+ .bss           0x00000000        0x0 ./sdk/sys_man/sys_trng.o
+ text_retained  0x00000000       0x88 ./sdk/sys_man/sys_trng.o
+ .text.sys_trng_cb
+                0x00000000       0x34 ./sdk/sys_man/sys_trng.o
+ .text.sys_trng_get_bytes
+                0x00000000       0x30 ./sdk/sys_man/sys_trng.o
+ .text.sys_trng_get_numbers
+                0x00000000       0x1a ./sdk/sys_man/sys_trng.o
+ .text.sys_trng_rand_range
+                0x00000000       0x14 ./sdk/sys_man/sys_trng.o
+ .text.sys_trng_get_numbers_range
+                0x00000000       0x22 ./sdk/sys_man/sys_trng.o
+ retention_mem_init
+                0x00000000        0x4 ./sdk/sys_man/sys_trng.o
+ .text          0x00000000        0x0 ./sdk/sys_man/sys_watchdog.o
+ .data          0x00000000        0x0 ./sdk/sys_man/sys_watchdog.o
+ .bss           0x00000000        0x0 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_init
+                0x00000000        0x2 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_register
+                0x00000000        0x4 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_unregister
+                0x00000000        0x2 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_configure_idle_id
+                0x00000000        0x2 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_suspend
+                0x00000000        0x2 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_resume
+                0x00000000        0x2 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_notify
+                0x00000000        0x2 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_notify_and_resume
+                0x00000000        0x2 ./sdk/sys_man/sys_watchdog.o
+ .text.sys_watchdog_set_latency
+                0x00000000        0x2 ./sdk/sys_man/sys_watchdog.o
+ text_retained  0x00000000        0x4 ./sdk/sys_man/sys_watchdog.o
+ .debug_info    0x00000000      0x206 ./sdk/sys_man/sys_watchdog.o
+ .debug_abbrev  0x00000000       0xf3 ./sdk/sys_man/sys_watchdog.o
+ .debug_loc     0x00000000       0x21 ./sdk/sys_man/sys_watchdog.o
+ .debug_aranges
+                0x00000000       0x68 ./sdk/sys_man/sys_watchdog.o
+ .debug_ranges  0x00000000       0x58 ./sdk/sys_man/sys_watchdog.o
+ .debug_line    0x00000000      0x1f5 ./sdk/sys_man/sys_watchdog.o
+ .debug_str     0x00000000      0x2e1 ./sdk/sys_man/sys_watchdog.o
+ .comment       0x00000000       0x71 ./sdk/sys_man/sys_watchdog.o
+ .debug_frame   0x00000000       0xb0 ./sdk/sys_man/sys_watchdog.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/sys_man/sys_watchdog.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_aes_hash.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_aes_hash.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_aes_hash.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_aes_hash.o
+ .debug_str     0x00000000      0x110 ./sdk/peripherals/src/hw_aes_hash.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_aes_hash.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_aes_hash.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_coex.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_coex.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_coex.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_coex.o
+ .debug_str     0x00000000      0x10c ./sdk/peripherals/src/hw_coex.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_coex.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_coex.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_cpm.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_cpm.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_cpm.o
+ .text.hw_cpm_is_rc16_allowed
+                0x00000000       0xac ./sdk/peripherals/src/hw_cpm.o
+ .text.hw_cpm_short_delay
+                0x00000000       0x16 ./sdk/peripherals/src/hw_cpm.o
+ .text.hw_cpm_get_calibration_data
+                0x00000000       0x24 ./sdk/peripherals/src/hw_cpm.o
+ .text.hw_cpm_configure_ext32k_pins
+                0x00000000        0xc ./sdk/peripherals/src/hw_cpm.o
+ .text.hw_cpm_activate_bod_protection_at_init
+                0x00000000       0x28 ./sdk/peripherals/src/hw_cpm.o
+ .text.hw_cpm_trigger_sw_cursor
+                0x00000000       0x2c ./sdk/peripherals/src/hw_cpm.o
+ .text.hw_cpm_set_1v8_state
+                0x00000000       0x98 ./sdk/peripherals/src/hw_cpm.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_crypto.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_crypto.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_crypto.o
+ .text.hw_crypto_enable_aes_hash_interrupt
+                0x00000000       0x2c ./sdk/peripherals/src/hw_crypto.o
+ .text.hw_crypto_enable_ecc_interrupt
+                0x00000000       0x2c ./sdk/peripherals/src/hw_crypto.o
+ .text.hw_crypto_disable_aes_hash_interrupt
+                0x00000000       0x1c ./sdk/peripherals/src/hw_crypto.o
+ .text.hw_crypto_disable_ecc_interrupt
+                0x00000000       0x1c ./sdk/peripherals/src/hw_crypto.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_dma.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_dma.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_dma.o
+ .text.hw_dma_channel_initialization
+                0x00000000      0x1ac ./sdk/peripherals/src/hw_dma.o
+ .text.hw_dma_channel_update_source
+                0x00000000       0x4c ./sdk/peripherals/src/hw_dma.o
+ .text.hw_dma_channel_update_destination
+                0x00000000       0x4c ./sdk/peripherals/src/hw_dma.o
+ .text.hw_dma_channel_update_int_ix
+                0x00000000       0x10 ./sdk/peripherals/src/hw_dma.o
+ .text.hw_dma_channel_stop
+                0x00000000       0x18 ./sdk/peripherals/src/hw_dma.o
+ .text.hw_dma_transfered_bytes
+                0x00000000       0x10 ./sdk/peripherals/src/hw_dma.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_ecc.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_ecc.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_set_base_addr
+                0x00000000       0x30 ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_write256
+                0x00000000       0x40 ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_write256_r
+                0x00000000       0x4c ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_read256
+                0x00000000       0x40 ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_read256_r
+                0x00000000       0x4c ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_write128
+                0x00000000       0x50 ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_write128_r
+                0x00000000       0x58 ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_read128
+                0x00000000       0x40 ./sdk/peripherals/src/hw_ecc.o
+ .text.hw_ecc_read128_r
+                0x00000000       0x4c ./sdk/peripherals/src/hw_ecc.o
+ .debug_info    0x00000000      0x975 ./sdk/peripherals/src/hw_ecc.o
+ .debug_abbrev  0x00000000      0x137 ./sdk/peripherals/src/hw_ecc.o
+ .debug_loc     0x00000000      0x73b ./sdk/peripherals/src/hw_ecc.o
+ .debug_aranges
+                0x00000000       0x60 ./sdk/peripherals/src/hw_ecc.o
+ .debug_ranges  0x00000000       0x50 ./sdk/peripherals/src/hw_ecc.o
+ .debug_line    0x00000000      0x391 ./sdk/peripherals/src/hw_ecc.o
+ .debug_str     0x00000000      0x454 ./sdk/peripherals/src/hw_ecc.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_ecc.o
+ .debug_frame   0x00000000      0x100 ./sdk/peripherals/src/hw_ecc.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_ecc.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_ecc_curves.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_ecc_curves.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p192_a
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p224_n
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_Bx
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_By
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p192_b
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_curve25519_G
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p192_n
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p256_Gx
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_2_d_q
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p192_q
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_I
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_L
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p224_b
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_curve25519_a24
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p224_Gx
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p224_Gy
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p256_a
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p256_b
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p256_Gy
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p192_Gx
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p192_Gy
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p224_a
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p256_n
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_b233_a
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_b233_b
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p256_q
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_d
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_ed25519_red
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_curve25519_p
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_p_5_8
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_b233_Gx
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_b233_Gy
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_b233_n
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_p224_q
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_edwards_curve25519_p
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .rodata.hw_ecc_b233_q
+                0x00000000       0x20 ./sdk/peripherals/src/hw_ecc_curves.o
+ .debug_info    0x00000000      0x3a5 ./sdk/peripherals/src/hw_ecc_curves.o
+ .debug_abbrev  0x00000000       0x5b ./sdk/peripherals/src/hw_ecc_curves.o
+ .debug_aranges
+                0x00000000       0x18 ./sdk/peripherals/src/hw_ecc_curves.o
+ .debug_line    0x00000000      0x13b ./sdk/peripherals/src/hw_ecc_curves.o
+ .debug_str     0x00000000      0x457 ./sdk/peripherals/src/hw_ecc_curves.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_ecc_curves.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_ecc_curves.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_ecc_ucode.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_ecc_ucode.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_ecc_ucode.o
+ .rodata.hw_ecc_ucode1
+                0x00000000     0x17fc ./sdk/peripherals/src/hw_ecc_ucode.o
+ .debug_info    0x00000000       0xa4 ./sdk/peripherals/src/hw_ecc_ucode.o
+ .debug_abbrev  0x00000000       0x5b ./sdk/peripherals/src/hw_ecc_ucode.o
+ .debug_aranges
+                0x00000000       0x18 ./sdk/peripherals/src/hw_ecc_ucode.o
+ .debug_line    0x00000000      0x13a ./sdk/peripherals/src/hw_ecc_ucode.o
+ .debug_str     0x00000000      0x1c0 ./sdk/peripherals/src/hw_ecc_ucode.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_ecc_ucode.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_ecc_ucode.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_fem_sky66112-11.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_fem_sky66112-11.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_fem_sky66112-11.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_fem_sky66112-11.o
+ .debug_str     0x00000000      0x117 ./sdk/peripherals/src/hw_fem_sky66112-11.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_fem_sky66112-11.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_fem_sky66112-11.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_gpadc.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_gpadc.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_gpadc.o
+ .text.hw_gpadc_register_interrupt
+                0x00000000       0x24 ./sdk/peripherals/src/hw_gpadc.o
+ .text.hw_gpadc_unregister_interrupt
+                0x00000000       0x28 ./sdk/peripherals/src/hw_gpadc.o
+ .text.hw_gpadc_test_measurements
+                0x00000000       0xc4 ./sdk/peripherals/src/hw_gpadc.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_gpio.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_gpio.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_reserve_pin
+                0x00000000       0x28 ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_unreserve_pin
+                0x00000000       0x14 ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_get_pin_function
+                0x00000000       0x20 ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_configure_pin_power
+                0x00000000       0x24 ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_configure_pin
+                0x00000000       0x2a ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_reserve_and_configure_pin
+                0x00000000       0x2c ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_configure
+                0x00000000       0x84 ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_get_pin_status
+                0x00000000       0x18 ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_toggle
+                0x00000000       0x22 ./sdk/peripherals/src/hw_gpio.o
+ .text.hw_gpio_get_pins_with_function
+                0x00000000       0x5c ./sdk/peripherals/src/hw_gpio.o
+ .rodata.hw_gpio_port_num_pins
+                0x00000000        0x5 ./sdk/peripherals/src/hw_gpio.o
+ .bss.GPIO_status
+                0x00000000        0x5 ./sdk/peripherals/src/hw_gpio.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_hard_fault.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_hard_fault.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_hard_fault.o
+ hard_fault_info
+                0x00000000       0x24 ./sdk/peripherals/src/hw_hard_fault.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_i2c.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_i2c.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_i2c.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_i2c.o
+ .debug_str     0x00000000      0x10b ./sdk/peripherals/src/hw_i2c.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_i2c.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_i2c.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_irgen.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_irgen.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_irgen.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_irgen.o
+ .debug_str     0x00000000      0x10d ./sdk/peripherals/src/hw_irgen.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_irgen.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_irgen.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_keyboard_scanner.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_keyboard_scanner.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_keyboard_scanner.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_keyboard_scanner.o
+ .debug_str     0x00000000      0x118 ./sdk/peripherals/src/hw_keyboard_scanner.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_keyboard_scanner.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_keyboard_scanner.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_otpc.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_otpc.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_otpc.o
+ .text.wait_for_auto_done
+                0x00000000       0x10 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_core_test
+                0x00000000       0x3c ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_power_save
+                0x00000000       0x30 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_num_of_rr
+                0x00000000       0x70 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_write_rr
+                0x00000000       0xa0 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_manual_word_prog
+                0x00000000      0x158 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_manual_prog
+                0x00000000      0x114 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_dma_prog
+                0x00000000       0xf4 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_dma_read
+                0x00000000       0xec ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_fifo_prog
+                0x00000000       0xc0 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_fifo_read
+                0x00000000       0xd8 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_prepare
+                0x00000000       0x84 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_cancel_prepare
+                0x00000000       0x54 ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_blank
+                0x00000000        0xa ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_tdec
+                0x00000000        0xa ./sdk/peripherals/src/hw_otpc.o
+ .text.hw_otpc_twr
+                0x00000000        0xa ./sdk/peripherals/src/hw_otpc.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_qspi.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_qspi.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_qspi.o
+ .text.hw_qspi_set_bus_mode
+                0x00000000       0x32 ./sdk/peripherals/src/hw_qspi.o
+ text_retained  0x00000000       0x9c ./sdk/peripherals/src/hw_qspi.o
+ .text.hw_qspi_set_wrapping_burst_instruction
+                0x00000000       0x3c ./sdk/peripherals/src/hw_qspi.o
+ .text.hw_qspi_set_dummy_bytes_count
+                0x00000000       0x30 ./sdk/peripherals/src/hw_qspi.o
+ .text.hw_qspi_erase_block
+                0x00000000       0x54 ./sdk/peripherals/src/hw_qspi.o
+ .text.hw_qspi_set_pads
+                0x00000000       0x16 ./sdk/peripherals/src/hw_qspi.o
+ .text.hw_qspi_init
+                0x00000000       0x90 ./sdk/peripherals/src/hw_qspi.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_quad.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_quad.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_quad.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_quad.o
+ .debug_str     0x00000000      0x10c ./sdk/peripherals/src/hw_quad.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_quad.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_quad.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_rf.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_rf.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_rf.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_rf.o
+ .debug_str     0x00000000      0x10a ./sdk/peripherals/src/hw_rf.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_rf.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_rf.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_soc.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_soc.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_soc.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_soc.o
+ .debug_str     0x00000000      0x10b ./sdk/peripherals/src/hw_soc.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_soc.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_soc.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_spi.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_spi.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_spi.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_spi.o
+ .debug_str     0x00000000      0x10b ./sdk/peripherals/src/hw_spi.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_spi.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_spi.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_tempsens.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_tempsens.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_tempsens.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_tempsens.o
+ .debug_str     0x00000000      0x110 ./sdk/peripherals/src/hw_tempsens.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_tempsens.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_tempsens.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_timer0.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_timer0.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_timer0.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_timer0.o
+ .debug_str     0x00000000      0x10e ./sdk/peripherals/src/hw_timer0.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_timer0.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_timer0.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_timer1.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_timer1.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_timer1.o
+ .text.hw_timer1_configure_pwm
+                0x00000000       0x10 ./sdk/peripherals/src/hw_timer1.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_timer2.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_timer2.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_timer2.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_timer2.o
+ .debug_str     0x00000000      0x10e ./sdk/peripherals/src/hw_timer2.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_timer2.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_timer2.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_trng.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_trng.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_trng.o
+ .text.hw_trng_disable_clk
+                0x00000000       0x20 ./sdk/peripherals/src/hw_trng.o
+ .text.hw_trng_clear_pending
+                0x00000000       0x1c ./sdk/peripherals/src/hw_trng.o
+ .text.hw_trng_enable
+                0x00000000       0x4c ./sdk/peripherals/src/hw_trng.o
+ .text.hw_trng_get_numbers
+                0x00000000       0x24 ./sdk/peripherals/src/hw_trng.o
+ text_retained  0x00000000       0x10 ./sdk/peripherals/src/hw_trng.o
+ .text.hw_trng_disable_interrupt
+                0x00000000       0x18 ./sdk/peripherals/src/hw_trng.o
+ .text.hw_trng_disable
+                0x00000000       0x20 ./sdk/peripherals/src/hw_trng.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_uart.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_uart.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_read
+                0x00000000        0xc ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_write
+                0x00000000        0xc ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_write_buffer
+                0x00000000       0x1e ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_send
+                0x00000000       0xa0 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_read_buffer
+                0x00000000       0x1e ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_receive
+                0x00000000       0x94 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_abort_receive
+                0x00000000       0x40 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_peek_received
+                0x00000000       0x38 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_baudrate_get
+                0x00000000       0x26 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_baudrate_set
+                0x00000000       0x22 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_fifo_en_getf
+                0x00000000       0x3c ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_tx_fifo_tr_lvl_getf
+                0x00000000       0x28 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_set_dma_channels
+                0x00000000      0x120 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_init_ex
+                0x00000000      0x158 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_reinit_ex
+                0x00000000      0x110 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_reinit
+                0x00000000      0x108 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_cfg_get
+                0x00000000       0xb0 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_sire_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_sire_setf
+                0x00000000       0x10 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_afce_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_afce_setf
+                0x00000000       0x10 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_loopback_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_loopback_setf
+                0x00000000       0x10 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_rts_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_rts_setf
+                0x00000000       0x10 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_rx_fifo_err_getf
+                0x00000000       0x28 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_is_tx_fifo_empty
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_thr_empty_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_break_int_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_frame_err_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_parity_err_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_overrun_err_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_cts_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_delta_cts_getf
+                0x00000000        0x8 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_tx_in_progress
+                0x00000000       0x24 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_rx_in_progress
+                0x00000000       0x24 ./sdk/peripherals/src/hw_uart.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_usb.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_usb.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_usb.o
+ .debug_line    0x00000000        0x0 ./sdk/peripherals/src/hw_usb.o
+ .debug_str     0x00000000      0x10b ./sdk/peripherals/src/hw_usb.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_usb.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/peripherals/src/hw_usb.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_usb_charger.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_usb_charger.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_usb_charger.o
+ .text.hw_charger_enable_vbus_irq
+                0x00000000       0x18 ./sdk/peripherals/src/hw_usb_charger.o
+ .text.hw_charger_enable_charger_irq
+                0x00000000       0x20 ./sdk/peripherals/src/hw_usb_charger.o
+ .text.hw_charger_configure_usb_pins
+                0x00000000       0x10 ./sdk/peripherals/src/hw_usb_charger.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_watchdog.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_watchdog.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_watchdog.o
+ .text.hw_watchdog_is_irq_or_rst_gen
+                0x00000000       0x10 ./sdk/peripherals/src/hw_watchdog.o
+ .text.hw_watchdog_register_int
+                0x00000000        0xc ./sdk/peripherals/src/hw_watchdog.o
+ nmi_info       0x00000000       0x24 ./sdk/peripherals/src/hw_watchdog.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/hw_wkup.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/hw_wkup.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/hw_wkup.o
+ .text.hw_wkup_configure
+                0x00000000       0x40 ./sdk/peripherals/src/hw_wkup.o
+ .text.hw_wkup_init
+                0x00000000       0xbc ./sdk/peripherals/src/hw_wkup.o
+ .text.hw_wkup_register_interrupt
+                0x00000000       0x48 ./sdk/peripherals/src/hw_wkup.o
+ .text.hw_wkup_unregister_interrupt
+                0x00000000       0x28 ./sdk/peripherals/src/hw_wkup.o
+ .text          0x00000000        0x0 ./sdk/peripherals/src/sys_tcs.o
+ .data          0x00000000        0x0 ./sdk/peripherals/src/sys_tcs.o
+ .bss           0x00000000        0x0 ./sdk/peripherals/src/sys_tcs.o
+ .text          0x00000000        0x0 ./sdk/osal/msg_queues.o
+ .data          0x00000000        0x0 ./sdk/osal/msg_queues.o
+ .bss           0x00000000        0x0 ./sdk/osal/msg_queues.o
+ .text.msg_queue_create
+                0x00000000       0x12 ./sdk/osal/msg_queues.o
+ .text.msg_queue_delete
+                0x00000000        0xa ./sdk/osal/msg_queues.o
+ .text.msg_queue_put
+                0x00000000       0x34 ./sdk/osal/msg_queues.o
+ .text.msg_queue_get
+                0x00000000        0xc ./sdk/osal/msg_queues.o
+ .text.msg_init
+                0x00000000       0x14 ./sdk/osal/msg_queues.o
+ .text.msg_release
+                0x00000000       0x14 ./sdk/osal/msg_queues.o
+ .text.msg_queue_init_msg
+                0x00000000       0x2c ./sdk/osal/msg_queues.o
+ .text.msg_queue_send
+                0x00000000       0x4c ./sdk/osal/msg_queues.o
+ .text.msq_queue_send_zero_copy
+                0x00000000       0x32 ./sdk/osal/msg_queues.o
+ .debug_info    0x00000000      0x94a ./sdk/osal/msg_queues.o
+ .debug_abbrev  0x00000000      0x2ff ./sdk/osal/msg_queues.o
+ .debug_loc     0x00000000      0x6fa ./sdk/osal/msg_queues.o
+ .debug_aranges
+                0x00000000       0x60 ./sdk/osal/msg_queues.o
+ .debug_ranges  0x00000000       0xa8 ./sdk/osal/msg_queues.o
+ .debug_line    0x00000000      0x3c9 ./sdk/osal/msg_queues.o
+ .debug_str     0x00000000      0x410 ./sdk/osal/msg_queues.o
+ .comment       0x00000000       0x71 ./sdk/osal/msg_queues.o
+ .debug_frame   0x00000000      0x100 ./sdk/osal/msg_queues.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/osal/msg_queues.o
+ .text          0x00000000        0x0 ./sdk/osal/resmgmt.o
+ .data          0x00000000        0x0 ./sdk/osal/resmgmt.o
+ .bss           0x00000000        0x0 ./sdk/osal/resmgmt.o
+ .text.resource_acquire
+                0x00000000       0xb8 ./sdk/osal/resmgmt.o
+ .text.resource_release
+                0x00000000       0x98 ./sdk/osal/resmgmt.o
+ .text.resource_add
+                0x00000000       0x34 ./sdk/osal/resmgmt.o
+ retention_mem_init
+                0x00000000        0x1 ./sdk/osal/resmgmt.o
+ .text          0x00000000        0x0 ./sdk/osal/usb_osal_wrapper.o
+ .data          0x00000000        0x0 ./sdk/osal/usb_osal_wrapper.o
+ .bss           0x00000000        0x0 ./sdk/osal/usb_osal_wrapper.o
+ .debug_line    0x00000000        0x0 ./sdk/osal/usb_osal_wrapper.o
+ .debug_str     0x00000000      0x10a ./sdk/osal/usb_osal_wrapper.o
+ .comment       0x00000000       0x71 ./sdk/osal/usb_osal_wrapper.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/osal/usb_osal_wrapper.o
+ .text          0x00000000        0x0 ./sdk/memory/src/qspi_automode.o
+ .data          0x00000000        0x0 ./sdk/memory/src/qspi_automode.o
+ .bss           0x00000000        0x0 ./sdk/memory/src/qspi_automode.o
+ .text.qspi_automode_get_code_buffer_size
+                0x00000000        0x4 ./sdk/memory/src/qspi_automode.o
+ .text.qspi_automode_set_code_buffer
+                0x00000000        0x2 ./sdk/memory/src/qspi_automode.o
+ .text.qspi_automode_writable
+                0x00000000        0x8 ./sdk/memory/src/qspi_automode.o
+ .text.qspi_automode_write_flash_page
+                0x00000000       0x1c ./sdk/memory/src/qspi_automode.o
+ .text.qspi_automode_erase_flash_sector
+                0x00000000       0x14 ./sdk/memory/src/qspi_automode.o
+ .text.qspi_automode_erase_chip
+                0x00000000       0x40 ./sdk/memory/src/qspi_automode.o
+ .text.qspi_automode_read
+                0x00000000       0x18 ./sdk/memory/src/qspi_automode.o
+ .rodata.flash_config
+                0x00000000        0x4 ./sdk/memory/src/qspi_automode.o
+ .text          0x00000000        0x0 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .data          0x00000000        0x0 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .bss           0x00000000        0x0 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .text.xPortGetFreeHeapSize
+                0x00000000        0xc ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000        0xc ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0x2 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .text          0x00000000        0x0 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .data          0x00000000        0x0 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .bss           0x00000000        0x0 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .text.SVCall_Handler
+                0x00000000        0x2 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .text.vPortEndScheduler
+                0x00000000       0x1c ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .text          0x00000000        0x0 ./sdk/free_rtos/croutine.o
+ .data          0x00000000        0x0 ./sdk/free_rtos/croutine.o
+ .bss           0x00000000        0x0 ./sdk/free_rtos/croutine.o
+ .text.vCoRoutineAddToDelayedList
+                0x00000000       0x4c ./sdk/free_rtos/croutine.o
+ .text.prvCheckPendingReadyList
+                0x00000000       0x4c ./sdk/free_rtos/croutine.o
+ .text.prvCheckDelayedList
+                0x00000000       0xac ./sdk/free_rtos/croutine.o
+ .text.vCoRoutineSchedule
+                0x00000000       0x6c ./sdk/free_rtos/croutine.o
+ .text.prvInitialiseCoRoutineLists
+                0x00000000       0x4c ./sdk/free_rtos/croutine.o
+ .text.xCoRoutineCreate
+                0x00000000       0x7c ./sdk/free_rtos/croutine.o
+ .text.xCoRoutineRemoveFromEventList
+                0x00000000       0x30 ./sdk/free_rtos/croutine.o
+ .bss.pxCurrentCoRoutine
+                0x00000000        0x4 ./sdk/free_rtos/croutine.o
+ .bss.xCoRoutineTickCount
+                0x00000000        0x4 ./sdk/free_rtos/croutine.o
+ .bss.xLastTickCount
+                0x00000000        0x4 ./sdk/free_rtos/croutine.o
+ .bss.xPassedTicks
+                0x00000000        0x4 ./sdk/free_rtos/croutine.o
+ .bss.uxTopCoRoutineReadyPriority
+                0x00000000        0x4 ./sdk/free_rtos/croutine.o
+ .debug_info    0x00000000      0x709 ./sdk/free_rtos/croutine.o
+ .debug_abbrev  0x00000000      0x203 ./sdk/free_rtos/croutine.o
+ .debug_loc     0x00000000      0x28e ./sdk/free_rtos/croutine.o
+ .debug_aranges
+                0x00000000       0x50 ./sdk/free_rtos/croutine.o
+ .debug_ranges  0x00000000       0x40 ./sdk/free_rtos/croutine.o
+ .debug_line    0x00000000      0x3a3 ./sdk/free_rtos/croutine.o
+ .debug_str     0x00000000      0x595 ./sdk/free_rtos/croutine.o
+ .comment       0x00000000       0x71 ./sdk/free_rtos/croutine.o
+ .debug_frame   0x00000000       0xe4 ./sdk/free_rtos/croutine.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/free_rtos/croutine.o
+ COMMON         0x00000000       0x6c ./sdk/free_rtos/croutine.o
+ .text          0x00000000        0x0 ./sdk/free_rtos/event_groups.o
+ .data          0x00000000        0x0 ./sdk/free_rtos/event_groups.o
+ .bss           0x00000000        0x0 ./sdk/free_rtos/event_groups.o
+ .text.xEventGroupWaitBits
+                0x00000000       0xe6 ./sdk/free_rtos/event_groups.o
+ .text.xEventGroupSync
+                0x00000000       0xb0 ./sdk/free_rtos/event_groups.o
+ .text.vEventGroupDelete
+                0x00000000       0x36 ./sdk/free_rtos/event_groups.o
+ .text.uxEventGroupGetNumber
+                0x00000000        0x8 ./sdk/free_rtos/event_groups.o
+ .text          0x00000000        0x0 ./sdk/free_rtos/list.o
+ .data          0x00000000        0x0 ./sdk/free_rtos/list.o
+ .bss           0x00000000        0x0 ./sdk/free_rtos/list.o
+ .text          0x00000000        0x0 ./sdk/free_rtos/queue.o
+ .data          0x00000000        0x0 ./sdk/free_rtos/queue.o
+ .bss           0x00000000        0x0 ./sdk/free_rtos/queue.o
+ .text.xQueueCreateCountingSemaphore
+                0x00000000       0x34 ./sdk/free_rtos/queue.o
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x34 ./sdk/free_rtos/queue.o
+ .text.xQueueGiveFromISR
+                0x00000000       0x7e ./sdk/free_rtos/queue.o
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0x3e ./sdk/free_rtos/queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0x78 ./sdk/free_rtos/queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x58 ./sdk/free_rtos/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x1c ./sdk/free_rtos/queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x20 ./sdk/free_rtos/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x12 ./sdk/free_rtos/queue.o
+ .text.uxQueueGetQueueNumber
+                0x00000000        0x4 ./sdk/free_rtos/queue.o
+ .text.vQueueSetQueueNumber
+                0x00000000        0x4 ./sdk/free_rtos/queue.o
+ .text.ucQueueGetQueueType
+                0x00000000        0x6 ./sdk/free_rtos/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x16 ./sdk/free_rtos/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x1a ./sdk/free_rtos/queue.o
+ .text.vQueueUnregisterQueue
+                0x00000000       0x24 ./sdk/free_rtos/queue.o
+ .text.vQueueDelete
+                0x00000000       0x1a ./sdk/free_rtos/queue.o
+ .text.xQueueCreateSet
+                0x00000000        0xc ./sdk/free_rtos/queue.o
+ .text.xQueueAddToSet
+                0x00000000       0x24 ./sdk/free_rtos/queue.o
+ .text.xQueueRemoveFromSet
+                0x00000000       0x22 ./sdk/free_rtos/queue.o
+ .text.xQueueSelectFromSet
+                0x00000000       0x12 ./sdk/free_rtos/queue.o
+ .text.xQueueSelectFromSetFromISR
+                0x00000000       0x10 ./sdk/free_rtos/queue.o
+ .text          0x00000000        0x0 ./sdk/free_rtos/tasks.o
+ .data          0x00000000        0x0 ./sdk/free_rtos/tasks.o
+ .bss           0x00000000        0x0 ./sdk/free_rtos/tasks.o
+ .text.eTaskGetState
+                0x00000000       0x54 ./sdk/free_rtos/tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x20 ./sdk/free_rtos/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x20 ./sdk/free_rtos/tasks.o
+ .text.vTaskPrioritySet
+                0x00000000       0xa8 ./sdk/free_rtos/tasks.o
+ .text.vTaskResume
+                0x00000000       0x64 ./sdk/free_rtos/tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x14 ./sdk/free_rtos/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000        0xc ./sdk/free_rtos/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0xc ./sdk/free_rtos/tasks.o
+ .text.xTaskGetIdleTaskHandle
+                0x00000000       0x18 ./sdk/free_rtos/tasks.o
+ .text.uxTaskGetTaskNumber
+                0x00000000        0x8 ./sdk/free_rtos/tasks.o
+ .text.vTaskSetTaskNumber
+                0x00000000        0x8 ./sdk/free_rtos/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x60 ./sdk/free_rtos/tasks.o
+ .text.prvTaskCheckFreeStackSpace
+                0x00000000       0x16 ./sdk/free_rtos/tasks.o
+ .text.prvListTaskWithinSingleList
+                0x00000000       0x8c ./sdk/free_rtos/tasks.o
+ .text.vTaskDelay
+                0x00000000       0x48 ./sdk/free_rtos/tasks.o
+ .text.uxTaskGetSystemState
+                0x00000000       0x90 ./sdk/free_rtos/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x18 ./sdk/free_rtos/tasks.o
+ .text.ulTaskNotifyTake
+                0x00000000       0x84 ./sdk/free_rtos/tasks.o
+ .text.xTaskNotifyWait
+                0x00000000       0x98 ./sdk/free_rtos/tasks.o
+ .text.xTaskNotify
+                0x00000000       0xa8 ./sdk/free_rtos/tasks.o
+ .text.xTaskNotifyFromISR
+                0x00000000       0xc0 ./sdk/free_rtos/tasks.o
+ .text.vTaskNotifyGiveFromISR
+                0x00000000       0x94 ./sdk/free_rtos/tasks.o
+ .text          0x00000000        0x0 ./sdk/free_rtos/timers.o
+ .data          0x00000000        0x0 ./sdk/free_rtos/timers.o
+ .bss           0x00000000        0x0 ./sdk/free_rtos/timers.o
+ .text.pcTimerGetTimerName
+                0x00000000        0x4 ./sdk/free_rtos/timers.o
+ .text.xTimerIsTimerActive
+                0x00000000       0x16 ./sdk/free_rtos/timers.o
+ .text.pvTimerGetTimerID
+                0x00000000        0x4 ./sdk/free_rtos/timers.o
+ .text.xTimerPendFunctionCall
+                0x00000000       0x34 ./sdk/free_rtos/timers.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_battery.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_battery.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_battery.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_battery.o
+ .debug_str     0x00000000      0x10c ./sdk/adapters/src/ad_battery.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_battery.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_battery.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_crypto.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_crypto.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_crypto.o
+ .text.hw_ecc_enable_clock
+                0x00000000       0x1c ./sdk/adapters/src/ad_crypto.o
+ .text.hw_ecc_disable_clock
+                0x00000000       0x1c ./sdk/adapters/src/ad_crypto.o
+ .text.ecc_irq_cb
+                0x00000000       0x2c ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_clear_ecc_event
+                0x00000000       0x18 ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_set_ecc_base_addr
+                0x00000000       0x54 ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_get_ecc_base_addr
+                0x00000000        0xc ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_acquire_ecc
+                0x00000000       0x64 ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_enable_ecc_event
+                0x00000000       0x30 ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_wait_ecc_event
+                0x00000000       0x2c ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_disable_ecc_event
+                0x00000000       0x38 ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_release_ecc
+                0x00000000       0x28 ./sdk/adapters/src/ad_crypto.o
+ .bss.ad_crypto_last_ecc_status_reg
+                0x00000000        0x4 ./sdk/adapters/src/ad_crypto.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_flash.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_flash.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_flash.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_flash.o
+ .debug_str     0x00000000      0x10a ./sdk/adapters/src/ad_flash.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_flash.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_flash.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_gpadc.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_gpadc.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_gpadc.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_gpadc.o
+ .debug_str     0x00000000      0x10a ./sdk/adapters/src/ad_gpadc.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_gpadc.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_gpadc.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_i2c.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_i2c.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_i2c.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_i2c.o
+ .debug_str     0x00000000      0x108 ./sdk/adapters/src/ad_i2c.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_i2c.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_i2c.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_keyboard_scanner.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_keyboard_scanner.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_keyboard_scanner.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_keyboard_scanner.o
+ .debug_str     0x00000000      0x115 ./sdk/adapters/src/ad_keyboard_scanner.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_keyboard_scanner.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_keyboard_scanner.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_nvms.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_nvms.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_nvms.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_nvms.o
+ .debug_str     0x00000000      0x109 ./sdk/adapters/src/ad_nvms.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_nvms.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_nvms.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_nvms_direct.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_nvms_direct.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_nvms_direct.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_nvms_direct.o
+ .debug_str     0x00000000      0x110 ./sdk/adapters/src/ad_nvms_direct.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_nvms_direct.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_nvms_direct.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_nvms_ves.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_nvms_ves.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_nvms_ves.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_nvms_ves.o
+ .debug_str     0x00000000      0x10d ./sdk/adapters/src/ad_nvms_ves.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_nvms_ves.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_nvms_ves.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_nvparam.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_nvparam.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_nvparam.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_nvparam.o
+ .debug_str     0x00000000      0x10c ./sdk/adapters/src/ad_nvparam.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_nvparam.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_nvparam.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_rf.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_rf.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_rf.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_rf.o
+ .debug_str     0x00000000      0x107 ./sdk/adapters/src/ad_rf.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_rf.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_rf.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_spi.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_spi.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_spi.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_spi.o
+ .debug_str     0x00000000      0x108 ./sdk/adapters/src/ad_spi.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_spi.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_spi.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_temp_sens.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_temp_sens.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_temp_sens.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_temp_sens.o
+ .debug_str     0x00000000      0x10e ./sdk/adapters/src/ad_temp_sens.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_temp_sens.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_temp_sens.o
+ .text          0x00000000        0x0 ./sdk/adapters/src/ad_uart.o
+ .data          0x00000000        0x0 ./sdk/adapters/src/ad_uart.o
+ .bss           0x00000000        0x0 ./sdk/adapters/src/ad_uart.o
+ .debug_line    0x00000000        0x0 ./sdk/adapters/src/ad_uart.o
+ .debug_str     0x00000000      0x109 ./sdk/adapters/src/ad_uart.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_uart.o
+ .ARM.attributes
+                0x00000000       0x31 ./sdk/adapters/src/ad_uart.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text.vApplicationIdleHook
+                0x00000000        0x2 ./main.o
+ .text.vApplicationTickHook
+                0x00000000        0x2 ./main.o
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
+ .text          0x00000000       0x14 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .text          0x00000000       0x14 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_shi.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_shi.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_shi.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_shi.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-aeabi_memcpy.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-aeabi_memcpy.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-aeabi_memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000        0x8 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-aeabi_memcpy.o)
+ .debug_frame   0x00000000       0x28 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-aeabi_memcpy.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-aeabi_memcpy.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcmp.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .text          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .data          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .bss           0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x08000000         0x00020000         xr
+RetRAM0          0x07fc0200         0x0000fe00         xrw
+RetRAM1          0x00000000         0x00000000         xrw
+RAM              0x07fd0000         0x00010000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD ./startup/config.o
+LOAD ./startup/startup_ARMCM0.o
+LOAD ./startup/system_ARMCM0.o
+LOAD ./startup/vector_table.o
+LOAD ./sdk/sys_man/sys_charger.o
+LOAD ./sdk/sys_man/sys_clock_mgr.o
+LOAD ./sdk/sys_man/sys_power_mgr.o
+LOAD ./sdk/sys_man/sys_rtc.o
+LOAD ./sdk/sys_man/sys_socf.o
+LOAD ./sdk/sys_man/sys_trng.o
+LOAD ./sdk/sys_man/sys_watchdog.o
+LOAD ./sdk/peripherals/src/hw_aes_hash.o
+LOAD ./sdk/peripherals/src/hw_coex.o
+LOAD ./sdk/peripherals/src/hw_cpm.o
+LOAD ./sdk/peripherals/src/hw_crypto.o
+LOAD ./sdk/peripherals/src/hw_dma.o
+LOAD ./sdk/peripherals/src/hw_ecc.o
+LOAD ./sdk/peripherals/src/hw_ecc_curves.o
+LOAD ./sdk/peripherals/src/hw_ecc_ucode.o
+LOAD ./sdk/peripherals/src/hw_fem_sky66112-11.o
+LOAD ./sdk/peripherals/src/hw_gpadc.o
+LOAD ./sdk/peripherals/src/hw_gpio.o
+LOAD ./sdk/peripherals/src/hw_hard_fault.o
+LOAD ./sdk/peripherals/src/hw_i2c.o
+LOAD ./sdk/peripherals/src/hw_irgen.o
+LOAD ./sdk/peripherals/src/hw_keyboard_scanner.o
+LOAD ./sdk/peripherals/src/hw_otpc.o
+LOAD ./sdk/peripherals/src/hw_qspi.o
+LOAD ./sdk/peripherals/src/hw_quad.o
+LOAD ./sdk/peripherals/src/hw_rf.o
+LOAD ./sdk/peripherals/src/hw_soc.o
+LOAD ./sdk/peripherals/src/hw_spi.o
+LOAD ./sdk/peripherals/src/hw_tempsens.o
+LOAD ./sdk/peripherals/src/hw_timer0.o
+LOAD ./sdk/peripherals/src/hw_timer1.o
+LOAD ./sdk/peripherals/src/hw_timer2.o
+LOAD ./sdk/peripherals/src/hw_trng.o
+LOAD ./sdk/peripherals/src/hw_uart.o
+LOAD ./sdk/peripherals/src/hw_usb.o
+LOAD ./sdk/peripherals/src/hw_usb_charger.o
+LOAD ./sdk/peripherals/src/hw_watchdog.o
+LOAD ./sdk/peripherals/src/hw_wkup.o
+LOAD ./sdk/peripherals/src/sys_tcs.o
+LOAD ./sdk/osal/msg_queues.o
+LOAD ./sdk/osal/resmgmt.o
+LOAD ./sdk/osal/usb_osal_wrapper.o
+LOAD ./sdk/memory/src/qspi_automode.o
+LOAD ./sdk/free_rtos/portable/MemMang/heap_4.o
+LOAD ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+LOAD ./sdk/free_rtos/croutine.o
+LOAD ./sdk/free_rtos/event_groups.o
+LOAD ./sdk/free_rtos/list.o
+LOAD ./sdk/free_rtos/queue.o
+LOAD ./sdk/free_rtos/tasks.o
+LOAD ./sdk/free_rtos/timers.o
+LOAD ./sdk/adapters/src/ad_battery.o
+LOAD ./sdk/adapters/src/ad_crypto.o
+LOAD ./sdk/adapters/src/ad_flash.o
+LOAD ./sdk/adapters/src/ad_gpadc.o
+LOAD ./sdk/adapters/src/ad_i2c.o
+LOAD ./sdk/adapters/src/ad_keyboard_scanner.o
+LOAD ./sdk/adapters/src/ad_nvms.o
+LOAD ./sdk/adapters/src/ad_nvms_direct.o
+LOAD ./sdk/adapters/src/ad_nvms_ves.o
+LOAD ./sdk/adapters/src/ad_nvparam.o
+LOAD ./sdk/adapters/src/ad_rf.o
+LOAD ./sdk/adapters/src/ad_spi.o
+LOAD ./sdk/adapters/src/ad_temp_sens.o
+LOAD ./sdk/adapters/src/ad_uart.o
+LOAD ./main.o
+START GROUP
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+LOAD c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+.init_text      0x08000000      0x3ac
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xc0 ./startup/vector_table.o
+                0x08000000                __isr_vector
+                0x000000c0                . = 0xc0
+ *(.patch_table)
+ .patch_table   0x080000c0       0x40 ./startup/vector_table.o
+                0x080000c0                __patch_table_start
+                0x00000100                . = 0x100
+ *(.patch_table_flash)
+                0x00000130                . = 0x130
+ *fill*         0x08000100       0x30 
+ *(.default_patch_code_handler_section)
+ .default_patch_code_handler_section
+                0x08000130        0x4 ./startup/vector_table.o
+                0x08000130                Default_Patch_Code_Handler
+                0x00000200                . = 0x200
+ *fill*         0x08000134       0xcc 
+ *(text_reset*)
+ text_reset     0x08000200       0xf0 ./startup/startup_ARMCM0.o
+                0x08000200                Reset_Handler
+ text_reset     0x080002f0       0xbc ./startup/system_ARMCM0.o
+                0x080002f0                SystemInitPre
+
+.copy.table     0x080003ac       0x24
+                0x080003ac                . = ALIGN (0x4)
+                0x080003ac                __copy_table_start__ = .
+                0x080003ac        0x4 LONG 0x8004760 (__etext + (__data_end__ - __data_start__))
+                0x080003b0        0x4 LONG 0x7fc0200 __RetRAM0_code_start__
+                0x080003b4        0x4 LONG 0x19d0 (__RetRAM0_code_end__ - __RetRAM0_code_start__)
+                0x080003b8        0x4 LONG 0x8004750 __etext
+                0x080003bc        0x4 LONG 0x7fd0000 __data_start__
+                0x080003c0        0x4 LONG 0x10 (__data_end__ - __data_start__)
+                0x080003c4                __copy_table_end__ = .
+                0x080003d0                . = ALIGN (0x10)
+ *fill*         0x080003c4        0xc 
+
+.zero.table     0x080003d0       0x20
+                0x080003d0                . = ALIGN (0x4)
+                0x080003d0                __zero_table_start__ = .
+                0x080003d0        0x4 LONG 0x7fd0400 __bss_start__
+                0x080003d4        0x4 LONG 0x4a0 (__bss_end__ - __bss_start__)
+                0x080003d8        0x4 LONG 0x7fc1ca0 __RetRAM0_data_start
+                0x080003dc        0x4 LONG 0x3a80 __RetRAM0_size
+                0x080003e0        0x4 LONG 0x0 __RetRAM1_start__
+                0x080003e4        0x4 LONG 0x0 (__RetRAM1_end__ - __RetRAM1_start__)
+                0x080003e8                __zero_table_end__ = .
+                0x080003f0                . = ALIGN (0x10)
+ *fill*         0x080003e8        0x8 
+                0x080003f0                PROVIDE (__stext, .)
+
+.text           0x080003f0     0x4358
+ *(EXCLUDE_FILE(*libgcc.a:_clzsi2.o *libgcc.a:_clzdi2.o *libgcc.a:_udivdi3.o *libgcc.a:bpabi.o *libgcc.a:_dvmd_tls.o *libgcc.a:_muldi3.o *libgcc.a:_aeabi_uldivmod.o *libnosys.a:sbrk.o) .text*)
+ .text          0x080003f0       0x60 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .text          0x08000450       0x78 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x08000450                _start
+                0x08000450                _mainCRTStartup
+ .text.set_interrupt_priorities
+                0x080004c8       0x94 ./startup/config.o
+                0x080004c8                set_interrupt_priorities
+ .text.retarget_init
+                0x0800055c       0x28 ./startup/config.o
+                0x0800055c                retarget_init
+ .text          0x08000584       0x10 ./startup/startup_ARMCM0.o
+                0x08000584                MRM_Handler
+                0x08000584                SPI_Handler
+                0x08000584                SysTick_Handler
+                0x08000584                RFCAL_Handler
+                0x08000584                DCDC_Handler
+                0x08000584                BLE_GEN_Handler
+                0x08000584                SRC_IN_Handler
+                0x08000584                QUADEC_Handler
+                0x08000584                BLE_WAKEUP_LP_Handler
+                0x08000584                USB_Handler
+                0x08000584                PCM_Handler
+                0x08000584                IRGEN_Handler
+                0x08000584                SRC_OUT_Handler
+                0x08000584                I2C_Handler
+                0x08000584                COEX_Handler
+                0x08000584                Default_Handler
+                0x08000584                SPI2_Handler
+                0x08000584                I2C2_Handler
+                0x08000584                RESERVED31_Handler
+                0x08000584                FTDF_GEN_Handler
+                0x08000584                RF_DIAG_Handler
+                0x08000584                KEYBRD_Handler
+                0x08000584                SWTIM0_Handler
+                0x08000584                FTDF_WAKEUP_Handler
+                0x08000592                SVC_Handler
+ .text.hw_otpc_init
+                0x08000594       0x1e ./startup/system_ARMCM0.o
+ *fill*         0x080005b2        0x2 
+ .text.SystemInit
+                0x080005b4       0x6c ./startup/system_ARMCM0.o
+                0x080005b4                SystemInit
+ .text.SystemInitPost
+                0x08000620      0x1a4 ./startup/system_ARMCM0.o
+                0x08000620                SystemInitPost
+ .text.usb_charger_is_battery_low
+                0x080007c4       0x9c ./sdk/sys_man/sys_charger.o
+                0x080007c4                usb_charger_is_battery_low
+ .text.hw_cpm_enable_xtal16m
+                0x08000860       0x1c ./sdk/sys_man/sys_clock_mgr.o
+ .text.__cm_apb_set_clock_divider
+                0x0800087c       0x2c ./sdk/sys_man/sys_clock_mgr.o
+ .text.switch_to_rc16
+                0x080008a8       0x30 ./sdk/sys_man/sys_clock_mgr.o
+ .text.__cm_ahb_set_clock_divider
+                0x080008d8       0x70 ./sdk/sys_man/sys_clock_mgr.o
+ .text.switch_to_pll
+                0x08000948       0x50 ./sdk/sys_man/sys_clock_mgr.o
+ .text.vLPTimerCallback
+                0x08000998       0x70 ./sdk/sys_man/sys_clock_mgr.o
+ .text.switch_to_xtal16
+                0x08000a08       0x5c ./sdk/sys_man/sys_clock_mgr.o
+ .text.cm_check_xtal_startup
+                0x08000a64       0x16 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000a64                cm_check_xtal_startup
+ *fill*         0x08000a7a        0x2 
+ .text.cm_clk_init_low_level
+                0x08000a7c       0x84 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000a7c                cm_clk_init_low_level
+ .text.cm_apb_set_clock_divider
+                0x08000b00       0x44 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000b00                cm_apb_set_clock_divider
+ .text.cm_ahb_set_clock_divider
+                0x08000b44       0x48 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000b44                cm_ahb_set_clock_divider
+ .text.cm_sys_clk_get_fromISR
+                0x08000b8c       0x40 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000b8c                cm_sys_clk_get_fromISR
+ .text.cm_apb_get_clock_divider
+                0x08000bcc       0x48 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000bcc                cm_apb_get_clock_divider
+ .text.cm_ahb_get_clock_divider
+                0x08000c14       0x50 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000c14                cm_ahb_get_clock_divider
+ .text.cm_cpu_clk_get_fromISR
+                0x08000c64       0x28 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000c64                cm_cpu_clk_get_fromISR
+ .text.cm_lp_clk_timer_start
+                0x08000c8c       0x2c ./sdk/sys_man/sys_clock_mgr.o
+                0x08000c8c                cm_lp_clk_timer_start
+ .text.cm_lp_clk_init
+                0x08000cb8       0x68 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000cb8                cm_lp_clk_init
+ .text.cm_lp_clk_is_avail
+                0x08000d20       0x30 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000d20                cm_lp_clk_is_avail
+ .text.cm_lower_all_clocks
+                0x08000d50       0xc0 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000d50                cm_lower_all_clocks
+ .text.cm_sys_clk_init
+                0x08000e10       0xd0 ./sdk/sys_man/sys_clock_mgr.o
+                0x08000e10                cm_sys_clk_init
+ .text.cm_sys_clk_sleep.part.7
+                0x08000ee0       0xcc ./sdk/sys_man/sys_clock_mgr.o
+ .text.xtal16m_is_ready
+                0x08000fac       0x88 ./sdk/sys_man/sys_clock_mgr.o
+ .text.XTAL16RDY_Handler
+                0x08001034       0x44 ./sdk/sys_man/sys_clock_mgr.o
+                0x08001034                XTAL16RDY_Handler
+ .text.cm_sys_clk_sleep
+                0x08001078       0x68 ./sdk/sys_man/sys_clock_mgr.o
+                0x08001078                cm_sys_clk_sleep
+ .text.cm_sys_clk_wakeup
+                0x080010e0       0x1c ./sdk/sys_man/sys_clock_mgr.o
+                0x080010e0                cm_sys_clk_wakeup
+ .text.cm_sys_xtal16m_running
+                0x080010fc        0xa ./sdk/sys_man/sys_clock_mgr.o
+                0x080010fc                cm_sys_xtal16m_running
+ .text.init_component
+                0x08001106       0x4c ./sdk/sys_man/sys_power_mgr.o
+ .text.init_components
+                0x08001152       0x32 ./sdk/sys_man/sys_power_mgr.o
+ .text.pm_system_init
+                0x08001184      0x200 ./sdk/sys_man/sys_power_mgr.o
+                0x08001184                pm_system_init
+ .text.pm_register_adapter
+                0x08001384       0x74 ./sdk/sys_man/sys_power_mgr.o
+                0x08001384                pm_register_adapter
+ .text.WKUP_GPIO_Handler
+                0x080013f8       0x14 ./sdk/sys_man/sys_power_mgr.o
+                0x080013f8                WKUP_GPIO_Handler
+ .text.pm_register_qspi_operation
+                0x0800140c       0x9c ./sdk/sys_man/sys_power_mgr.o
+                0x0800140c                pm_register_qspi_operation
+ .text.rtc_get  0x080014a8       0x44 ./sdk/sys_man/sys_rtc.o
+                0x080014a8                rtc_get
+ .text.rtc_get_fromISR
+                0x080014ec       0x44 ./sdk/sys_man/sys_rtc.o
+                0x080014ec                rtc_get_fromISR
+ .text.sys_trng_producing_numbers
+                0x08001530       0x10 ./sdk/sys_man/sys_trng.o
+                0x08001530                sys_trng_producing_numbers
+ .text.hw_cpm_sysclk_is_rc16
+                0x08001540       0x12 ./sdk/peripherals/src/hw_cpm.o
+                0x08001540                hw_cpm_sysclk_is_rc16
+ .text.hw_cpm_sysclk_is_xtal16m
+                0x08001552       0x10 ./sdk/peripherals/src/hw_cpm.o
+                0x08001552                hw_cpm_sysclk_is_xtal16m
+ .text.hw_cpm_set_divn
+                0x08001562       0x20 ./sdk/peripherals/src/hw_cpm.o
+                0x08001562                hw_cpm_set_divn
+ *fill*         0x08001582        0x2 
+ .text.hw_cpm_set_sysclk
+                0x08001584       0x5c ./sdk/peripherals/src/hw_cpm.o
+                0x08001584                hw_cpm_set_sysclk
+ .text.hw_cpm_pll_sys_on
+                0x080015e0       0x40 ./sdk/peripherals/src/hw_cpm.o
+                0x080015e0                hw_cpm_pll_sys_on
+ .text.hw_cpm_pll_sys_off
+                0x08001620       0x18 ./sdk/peripherals/src/hw_cpm.o
+                0x08001620                hw_cpm_pll_sys_off
+ .text.hw_cpm_dcdc_config
+                0x08001638       0xb4 ./sdk/peripherals/src/hw_cpm.o
+                0x08001638                hw_cpm_dcdc_config
+ .text.hw_cpm_dcdc_on
+                0x080016ec       0x78 ./sdk/peripherals/src/hw_cpm.o
+                0x080016ec                hw_cpm_dcdc_on
+ .text.hw_cpm_set_preferred_values
+                0x08001764       0x48 ./sdk/peripherals/src/hw_cpm.o
+                0x08001764                hw_cpm_set_preferred_values
+ .text.hw_cpm_configure_xtal32k_pins
+                0x080017ac       0x10 ./sdk/peripherals/src/hw_cpm.o
+                0x080017ac                hw_cpm_configure_xtal32k_pins
+ .text.hw_cpm_configure_bod_protection
+                0x080017bc       0x44 ./sdk/peripherals/src/hw_cpm.o
+                0x080017bc                hw_cpm_configure_bod_protection
+ .text.CRYPTO_Handler
+                0x08001800       0x30 ./sdk/peripherals/src/hw_crypto.o
+                0x08001800                CRYPTO_Handler
+ .text.hw_dma_channel_enable
+                0x08001830       0x48 ./sdk/peripherals/src/hw_dma.o
+                0x08001830                hw_dma_channel_enable
+ .text.dma_helper
+                0x08001878       0x40 ./sdk/peripherals/src/hw_dma.o
+ .text.hw_dma_channel_active
+                0x080018b8       0x3c ./sdk/peripherals/src/hw_dma.o
+                0x080018b8                hw_dma_channel_active
+ .text.DMA_Handler
+                0x080018f4       0x6c ./sdk/peripherals/src/hw_dma.o
+                0x080018f4                DMA_Handler
+ .text.hw_gpadc_reset
+                0x08001960       0x20 ./sdk/peripherals/src/hw_gpadc.o
+                0x08001960                hw_gpadc_reset
+ .text.hw_gpadc_configure
+                0x08001980       0xb4 ./sdk/peripherals/src/hw_gpadc.o
+                0x08001980                hw_gpadc_configure
+ .text.hw_gpadc_init
+                0x08001a34       0x24 ./sdk/peripherals/src/hw_gpadc.o
+                0x08001a34                hw_gpadc_init
+ .text.hw_gpadc_adc_measure
+                0x08001a58       0x1c ./sdk/peripherals/src/hw_gpadc.o
+                0x08001a58                hw_gpadc_adc_measure
+ .text.ADC_Handler
+                0x08001a74       0x20 ./sdk/peripherals/src/hw_gpadc.o
+                0x08001a74                ADC_Handler
+ .text.hw_gpadc_get_raw_value
+                0x08001a94       0x7c ./sdk/peripherals/src/hw_gpadc.o
+                0x08001a94                hw_gpadc_get_raw_value
+ .text.hw_gpadc_get_value
+                0x08001b10       0x28 ./sdk/peripherals/src/hw_gpadc.o
+ .text.hw_gpadc_calibrate
+                0x08001b38       0xc0 ./sdk/peripherals/src/hw_gpadc.o
+                0x08001b38                hw_gpadc_calibrate
+ .text.hw_gpio_set_pin_function
+                0x08001bf8       0x14 ./sdk/peripherals/src/hw_gpio.o
+                0x08001bf8                hw_gpio_set_pin_function
+ .text.hw_gpio_set_active
+                0x08001c0c       0x14 ./sdk/peripherals/src/hw_gpio.o
+                0x08001c0c                hw_gpio_set_active
+ .text.hw_gpio_set_inactive
+                0x08001c20       0x14 ./sdk/peripherals/src/hw_gpio.o
+                0x08001c20                hw_gpio_set_inactive
+ .text.hw_otpc_disable
+                0x08001c34       0x48 ./sdk/peripherals/src/hw_otpc.o
+                0x08001c34                hw_otpc_disable
+ .text.hw_otpc_manual_read_on
+                0x08001c7c       0x48 ./sdk/peripherals/src/hw_otpc.o
+                0x08001c7c                hw_otpc_manual_read_on
+ .text.hw_otpc_manual_read_off
+                0x08001cc4       0x44 ./sdk/peripherals/src/hw_otpc.o
+                0x08001cc4                hw_otpc_manual_read_off
+ .text.hw_timer1_lp_clk_init
+                0x08001d08       0x3c ./sdk/peripherals/src/hw_timer1.o
+                0x08001d08                hw_timer1_lp_clk_init
+ .text.TRNG_Handler
+                0x08001d44       0x1c ./sdk/peripherals/src/hw_trng.o
+                0x08001d44                TRNG_Handler
+ .text.hw_uart_transmit_fifo_empty
+                0x08001d60        0xa ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_tx_dma_callback
+                0x08001d6a       0x14 ./sdk/peripherals/src/hw_uart.o
+ *fill*         0x08001d7e        0x2 
+ .text.hw_uart_enable_fifo
+                0x08001d80       0x28 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_rx_fifo_tr_lvl_setf
+                0x08001da8       0x28 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_tx_fifo_tr_lvl_setf
+                0x08001dd0       0x28 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_enable_rx_int
+                0x08001df8       0x34 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_irq_stop_receive
+                0x08001e2c       0x54 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_rx_isr
+                0x08001e80       0x44 ./sdk/peripherals/src/hw_uart.o
+ .text.hw_uart_rx_dma_callback
+                0x08001ec4       0x40 ./sdk/peripherals/src/hw_uart.o
+ .text.UART_Interrupt_Handler
+                0x08001f04       0xe8 ./sdk/peripherals/src/hw_uart.o
+                0x08001f04                UART_Interrupt_Handler
+ .text.UART_Handler
+                0x08001fec       0x10 ./sdk/peripherals/src/hw_uart.o
+                0x08001fec                UART_Handler
+ .text.UART2_Handler
+                0x08001ffc       0x10 ./sdk/peripherals/src/hw_uart.o
+                0x08001ffc                UART2_Handler
+ .text.hw_uart_set_dma_channels_ex
+                0x0800200c      0x174 ./sdk/peripherals/src/hw_uart.o
+                0x0800200c                hw_uart_set_dma_channels_ex
+ .text.hw_uart_init
+                0x08002180      0x148 ./sdk/peripherals/src/hw_uart.o
+                0x08002180                hw_uart_init
+ .text.hw_charger_check_vbus
+                0x080022c8       0x20 ./sdk/peripherals/src/hw_usb_charger.o
+                0x080022c8                hw_charger_check_vbus
+ .text.VBUS_Handler
+                0x080022e8        0x2 ./sdk/peripherals/src/hw_usb_charger.o
+                0x080022e8                VBUS_Handler
+ *fill*         0x080022ea        0x2 
+ .text.hw_wkup_handler
+                0x080022ec       0x20 ./sdk/peripherals/src/hw_wkup.o
+                0x080022ec                hw_wkup_handler
+ .text.sys_tcs_sort_area
+                0x0800230c       0x9c ./sdk/peripherals/src/sys_tcs.o
+ .text.sys_tcs_init
+                0x080023a8       0x20 ./sdk/peripherals/src/sys_tcs.o
+                0x080023a8                sys_tcs_init
+ .text.sys_tcs_store_pair
+                0x080023c8       0xf0 ./sdk/peripherals/src/sys_tcs.o
+                0x080023c8                sys_tcs_store_pair
+ .text.sys_tcs_sort_array
+                0x080024b8       0xfc ./sdk/peripherals/src/sys_tcs.o
+                0x080024b8                sys_tcs_sort_array
+ .text.sys_tcs_apply
+                0x080025b4       0x38 ./sdk/peripherals/src/sys_tcs.o
+                0x080025b4                sys_tcs_apply
+ .text.resource_init
+                0x080025ec       0x38 ./sdk/osal/resmgmt.o
+                0x080025ec                resource_init
+ .text.qspi_automode_get_ucode
+                0x08002624        0xc ./sdk/memory/src/qspi_automode.o
+                0x08002624                qspi_automode_get_ucode
+ .text.prvInsertBlockIntoFreeList
+                0x08002630       0x44 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .text.pvPortMalloc
+                0x08002674       0xfc ./sdk/free_rtos/portable/MemMang/heap_4.o
+                0x08002674                pvPortMalloc
+ .text.vPortFree
+                0x08002770       0x4c ./sdk/free_rtos/portable/MemMang/heap_4.o
+                0x08002770                vPortFree
+ .text.vPortStartFirstTask
+                0x080027bc       0x20 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .text.prvTaskExitError
+                0x080027dc       0x1c ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .text.pxPortInitialiseStack
+                0x080027f8       0x20 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x080027f8                pxPortInitialiseStack
+ .text.xPortStartScheduler
+                0x08002818       0xc4 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x08002818                xPortStartScheduler
+ .text.vPortYield
+                0x080028dc       0x18 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x080028dc                vPortYield
+ .text.vPortEnterCritical
+                0x080028f4       0x28 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x080028f4                vPortEnterCritical
+ .text.vPortExitCritical
+                0x0800291c       0x30 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x0800291c                vPortExitCritical
+ .text.ulSetInterruptMaskFromISR
+                0x0800294c        0xa ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x0800294c                ulSetInterruptMaskFromISR
+ .text.vClearInterruptMaskFromISR
+                0x08002956        0x6 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x08002956                vClearInterruptMaskFromISR
+ .text.PendSV_Handler
+                0x0800295c       0x44 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x0800295c                PendSV_Handler
+ .text.xPortTickAdvance
+                0x080029a0       0x18 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x080029a0                xPortTickAdvance
+ .text.prvSystemSleep
+                0x080029b8       0x60 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                0x080029b8                prvSystemSleep
+ .text.xEventGroupCreate
+                0x08002a18       0x18 ./sdk/free_rtos/event_groups.o
+                0x08002a18                xEventGroupCreate
+ .text.xEventGroupClearBits
+                0x08002a30       0x32 ./sdk/free_rtos/event_groups.o
+                0x08002a30                xEventGroupClearBits
+ .text.vEventGroupClearBitsCallback
+                0x08002a62        0x8 ./sdk/free_rtos/event_groups.o
+                0x08002a62                vEventGroupClearBitsCallback
+ *fill*         0x08002a6a        0x2 
+ .text.xEventGroupClearBitsFromISR
+                0x08002a6c       0x18 ./sdk/free_rtos/event_groups.o
+                0x08002a6c                xEventGroupClearBitsFromISR
+ .text.xEventGroupGetBitsFromISR
+                0x08002a84       0x12 ./sdk/free_rtos/event_groups.o
+                0x08002a84                xEventGroupGetBitsFromISR
+ .text.xEventGroupSetBits
+                0x08002a96       0x74 ./sdk/free_rtos/event_groups.o
+                0x08002a96                xEventGroupSetBits
+ .text.vEventGroupSetBitsCallback
+                0x08002b0a        0x8 ./sdk/free_rtos/event_groups.o
+                0x08002b0a                vEventGroupSetBitsCallback
+ *fill*         0x08002b12        0x2 
+ .text.xEventGroupSetBitsFromISR
+                0x08002b14       0x18 ./sdk/free_rtos/event_groups.o
+                0x08002b14                xEventGroupSetBitsFromISR
+ .text.vListInitialise
+                0x08002b2c       0x16 ./sdk/free_rtos/list.o
+                0x08002b2c                vListInitialise
+ .text.vListInitialiseItem
+                0x08002b42        0x6 ./sdk/free_rtos/list.o
+                0x08002b42                vListInitialiseItem
+ .text.vListInsertEnd
+                0x08002b48       0x18 ./sdk/free_rtos/list.o
+                0x08002b48                vListInsertEnd
+ .text.vListInsert
+                0x08002b60       0x30 ./sdk/free_rtos/list.o
+                0x08002b60                vListInsert
+ .text.uxListRemove
+                0x08002b90       0x20 ./sdk/free_rtos/list.o
+                0x08002b90                uxListRemove
+ .text.prvCopyDataToQueue
+                0x08002bb0       0x72 ./sdk/free_rtos/queue.o
+ .text.prvNotifyQueueSetContainer
+                0x08002c22       0x5c ./sdk/free_rtos/queue.o
+ .text.unlikely.prvCopyDataFromQueue
+                0x08002c7e       0x24 ./sdk/free_rtos/queue.o
+ .text.prvUnlockQueue
+                0x08002ca2       0x7e ./sdk/free_rtos/queue.o
+ .text.xQueueGenericReset
+                0x08002d20       0x6a ./sdk/free_rtos/queue.o
+                0x08002d20                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x08002d8a       0x5c ./sdk/free_rtos/queue.o
+                0x08002d8a                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x08002de6      0x13a ./sdk/free_rtos/queue.o
+                0x08002de6                xQueueGenericSend
+ .text.xQueueCreateMutex
+                0x08002f20       0x54 ./sdk/free_rtos/queue.o
+                0x08002f20                xQueueCreateMutex
+ .text.xQueueGenericSendFromISR
+                0x08002f74       0xa2 ./sdk/free_rtos/queue.o
+                0x08002f74                xQueueGenericSendFromISR
+ .text.xQueueGenericReceive
+                0x08003016      0x14c ./sdk/free_rtos/queue.o
+                0x08003016                xQueueGenericReceive
+ *fill*         0x08003162        0x2 
+ .text.vQueueAddToRegistry
+                0x08003164       0x24 ./sdk/free_rtos/queue.o
+                0x08003164                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x08003188       0x3e ./sdk/free_rtos/queue.o
+                0x08003188                vQueueWaitForMessageRestricted
+ *fill*         0x080031c6        0x2 
+ .text.prvTaskIsTaskSuspended
+                0x080031c8       0x38 ./sdk/free_rtos/tasks.o
+                0x080031c8                prvTaskIsTaskSuspended
+ .text.xTaskResumeFromISR
+                0x08003200       0x74 ./sdk/free_rtos/tasks.o
+                0x08003200                xTaskResumeFromISR
+ .text.vTaskSuspendAll
+                0x08003274       0x10 ./sdk/free_rtos/tasks.o
+                0x08003274                vTaskSuspendAll
+ .text.prvGetExpectedIdleTime
+                0x08003284       0x2c ./sdk/free_rtos/tasks.o
+                0x08003284                prvGetExpectedIdleTime
+ .text.xTaskGetTickCount
+                0x080032b0        0xc ./sdk/free_rtos/tasks.o
+                0x080032b0                xTaskGetTickCount
+ .text.vTaskStepTick
+                0x080032bc       0x28 ./sdk/free_rtos/tasks.o
+                0x080032bc                vTaskStepTick
+ .text.vTaskSwitchContext
+                0x080032e4       0xac ./sdk/free_rtos/tasks.o
+                0x080032e4                vTaskSwitchContext
+ .text.xTaskRemoveFromUnorderedEventList
+                0x08003390       0x6c ./sdk/free_rtos/tasks.o
+                0x08003390                xTaskRemoveFromUnorderedEventList
+ .text.vTaskSetTimeOutState
+                0x080033fc       0x20 ./sdk/free_rtos/tasks.o
+                0x080033fc                vTaskSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x0800341c       0x60 ./sdk/free_rtos/tasks.o
+                0x0800341c                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x0800347c        0xc ./sdk/free_rtos/tasks.o
+                0x0800347c                vTaskMissedYield
+ .text.eTaskConfirmSleepModeStatus
+                0x08003488       0x2c ./sdk/free_rtos/tasks.o
+                0x08003488                eTaskConfirmSleepModeStatus
+ .text.prvInitialiseTCBVariables
+                0x080034b4       0x50 ./sdk/free_rtos/tasks.o
+                0x080034b4                prvInitialiseTCBVariables
+ .text.prvInitialiseTaskLists
+                0x08003504       0x58 ./sdk/free_rtos/tasks.o
+                0x08003504                prvInitialiseTaskLists
+ .text.prvAddCurrentTaskToDelayedList
+                0x0800355c       0x40 ./sdk/free_rtos/tasks.o
+                0x0800355c                prvAddCurrentTaskToDelayedList
+ .text.vTaskPlaceOnEventList
+                0x0800359c       0x48 ./sdk/free_rtos/tasks.o
+                0x0800359c                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x080035e4       0x4c ./sdk/free_rtos/tasks.o
+                0x080035e4                vTaskPlaceOnEventListRestricted
+ .text.prvAllocateTCBAndStack
+                0x08003630       0x36 ./sdk/free_rtos/tasks.o
+                0x08003630                prvAllocateTCBAndStack
+ *fill*         0x08003666        0x2 
+ .text.xTaskGenericCreate
+                0x08003668       0xf0 ./sdk/free_rtos/tasks.o
+                0x08003668                xTaskGenericCreate
+ .text.vTaskStartScheduler
+                0x08003758       0x54 ./sdk/free_rtos/tasks.o
+                0x08003758                vTaskStartScheduler
+ .text.prvDeleteTCB
+                0x080037ac       0x12 ./sdk/free_rtos/tasks.o
+                0x080037ac                prvDeleteTCB
+ *fill*         0x080037be        0x2 
+ .text.prvResetNextTaskUnblockTime
+                0x080037c0       0x28 ./sdk/free_rtos/tasks.o
+                0x080037c0                prvResetNextTaskUnblockTime
+ .text.vTaskDelete
+                0x080037e8       0x80 ./sdk/free_rtos/tasks.o
+                0x080037e8                vTaskDelete
+ .text.vTaskSuspend
+                0x08003868       0x84 ./sdk/free_rtos/tasks.o
+                0x08003868                vTaskSuspend
+ .text.xTaskIncrementTick
+                0x080038ec       0xf0 ./sdk/free_rtos/tasks.o
+                0x080038ec                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x080039dc       0xbc ./sdk/free_rtos/tasks.o
+                0x080039dc                xTaskResumeAll
+ .text.vTaskDelayUntil
+                0x08003a98       0x7c ./sdk/free_rtos/tasks.o
+                0x08003a98                vTaskDelayUntil
+ .text.prvCheckTasksWaitingTermination
+                0x08003b14       0x50 ./sdk/free_rtos/tasks.o
+                0x08003b14                prvCheckTasksWaitingTermination
+ .text.prvIdleTask
+                0x08003b64       0x50 ./sdk/free_rtos/tasks.o
+                0x08003b64                prvIdleTask
+ .text.xTaskRemoveFromEventList
+                0x08003bb4       0x70 ./sdk/free_rtos/tasks.o
+                0x08003bb4                xTaskRemoveFromEventList
+ .text.xTaskGetCurrentTaskHandle
+                0x08003c24        0xc ./sdk/free_rtos/tasks.o
+                0x08003c24                xTaskGetCurrentTaskHandle
+ .text.xTaskGetSchedulerState
+                0x08003c30       0x18 ./sdk/free_rtos/tasks.o
+                0x08003c30                xTaskGetSchedulerState
+ .text.vTaskPriorityInherit
+                0x08003c48       0x6c ./sdk/free_rtos/tasks.o
+                0x08003c48                vTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x08003cb4       0x64 ./sdk/free_rtos/tasks.o
+                0x08003cb4                xTaskPriorityDisinherit
+ .text.pvTaskIncrementMutexHeldCount
+                0x08003d18       0x18 ./sdk/free_rtos/tasks.o
+                0x08003d18                pvTaskIncrementMutexHeldCount
+ .text.prvCheckForValidListAndQueue
+                0x08003d30       0x50 ./sdk/free_rtos/timers.o
+ .text.prvInsertTimerInActiveList
+                0x08003d80       0x3c ./sdk/free_rtos/timers.o
+ .text.xTimerCreateTimerTask
+                0x08003dbc       0x44 ./sdk/free_rtos/timers.o
+                0x08003dbc                xTimerCreateTimerTask
+ .text.xTimerCreate
+                0x08003e00       0x3e ./sdk/free_rtos/timers.o
+                0x08003e00                xTimerCreate
+ *fill*         0x08003e3e        0x2 
+ .text.xTimerGenericCommand
+                0x08003e40       0x4c ./sdk/free_rtos/timers.o
+                0x08003e40                xTimerGenericCommand
+ .text.prvSwitchTimerLists
+                0x08003e8c       0x64 ./sdk/free_rtos/timers.o
+ .text.prvTimerTask
+                0x08003ef0      0x188 ./sdk/free_rtos/timers.o
+ .text.xTimerPendFunctionCallFromISR
+                0x08004078       0x24 ./sdk/free_rtos/timers.o
+                0x08004078                xTimerPendFunctionCallFromISR
+ .text.ad_crypto_wake_up_ind
+                0x0800409c       0x10 ./sdk/adapters/src/ad_crypto.o
+ .text.ad_crypto_reset_ecc_base_addr
+                0x080040ac       0x18 ./sdk/adapters/src/ad_crypto.o
+                0x080040ac                ad_crypto_reset_ecc_base_addr
+ .text.ad_crypto_init
+                0x080040c4       0x34 ./sdk/adapters/src/ad_crypto.o
+                0x080040c4                ad_crypto_init
+ .text.prvTemplateTask
+                0x080040f8       0x44 ./main.o
+ .text.system_init
+                0x0800413c       0x70 ./main.o
+ .text.periph_init
+                0x080041ac       0x38 ./main.o
+ .text.startup.main
+                0x080041e4       0x3c ./main.o
+                0x080041e4                main
+ .text.vApplicationMallocFailedHook
+                0x08004220        0x4 ./main.o
+                0x08004220                vApplicationMallocFailedHook
+ .text.vApplicationStackOverflowHook
+                0x08004224        0x4 ./main.o
+                0x08004224                vApplicationStackOverflowHook
+ .text          0x08004228       0x14 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
+                0x08004228                __gnu_thumb1_case_sqi
+ .text          0x0800423c      0x120 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x0800423c                __aeabi_uidiv
+                0x0800423c                __udivsi3
+                0x08004348                __aeabi_uidivmod
+ .text          0x0800435c      0x1e0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                0x0800435c                __divsi3
+                0x0800435c                __aeabi_idiv
+                0x08004528                __aeabi_idivmod
+ .text.exit     0x0800453c       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+                0x0800453c                exit
+ .text.__libc_init_array
+                0x08004568       0x4c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                0x08004568                __libc_init_array
+ .text.memcmp   0x080045b4       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcmp.o)
+                0x080045b4                memcmp
+ .text.memcpy   0x080045d2       0x12 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+                0x080045d2                memcpy
+ .text.memset   0x080045e4       0x10 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                0x080045e4                memset
+ .text._exit    0x080045f4        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+                0x080045f4                _exit
+                0x080045f8                . = ALIGN (0x4)
+                0x080045f8                __start_adapter_init_section = .
+ *(adapter_init_section)
+ adapter_init_section
+                0x080045f8        0x4 ./sdk/adapters/src/ad_crypto.o
+                0x080045f8                crypto_adapter_ptr
+                0x080045fc                __stop_adapter_init_section = .
+                0x080045fc                __start_bus_init_section = .
+ *(bus_init_section)
+                0x080045fc                __stop_bus_init_section = .
+                0x080045fc                __start_device_init_section = .
+ *(device_init_section)
+                0x080045fc                __stop_device_init_section = .
+ *(.init)
+ .init          0x080045fc        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x080045fc                _init
+ .init          0x08004600        0x8 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x08004608        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x08004608                _fini
+ .fini          0x0800460c        0x8 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x08004614                . = ALIGN (0x4)
+                0x08004614                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x08004614                PROVIDE (__preinit_array_end, .)
+                0x08004614                . = ALIGN (0x4)
+                0x08004614                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x08004614        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+                0x08004618                PROVIDE (__init_array_end, .)
+                0x08004618                . = ALIGN (0x4)
+                0x08004618                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x08004618        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+                0x0800461c                PROVIDE (__fini_array_end, .)
+ *(.rodata*)
+ .rodata.__dialog_interrupt_priorities
+                0x0800461c       0x28 ./startup/config.o
+                0x0800461c                __dialog_interrupt_priorities
+ .rodata.str1.1
+                0x08004644        0x6 ./sdk/sys_man/sys_clock_mgr.o
+ *fill*         0x0800464a        0x2 
+ .rodata.tim1   0x0800464c       0x2c ./sdk/peripherals/src/hw_otpc.o
+                0x0800464c                tim1
+ .rodata.tim2   0x08004678        0xb ./sdk/peripherals/src/hw_otpc.o
+ *fill*         0x08004683        0x1 
+ .rodata.uncalibrated_tcs_data
+                0x08004684       0x28 ./sdk/peripherals/src/sys_tcs.o
+ .rodata.w25q_ucode_wakeup
+                0x080046ac        0x8 ./sdk/memory/src/qspi_automode.o
+                0x080046ac                w25q_ucode_wakeup
+ .rodata.flash_w25q80ew_config
+                0x080046b4       0x30 ./sdk/memory/src/qspi_automode.o
+ .rodata        0x080046e4       0x14 ./sdk/free_rtos/tasks.o
+ .rodata.str1.1
+                0x080046f8        0x5 ./sdk/free_rtos/tasks.o
+ .rodata.str1.1
+                0x080046fd        0xd ./sdk/free_rtos/timers.o
+ *fill*         0x0800470a        0x2 
+ .rodata.ad_crypto_pm_cbs
+                0x0800470c       0x14 ./sdk/adapters/src/ad_crypto.o
+                0x0800470c                ad_crypto_pm_cbs
+ .rodata.crypto_adapter
+                0x08004720        0xc ./sdk/adapters/src/ad_crypto.o
+                0x08004720                crypto_adapter
+ .rodata.str1.1
+                0x0800472c       0x11 ./main.o
+ .rodata.str1.1
+                0x0800473d        0x2 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ *fill*         0x0800473f        0x1 
+ .rodata._global_impure_ptr
+                0x08004740        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x08004740                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x08004744        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .eh_frame      0x08004744        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+
+.glue_7         0x08004748        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x08004748        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08004748        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08004748        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08004748        0x0
+ .iplt          0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08004748                __exidx_start = .
+
+.ARM.exidx      0x08004748        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x08004748        0x8 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x08004750                __exidx_end = .
+
+.rel.dyn        0x08004750        0x0
+ .rel.iplt      0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.align_s        0x08004750        0x0
+                0x08004750                . = ALIGN (0x10)
+                0x08004750                __etext = .
+
+.data           0x07fd0000       0x10 load address 0x08004750
+                0x07fd0000                . = ALIGN (0x10)
+                0x07fd0000                __data_start__ = .
+ *(vtable)
+ *(EXCLUDE_FILE(*\libnosys.a:* *\libg_nano.a:*) .data*)
+                0x07fd0000                . = ALIGN (0x4)
+ *(.jcr*)
+ .jcr           0x07fd0000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .jcr           0x07fd0000        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+                0x07fd0010                . = ALIGN (0x10)
+ *fill*         0x07fd0004        0xc 
+                0x07fd0010                __data_end__ = .
+
+.igot.plt       0x07fd0010        0x0 load address 0x08004760
+ .igot.plt      0x00000000        0x0 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.bss            0x07fd0400      0x4a0 load address 0x08004c00
+                0x07fd0400                . = ALIGN (0x20)
+                0x07fd0400                __bss_start__ = .
+ *(.bss.ecc_buffer)
+ .bss.ecc_buffer
+                0x07fd0400      0x400 ./sdk/adapters/src/ad_crypto.o
+ *(EXCLUDE_FILE(*\libnosys.a:* *\libg_nano.a:*) .bss*)
+ .bss           0x07fd0800       0x1c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .bss.cm_ahb_clk_next
+                0x07fd081c        0x1 ./sdk/sys_man/sys_clock_mgr.o
+ .bss.cm_rcx_calibration_is_on
+                0x07fd081d        0x1 ./sdk/sys_man/sys_clock_mgr.o
+                0x07fd081d                cm_rcx_calibration_is_on
+ .bss.cm_xtal16m_settled
+                0x07fd081e        0x1 ./sdk/sys_man/sys_clock_mgr.o
+ .bss.cm_sys_clk_next
+                0x07fd081f        0x1 ./sdk/sys_man/sys_clock_mgr.o
+ .bss.adapters_wake_up_ind_called
+                0x07fd0820        0x1 ./sdk/sys_man/sys_power_mgr.o
+                0x07fd0820                adapters_wake_up_ind_called
+ .bss.call_adapters_xtal16m_ready_ind
+                0x07fd0821        0x1 ./sdk/sys_man/sys_power_mgr.o
+                0x07fd0821                call_adapters_xtal16m_ready_ind
+ *fill*         0x07fd0822        0x6 
+ .bss.sleep_blocked_until
+                0x07fd0828        0x8 ./sdk/sys_man/sys_power_mgr.o
+ .bss.dma_callbacks_user_data
+                0x07fd0830       0x40 ./sdk/peripherals/src/hw_dma.o
+ .bss.intr_cb   0x07fd0870        0x4 ./sdk/peripherals/src/hw_gpadc.o
+ .bss.trng_cb   0x07fd0874        0x4 ./sdk/peripherals/src/hw_trng.o
+ .bss.test_counter.8380
+                0x07fd0878        0x4 ./main.o
+ .bss.xHandle   0x07fd087c        0x4 ./main.o
+ *(COMMON)
+ COMMON         0x07fd0880        0x4 ./sdk/sys_man/sys_power_mgr.o
+                0x07fd0880                ulTimeSpentSleepingInTicks
+                0x07fd08a0                . = ALIGN (0x20)
+ *fill*         0x07fd0884       0x1c 
+                0x07fd08a0                __bss_end__ = .
+
+.heap           0x07fd08a0      0x600
+                0x07fd08a0                __end__ = .
+                0x07fd08a0                PROVIDE (end, .)
+ *(.heap*)
+ .heap          0x07fd08a0      0x600 ./startup/vector_table.o
+                0x07fd08a0                __HeapBase
+                0x07fd0ea0                __HeapLimit = .
+
+.stack_dummy    0x07fd08a0      0x200
+ *(.stack*)
+ .stack         0x07fd08a0      0x200 ./startup/vector_table.o
+                0x07fe0000                __StackTop = (ORIGIN (RAM) + 0x10000)
+                0x07fdfe00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x07fe0000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+
+RETENTION_INIT0
+                0x07fc0200     0x19d0 load address 0x08004760
+                0x07fc0200                . = ALIGN (0x10)
+                0x07fc0200                __RetRAM0_code_start__ = .
+ *(text_retained)
+ text_retained  0x07fc0200       0x7c ./startup/startup_ARMCM0.o
+                0x07fc0200                NMI_Handler
+                0x07fc0216                HardFault_Handler
+ text_retained  0x07fc027c       0x48 ./startup/system_ARMCM0.o
+ text_retained  0x07fc02c4      0x234 ./sdk/sys_man/sys_clock_mgr.o
+                0x07fc038c                cm_calibrate_rcx_start
+                0x07fc03a4                cm_rcx_us_2_lpcycles
+                0x07fc03d4                cm_lp_clk_is_avail_fromISR
+                0x07fc0400                cm_restore_all_clocks
+                0x07fc046c                cm_poll_xtal16m_ready
+                0x07fc0478                cm_halt_until_xtal16m_ready
+ text_retained  0x07fc04f8      0xb78 ./sdk/sys_man/sys_power_mgr.o
+                0x07fc0adc                pm_advance_time
+                0x07fc0af0                SWTIM1_Handler
+                0x07fc0b44                pm_system_wake_up
+                0x07fc0d74                pm_execute_active_wfi
+                0x07fc0e0c                pm_sleep_enter
+                0x07fc1038                pm_process_completed_qspi_operations
+ text_retained  0x07fc1070       0x3c ./sdk/sys_man/sys_rtc.o
+                0x07fc1070                rtc_get_fromCPM
+ text_retained  0x07fc10ac      0x154 ./sdk/peripherals/src/hw_cpm.o
+                0x07fc10ac                hw_cpm_start_calibration
+                0x07fc10e8                hw_cpm_reset_system
+                0x07fc1100                hw_cpm_reboot_system
+                0x07fc111c                hw_cpm_assert_trigger_gpio
+                0x07fc111e                hw_cpm_activate_bod_protection
+                0x07fc1148                hw_cpm_get_1v8_state
+                0x07fc1154                hw_cpm_delay_usec
+ text_retained  0x07fc1200       0xd4 ./sdk/peripherals/src/hw_hard_fault.o
+                0x07fc1200                HardFault_HandlerC
+ text_retained  0x07fc12d4       0xfc ./sdk/peripherals/src/hw_otpc.o
+                0x07fc12d4                hw_otpc_convert_sys_clk_mhz
+                0x07fc136c                hw_otpc_set_speed
+ text_retained  0x07fc13d0      0x13c ./sdk/peripherals/src/hw_watchdog.o
+                0x07fc13d0                hw_watchdog_freeze
+                0x07fc13e8                hw_watchdog_unfreeze
+                0x07fc13f4                hw_watchdog_unregister_int
+                0x07fc1400                hw_watchdog_handle_int
+                0x07fc14f4                NMI_HandlerC
+ text_retained  0x07fc150c      0x564 ./sdk/memory/src/qspi_automode.o
+                0x07fc1718                flash_activate_command_entry_mode
+                0x07fc1736                flash_deactivate_command_entry_mode
+                0x07fc182c                flash_erase_sector_manual_mode
+                0x07fc1850                flash_program_page_manual_mode
+                0x07fc1858                qspi_check_program_erase_in_progress
+                0x07fc1864                qspi_check_and_suspend
+                0x07fc18b0                qspi_resume
+                0x07fc18d0                qspi_automode_flash_power_up
+                0x07fc191c                qspi_automode_flash_power_down
+                0x07fc1950                qspi_automode_init
+                0x07fc1a54                qspi_automode_sys_clock_cfg
+ *libgcc.a:_aeabi_uldivmod.o(.text*)
+ *libgcc.a:_muldi3.o(.text*)
+ *libgcc.a:_dvmd_tls.o(.text*)
+ .text          0x07fc1a70        0x4 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x07fc1a70                __aeabi_idiv0
+                0x07fc1a70                __aeabi_ldiv0
+ *libgcc.a:bpabi.o(.text*)
+ *libgcc.a:_udivdi3.o(.text*)
+ *libgcc.a:_clzdi2.o(.text*)
+ *libgcc.a:_clzsi2.o(.text*)
+                0x07fc1a74                . = ALIGN (0x4)
+ *(retention_mem_init)
+ retention_mem_init
+                0x07fc1a74        0x1 ./sdk/peripherals/src/hw_cpm.o
+ retention_mem_init
+                0x07fc1a75        0x5 ./sdk/peripherals/src/hw_qspi.o
+                0x07fc1a75                dummy_num
+ *fill*         0x07fc1a7a        0x2 
+ retention_mem_init
+                0x07fc1a7c       0xe8 ./sdk/peripherals/src/hw_uart.o
+ *(retention_mem_const)
+ *(privileged_data_init)
+ privileged_data_init
+                0x07fc1b64        0x4 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ privileged_data_init
+                0x07fc1b68        0x4 ./sdk/free_rtos/tasks.o
+                0x07fc1b68                xNextTaskUnblockTime
+ *(.retention)
+ *\libg_nano.a:*(.data*)
+ .data.impure_data
+                0x07fc1b6c       0x60 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ *\libnosys.a:*(.data*)
+                0x07fc1bd0                . = ALIGN (0x10)
+ *fill*         0x07fc1bcc        0x4 
+                0x07fc1bd0                __RetRAM0_code_end__ = .
+                0x07fc1bd0                . = ALIGN (0x4)
+
+RETENTION_RAM0  0x07fc1bd0     0x3b50
+                0x07fc1bd0                . = ALIGN (0x4)
+                0x07fc1bd0                __RetRAM0_start = .
+ *(nmi_info)
+ *(hard_fault_info)
+ *(retention_mem_uninit)
+ retention_mem_uninit
+                0x07fc1bd0        0x2 ./sdk/peripherals/src/hw_cpm.o
+                0x07fc1bd0                hw_cpm_bod_enabled_in_tcs
+ *fill*         0x07fc1bd2        0x2 
+ retention_mem_uninit
+                0x07fc1bd4       0xc5 ./sdk/peripherals/src/sys_tcs.o
+                0x07fc1bd4                tcs_length
+                0x07fc1bd8                tcs_data
+                0x07fc1c98                sys_tcs_is_calibrated_chip
+                0x07fc1ca0                . = ALIGN (0x20)
+ *fill*         0x07fc1c99        0x7 
+                0x07fc1ca0                __RetRAM0_data_start = .
+ *\libg_nano.a:*(.bss*)
+ *\libnosys.a:*(.bss*)
+ *(privileged_data_zi)
+ privileged_data_zi
+                0x07fc1ca0       0x26 ./sdk/sys_man/sys_clock_mgr.o
+                0x07fc1ca1                cm_sysclk
+                0x07fc1ca2                cm_ahbclk
+                0x07fc1cb0                xRCXCalibTaskHandle
+                0x07fc1cb4                rcx_clock_period
+                0x07fc1cb8                ble_slot_duration_in_rcx
+                0x07fc1cbc                rcx_tick_rate_hz
+                0x07fc1cbe                rcx_tick_period
+                0x07fc1cc0                rcx_clock_hz_acc
+                0x07fc1cc4                rcx_clock_hz
+ *fill*         0x07fc1cc6        0x2 
+ privileged_data_zi
+                0x07fc1cc8       0x69 ./sdk/sys_man/sys_power_mgr.o
+                0x07fc1ccc                lp_last_trigger
+                0x07fc1cd4                pm_adapters_cb
+                0x07fc1d1c                pm_wakeup_xtal16m_time
+                0x07fc1d28                pm_mac_wakeup_time
+ *fill*         0x07fc1d31        0x7 
+ privileged_data_zi
+                0x07fc1d38        0xc ./sdk/sys_man/sys_rtc.o
+ privileged_data_zi
+                0x07fc1d44       0x18 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ privileged_data_zi
+                0x07fc1d5c        0x4 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ privileged_data_zi
+                0x07fc1d60       0x40 ./sdk/free_rtos/queue.o
+                0x07fc1d60                xQueueRegistry
+ privileged_data_zi
+                0x07fc1da0      0x128 ./sdk/free_rtos/tasks.o
+                0x07fc1da0                pxCurrentTCB
+                0x07fc1da4                pxDelayedTaskList
+                0x07fc1da8                pxOverflowDelayedTaskList
+                0x07fc1dac                xSuspendedTaskList
+                0x07fc1dc0                xTasksWaitingTermination
+                0x07fc1dd4                pxReadyTasksLists
+                0x07fc1e60                uxTopReadyPriority
+                0x07fc1e64                xPendingReadyList
+                0x07fc1e78                uxSchedulerSuspended
+                0x07fc1e7c                xSchedulerRunning
+                0x07fc1e80                xTickCount
+                0x07fc1e84                uxCurrentNumberOfTasks
+                0x07fc1e88                xIdleTaskHandle
+                0x07fc1e8c                xYieldPending
+                0x07fc1e90                xNumOfOverflows
+                0x07fc1e94                xDelayedTaskList1
+                0x07fc1ea8                xDelayedTaskList2
+                0x07fc1ebc                uxTaskNumber
+                0x07fc1ec0                uxTasksDeleted
+                0x07fc1ec4                uxPendedTicks
+ privileged_data_zi
+                0x07fc1ec8       0x38 ./sdk/free_rtos/timers.o
+ *(retention_mem_zi)
+ retention_mem_zi
+                0x07fc1f00        0x8 ./startup/system_ARMCM0.o
+                0x07fc1f00                SystemCoreClock
+                0x07fc1f04                SystemLPClock
+ retention_mem_zi
+                0x07fc1f08        0x1 ./sdk/sys_man/sys_power_mgr.o
+                0x07fc1f08                pm_xtal16m_is_pending
+ *fill*         0x07fc1f09        0x3 
+ retention_mem_zi
+                0x07fc1f0c       0x84 ./sdk/sys_man/sys_trng.o
+ retention_mem_zi
+                0x07fc1f90        0x8 ./sdk/peripherals/src/hw_crypto.o
+ retention_mem_zi
+                0x07fc1f98        0x4 ./sdk/peripherals/src/hw_gpadc.o
+                0x07fc1f98                hw_gpadc_single_ended_gain_error
+                0x07fc1f9a                hw_gpadc_differential_gain_error
+ retention_mem_zi
+                0x07fc1f9c        0x4 ./sdk/peripherals/src/hw_watchdog.o
+ retention_mem_zi
+                0x07fc1fa0        0x4 ./sdk/peripherals/src/hw_wkup.o
+ retention_mem_zi
+                0x07fc1fa4       0x10 ./sdk/peripherals/src/sys_tcs.o
+                0x07fc1fa4                sys_tcs_xtal16m_settling_time
+                0x07fc1fa6                area_offset
+                0x07fc1faa                area_size
+                0x07fc1fb0                tcs_ptr
+ retention_mem_zi
+                0x07fc1fb4       0xac ./sdk/osal/resmgmt.o
+ retention_mem_zi
+                0x07fc2060        0xc ./sdk/adapters/src/ad_crypto.o
+ *(os_heap)
+ os_heap        0x07fc206c     0x36b0 ./sdk/free_rtos/portable/MemMang/heap_4.o
+                0x07fc5720                . = ALIGN (0x20)
+ *fill*         0x07fc571c        0x4 
+                0x07fc5720                __RetRAM0_data_end__ = .
+
+RETENTION_RAM1  0x00000000        0x0
+                0x00000000                . = ALIGN (0x20)
+                0x00000000                __RetRAM1_start__ = .
+ *(privileged_data_1_zi)
+ *(retention_mem_1_zi)
+                0x00000000                . = ALIGN (0x20)
+                0x00000000                __RetRAM1_end__ = .
+                0x00003a80                __RetRAM0_size = (__RetRAM0_data_end__ - __RetRAM0_data_start)
+                0x00006130                __image_size = (((__etext + (__data_end__ - __data_start__)) + (__RetRAM0_code_end__ - __RetRAM0_code_start__)) - ORIGIN (ROM))
+                0x00004760                __mirrored_image_size = ((__etext + (__data_end__ - __data_start__)) - ORIGIN (ROM))
+OUTPUT(blink-led.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x31 ./startup/config.o
+ .ARM.attributes
+                0x00000096       0x1b ./startup/startup_ARMCM0.o
+ .ARM.attributes
+                0x000000b1       0x31 ./startup/system_ARMCM0.o
+ .ARM.attributes
+                0x000000e2       0x1b ./startup/vector_table.o
+ .ARM.attributes
+                0x000000fd       0x31 ./sdk/sys_man/sys_charger.o
+ .ARM.attributes
+                0x0000012e       0x31 ./sdk/sys_man/sys_clock_mgr.o
+ .ARM.attributes
+                0x0000015f       0x31 ./sdk/sys_man/sys_power_mgr.o
+ .ARM.attributes
+                0x00000190       0x31 ./sdk/sys_man/sys_rtc.o
+ .ARM.attributes
+                0x000001c1       0x31 ./sdk/sys_man/sys_trng.o
+ .ARM.attributes
+                0x000001f2       0x31 ./sdk/peripherals/src/hw_cpm.o
+ .ARM.attributes
+                0x00000223       0x31 ./sdk/peripherals/src/hw_crypto.o
+ .ARM.attributes
+                0x00000254       0x31 ./sdk/peripherals/src/hw_dma.o
+ .ARM.attributes
+                0x00000285       0x31 ./sdk/peripherals/src/hw_gpadc.o
+ .ARM.attributes
+                0x000002b6       0x31 ./sdk/peripherals/src/hw_gpio.o
+ .ARM.attributes
+                0x000002e7       0x31 ./sdk/peripherals/src/hw_hard_fault.o
+ .ARM.attributes
+                0x00000318       0x31 ./sdk/peripherals/src/hw_otpc.o
+ .ARM.attributes
+                0x00000349       0x31 ./sdk/peripherals/src/hw_qspi.o
+ .ARM.attributes
+                0x0000037a       0x31 ./sdk/peripherals/src/hw_timer1.o
+ .ARM.attributes
+                0x000003ab       0x31 ./sdk/peripherals/src/hw_trng.o
+ .ARM.attributes
+                0x000003dc       0x31 ./sdk/peripherals/src/hw_uart.o
+ .ARM.attributes
+                0x0000040d       0x31 ./sdk/peripherals/src/hw_usb_charger.o
+ .ARM.attributes
+                0x0000043e       0x31 ./sdk/peripherals/src/hw_watchdog.o
+ .ARM.attributes
+                0x0000046f       0x31 ./sdk/peripherals/src/hw_wkup.o
+ .ARM.attributes
+                0x000004a0       0x31 ./sdk/peripherals/src/sys_tcs.o
+ .ARM.attributes
+                0x000004d1       0x31 ./sdk/osal/resmgmt.o
+ .ARM.attributes
+                0x00000502       0x31 ./sdk/memory/src/qspi_automode.o
+ .ARM.attributes
+                0x00000533       0x31 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .ARM.attributes
+                0x00000564       0x31 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .ARM.attributes
+                0x00000595       0x31 ./sdk/free_rtos/event_groups.o
+ .ARM.attributes
+                0x000005c6       0x31 ./sdk/free_rtos/list.o
+ .ARM.attributes
+                0x000005f7       0x31 ./sdk/free_rtos/queue.o
+ .ARM.attributes
+                0x00000628       0x31 ./sdk/free_rtos/tasks.o
+ .ARM.attributes
+                0x00000659       0x31 ./sdk/free_rtos/timers.o
+ .ARM.attributes
+                0x0000068a       0x31 ./sdk/adapters/src/ad_crypto.o
+ .ARM.attributes
+                0x000006bb       0x31 ./main.o
+ .ARM.attributes
+                0x000006ec       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
+ .ARM.attributes
+                0x0000070a       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000728       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000746       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000764       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000790       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000007bc       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000007e8       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000814       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000840       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000086c       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000898       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x000008c4       0x1e c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./startup/config.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./startup/system_ARMCM0.o
+ .comment       0x00000000       0x71 ./sdk/sys_man/sys_charger.o
+ .comment       0x00000000       0x71 ./sdk/sys_man/sys_clock_mgr.o
+ .comment       0x00000000       0x71 ./sdk/sys_man/sys_power_mgr.o
+ .comment       0x00000000       0x71 ./sdk/sys_man/sys_rtc.o
+ .comment       0x00000000       0x71 ./sdk/sys_man/sys_trng.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_cpm.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_crypto.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_dma.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_gpadc.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_gpio.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_hard_fault.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_otpc.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_qspi.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_timer1.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_trng.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_uart.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_usb_charger.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_watchdog.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/hw_wkup.o
+ .comment       0x00000000       0x71 ./sdk/peripherals/src/sys_tcs.o
+ .comment       0x00000000       0x71 ./sdk/osal/resmgmt.o
+ .comment       0x00000000       0x71 ./sdk/memory/src/qspi_automode.o
+ .comment       0x00000000       0x71 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .comment       0x00000000       0x71 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .comment       0x00000000       0x71 ./sdk/free_rtos/event_groups.o
+ .comment       0x00000000       0x71 ./sdk/free_rtos/list.o
+ .comment       0x00000000       0x71 ./sdk/free_rtos/queue.o
+ .comment       0x00000000       0x71 ./sdk/free_rtos/tasks.o
+ .comment       0x00000000       0x71 ./sdk/free_rtos/timers.o
+ .comment       0x00000000       0x71 ./sdk/adapters/src/ad_crypto.o
+ .comment       0x00000000       0x71 ./main.o
+
+.debug_info     0x00000000    0x22880
+ .debug_info    0x00000000      0xf5b ./startup/config.o
+ .debug_info    0x00000f5b       0xcc ./startup/startup_ARMCM0.o
+ .debug_info    0x00001027     0x105d ./startup/system_ARMCM0.o
+ .debug_info    0x00002084       0xce ./startup/vector_table.o
+ .debug_info    0x00002152     0x26ae ./sdk/sys_man/sys_charger.o
+ .debug_info    0x00004800     0x2f71 ./sdk/sys_man/sys_clock_mgr.o
+ .debug_info    0x00007771     0x3bd0 ./sdk/sys_man/sys_power_mgr.o
+ .debug_info    0x0000b341      0x366 ./sdk/sys_man/sys_rtc.o
+ .debug_info    0x0000b6a7      0x4d6 ./sdk/sys_man/sys_trng.o
+ .debug_info    0x0000bb7d     0x16e8 ./sdk/peripherals/src/hw_cpm.o
+ .debug_info    0x0000d265      0x625 ./sdk/peripherals/src/hw_crypto.o
+ .debug_info    0x0000d88a     0x1003 ./sdk/peripherals/src/hw_dma.o
+ .debug_info    0x0000e88d      0xe81 ./sdk/peripherals/src/hw_gpadc.o
+ .debug_info    0x0000f70e      0x90c ./sdk/peripherals/src/hw_gpio.o
+ .debug_info    0x0001001a      0x3cc ./sdk/peripherals/src/hw_hard_fault.o
+ .debug_info    0x000103e6     0x126d ./sdk/peripherals/src/hw_otpc.o
+ .debug_info    0x00011653      0xa61 ./sdk/peripherals/src/hw_qspi.o
+ .debug_info    0x000120b4      0x581 ./sdk/peripherals/src/hw_timer1.o
+ .debug_info    0x00012635      0x7f9 ./sdk/peripherals/src/hw_trng.o
+ .debug_info    0x00012e2e     0x24e7 ./sdk/peripherals/src/hw_uart.o
+ .debug_info    0x00015315      0xdd5 ./sdk/peripherals/src/hw_usb_charger.o
+ .debug_info    0x000160ea      0x5ba ./sdk/peripherals/src/hw_watchdog.o
+ .debug_info    0x000166a4      0xae5 ./sdk/peripherals/src/hw_wkup.o
+ .debug_info    0x00017189      0xb15 ./sdk/peripherals/src/sys_tcs.o
+ .debug_info    0x00017c9e      0x743 ./sdk/osal/resmgmt.o
+ .debug_info    0x000183e1     0x1e96 ./sdk/memory/src/qspi_automode.o
+ .debug_info    0x0001a277      0x3ed ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .debug_info    0x0001a664      0xd0b ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .debug_info    0x0001b36f      0xb35 ./sdk/free_rtos/event_groups.o
+ .debug_info    0x0001bea4      0x29d ./sdk/free_rtos/list.o
+ .debug_info    0x0001c141     0x1897 ./sdk/free_rtos/queue.o
+ .debug_info    0x0001d9d8     0x24f7 ./sdk/free_rtos/tasks.o
+ .debug_info    0x0001fecf     0x1146 ./sdk/free_rtos/timers.o
+ .debug_info    0x00021015      0xed9 ./sdk/adapters/src/ad_crypto.o
+ .debug_info    0x00021eee      0x992 ./main.o
+
+.debug_abbrev   0x00000000     0x5bca
+ .debug_abbrev  0x00000000      0x314 ./startup/config.o
+ .debug_abbrev  0x00000314       0x12 ./startup/startup_ARMCM0.o
+ .debug_abbrev  0x00000326      0x3b9 ./startup/system_ARMCM0.o
+ .debug_abbrev  0x000006df       0x14 ./startup/vector_table.o
+ .debug_abbrev  0x000006f3      0x3bd ./sdk/sys_man/sys_charger.o
+ .debug_abbrev  0x00000ab0      0x5ee ./sdk/sys_man/sys_clock_mgr.o
+ .debug_abbrev  0x0000109e      0x591 ./sdk/sys_man/sys_power_mgr.o
+ .debug_abbrev  0x0000162f      0x11f ./sdk/sys_man/sys_rtc.o
+ .debug_abbrev  0x0000174e      0x21d ./sdk/sys_man/sys_trng.o
+ .debug_abbrev  0x0000196b      0x336 ./sdk/peripherals/src/hw_cpm.o
+ .debug_abbrev  0x00001ca1      0x1d0 ./sdk/peripherals/src/hw_crypto.o
+ .debug_abbrev  0x00001e71      0x2c8 ./sdk/peripherals/src/hw_dma.o
+ .debug_abbrev  0x00002139      0x2f8 ./sdk/peripherals/src/hw_gpadc.o
+ .debug_abbrev  0x00002431      0x1df ./sdk/peripherals/src/hw_gpio.o
+ .debug_abbrev  0x00002610       0xf2 ./sdk/peripherals/src/hw_hard_fault.o
+ .debug_abbrev  0x00002702      0x367 ./sdk/peripherals/src/hw_otpc.o
+ .debug_abbrev  0x00002a69      0x224 ./sdk/peripherals/src/hw_qspi.o
+ .debug_abbrev  0x00002c8d      0x160 ./sdk/peripherals/src/hw_timer1.o
+ .debug_abbrev  0x00002ded      0x215 ./sdk/peripherals/src/hw_trng.o
+ .debug_abbrev  0x00003002      0x43f ./sdk/peripherals/src/hw_uart.o
+ .debug_abbrev  0x00003441      0x1a1 ./sdk/peripherals/src/hw_usb_charger.o
+ .debug_abbrev  0x000035e2      0x17b ./sdk/peripherals/src/hw_watchdog.o
+ .debug_abbrev  0x0000375d      0x2b1 ./sdk/peripherals/src/hw_wkup.o
+ .debug_abbrev  0x00003a0e      0x2b5 ./sdk/peripherals/src/sys_tcs.o
+ .debug_abbrev  0x00003cc3      0x223 ./sdk/osal/resmgmt.o
+ .debug_abbrev  0x00003ee6      0x581 ./sdk/memory/src/qspi_automode.o
+ .debug_abbrev  0x00004467      0x21b ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .debug_abbrev  0x00004682      0x35e ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .debug_abbrev  0x000049e0      0x260 ./sdk/free_rtos/event_groups.o
+ .debug_abbrev  0x00004c40       0xda ./sdk/free_rtos/list.o
+ .debug_abbrev  0x00004d1a      0x2c0 ./sdk/free_rtos/queue.o
+ .debug_abbrev  0x00004fda      0x312 ./sdk/free_rtos/tasks.o
+ .debug_abbrev  0x000052ec      0x2eb ./sdk/free_rtos/timers.o
+ .debug_abbrev  0x000055d7      0x3c2 ./sdk/adapters/src/ad_crypto.o
+ .debug_abbrev  0x00005999      0x231 ./main.o
+
+.debug_loc      0x00000000     0xd092
+ .debug_loc     0x00000000      0x27e ./startup/config.o
+ .debug_loc     0x0000027e      0x54f ./startup/system_ARMCM0.o
+ .debug_loc     0x000007cd      0x208 ./sdk/sys_man/sys_charger.o
+ .debug_loc     0x000009d5      0xba8 ./sdk/sys_man/sys_clock_mgr.o
+ .debug_loc     0x0000157d     0x1692 ./sdk/sys_man/sys_power_mgr.o
+ .debug_loc     0x00002c0f      0x111 ./sdk/sys_man/sys_rtc.o
+ .debug_loc     0x00002d20      0x29b ./sdk/sys_man/sys_trng.o
+ .debug_loc     0x00002fbb      0x30f ./sdk/peripherals/src/hw_cpm.o
+ .debug_loc     0x000032ca       0x93 ./sdk/peripherals/src/hw_crypto.o
+ .debug_loc     0x0000335d      0x683 ./sdk/peripherals/src/hw_dma.o
+ .debug_loc     0x000039e0      0x34b ./sdk/peripherals/src/hw_gpadc.o
+ .debug_loc     0x00003d2b      0x530 ./sdk/peripherals/src/hw_gpio.o
+ .debug_loc     0x0000425b       0x1e ./sdk/peripherals/src/hw_hard_fault.o
+ .debug_loc     0x00004279     0x1502 ./sdk/peripherals/src/hw_otpc.o
+ .debug_loc     0x0000577b      0x24e ./sdk/peripherals/src/hw_qspi.o
+ .debug_loc     0x000059c9       0x65 ./sdk/peripherals/src/hw_timer1.o
+ .debug_loc     0x00005a2e       0x48 ./sdk/peripherals/src/hw_trng.o
+ .debug_loc     0x00005a76     0x1ba9 ./sdk/peripherals/src/hw_uart.o
+ .debug_loc     0x0000761f       0x13 ./sdk/peripherals/src/hw_usb_charger.o
+ .debug_loc     0x00007632       0x90 ./sdk/peripherals/src/hw_watchdog.o
+ .debug_loc     0x000076c2      0x191 ./sdk/peripherals/src/hw_wkup.o
+ .debug_loc     0x00007853      0x3ff ./sdk/peripherals/src/sys_tcs.o
+ .debug_loc     0x00007c52      0x261 ./sdk/osal/resmgmt.o
+ .debug_loc     0x00007eb3      0x70e ./sdk/memory/src/qspi_automode.o
+ .debug_loc     0x000085c1      0x34e ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .debug_loc     0x0000890f      0x155 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .debug_loc     0x00008a64      0xb98 ./sdk/free_rtos/event_groups.o
+ .debug_loc     0x000095fc       0x89 ./sdk/free_rtos/list.o
+ .debug_loc     0x00009685     0x1600 ./sdk/free_rtos/queue.o
+ .debug_loc     0x0000ac85     0x1a25 ./sdk/free_rtos/tasks.o
+ .debug_loc     0x0000c6aa      0x83a ./sdk/free_rtos/timers.o
+ .debug_loc     0x0000cee4      0x14e ./sdk/adapters/src/ad_crypto.o
+ .debug_loc     0x0000d032       0x60 ./main.o
+
+.debug_aranges  0x00000000     0x1318
+ .debug_aranges
+                0x00000000       0x40 ./startup/config.o
+ .debug_aranges
+                0x00000040       0x30 ./startup/startup_ARMCM0.o
+ .debug_aranges
+                0x00000070       0x50 ./startup/system_ARMCM0.o
+ .debug_aranges
+                0x000000c0       0x20 ./startup/vector_table.o
+ .debug_aranges
+                0x000000e0       0xa0 ./sdk/sys_man/sys_charger.o
+ .debug_aranges
+                0x00000180      0x1b8 ./sdk/sys_man/sys_clock_mgr.o
+ .debug_aranges
+                0x00000338      0x128 ./sdk/sys_man/sys_power_mgr.o
+ .debug_aranges
+                0x00000460       0x30 ./sdk/sys_man/sys_rtc.o
+ .debug_aranges
+                0x00000490       0x60 ./sdk/sys_man/sys_trng.o
+ .debug_aranges
+                0x000004f0       0xe0 ./sdk/peripherals/src/hw_cpm.o
+ .debug_aranges
+                0x000005d0       0x40 ./sdk/peripherals/src/hw_crypto.o
+ .debug_aranges
+                0x00000610       0x68 ./sdk/peripherals/src/hw_dma.o
+ .debug_aranges
+                0x00000678       0x70 ./sdk/peripherals/src/hw_gpadc.o
+ .debug_aranges
+                0x000006e8       0x80 ./sdk/peripherals/src/hw_gpio.o
+ .debug_aranges
+                0x00000768       0x20 ./sdk/peripherals/src/hw_hard_fault.o
+ .debug_aranges
+                0x00000788       0xc0 ./sdk/peripherals/src/hw_otpc.o
+ .debug_aranges
+                0x00000848       0x50 ./sdk/peripherals/src/hw_qspi.o
+ .debug_aranges
+                0x00000898       0x28 ./sdk/peripherals/src/hw_timer1.o
+ .debug_aranges
+                0x000008c0       0x58 ./sdk/peripherals/src/hw_trng.o
+ .debug_aranges
+                0x00000918      0x1a8 ./sdk/peripherals/src/hw_uart.o
+ .debug_aranges
+                0x00000ac0       0x40 ./sdk/peripherals/src/hw_usb_charger.o
+ .debug_aranges
+                0x00000b00       0x50 ./sdk/peripherals/src/hw_watchdog.o
+ .debug_aranges
+                0x00000b50       0x40 ./sdk/peripherals/src/hw_wkup.o
+ .debug_aranges
+                0x00000b90       0x40 ./sdk/peripherals/src/sys_tcs.o
+ .debug_aranges
+                0x00000bd0       0x38 ./sdk/osal/resmgmt.o
+ .debug_aranges
+                0x00000c08      0x130 ./sdk/memory/src/qspi_automode.o
+ .debug_aranges
+                0x00000d38       0x48 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .debug_aranges
+                0x00000d80       0x88 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .debug_aranges
+                0x00000e08       0x78 ./sdk/free_rtos/event_groups.o
+ .debug_aranges
+                0x00000e80       0x40 ./sdk/free_rtos/list.o
+ .debug_aranges
+                0x00000ec0      0x120 ./sdk/free_rtos/queue.o
+ .debug_aranges
+                0x00000fe0      0x1e0 ./sdk/free_rtos/tasks.o
+ .debug_aranges
+                0x000011c0       0x78 ./sdk/free_rtos/timers.o
+ .debug_aranges
+                0x00001238       0x88 ./sdk/adapters/src/ad_crypto.o
+ .debug_aranges
+                0x000012c0       0x58 ./main.o
+
+.debug_ranges   0x00000000     0x20a0
+ .debug_ranges  0x00000000       0x48 ./startup/config.o
+ .debug_ranges  0x00000048       0x28 ./startup/startup_ARMCM0.o
+ .debug_ranges  0x00000070       0xd8 ./startup/system_ARMCM0.o
+ .debug_ranges  0x00000148      0x1f8 ./sdk/sys_man/sys_charger.o
+ .debug_ranges  0x00000340      0x360 ./sdk/sys_man/sys_clock_mgr.o
+ .debug_ranges  0x000006a0      0x340 ./sdk/sys_man/sys_power_mgr.o
+ .debug_ranges  0x000009e0       0x50 ./sdk/sys_man/sys_rtc.o
+ .debug_ranges  0x00000a30       0x80 ./sdk/sys_man/sys_trng.o
+ .debug_ranges  0x00000ab0       0xd0 ./sdk/peripherals/src/hw_cpm.o
+ .debug_ranges  0x00000b80       0x60 ./sdk/peripherals/src/hw_crypto.o
+ .debug_ranges  0x00000be0       0xc0 ./sdk/peripherals/src/hw_dma.o
+ .debug_ranges  0x00000ca0      0x2c8 ./sdk/peripherals/src/hw_gpadc.o
+ .debug_ranges  0x00000f68       0x70 ./sdk/peripherals/src/hw_gpio.o
+ .debug_ranges  0x00000fd8       0x10 ./sdk/peripherals/src/hw_hard_fault.o
+ .debug_ranges  0x00000fe8      0x110 ./sdk/peripherals/src/hw_otpc.o
+ .debug_ranges  0x000010f8       0x88 ./sdk/peripherals/src/hw_qspi.o
+ .debug_ranges  0x00001180       0x48 ./sdk/peripherals/src/hw_timer1.o
+ .debug_ranges  0x000011c8       0x80 ./sdk/peripherals/src/hw_trng.o
+ .debug_ranges  0x00001248      0x228 ./sdk/peripherals/src/hw_uart.o
+ .debug_ranges  0x00001470       0x48 ./sdk/peripherals/src/hw_usb_charger.o
+ .debug_ranges  0x000014b8       0x40 ./sdk/peripherals/src/hw_watchdog.o
+ .debug_ranges  0x000014f8       0x78 ./sdk/peripherals/src/hw_wkup.o
+ .debug_ranges  0x00001570       0x48 ./sdk/peripherals/src/sys_tcs.o
+ .debug_ranges  0x000015b8       0x90 ./sdk/osal/resmgmt.o
+ .debug_ranges  0x00001648      0x3d0 ./sdk/memory/src/qspi_automode.o
+ .debug_ranges  0x00001a18       0x38 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .debug_ranges  0x00001a50       0xc0 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .debug_ranges  0x00001b10       0x80 ./sdk/free_rtos/event_groups.o
+ .debug_ranges  0x00001b90       0x30 ./sdk/free_rtos/list.o
+ .debug_ranges  0x00001bc0      0x110 ./sdk/free_rtos/queue.o
+ .debug_ranges  0x00001cd0      0x218 ./sdk/free_rtos/tasks.o
+ .debug_ranges  0x00001ee8       0x68 ./sdk/free_rtos/timers.o
+ .debug_ranges  0x00001f50      0x108 ./sdk/adapters/src/ad_crypto.o
+ .debug_ranges  0x00002058       0x48 ./main.o
+
+.debug_line     0x00000000     0xb223
+ .debug_line    0x00000000      0x3a4 ./startup/config.o
+ .debug_line    0x000003a4      0x15f ./startup/startup_ARMCM0.o
+ .debug_line    0x00000503      0x4a2 ./startup/system_ARMCM0.o
+ .debug_line    0x000009a5       0x82 ./startup/vector_table.o
+ .debug_line    0x00000a27      0x87d ./sdk/sys_man/sys_charger.o
+ .debug_line    0x000012a4      0xddb ./sdk/sys_man/sys_clock_mgr.o
+ .debug_line    0x0000207f      0xdcf ./sdk/sys_man/sys_power_mgr.o
+ .debug_line    0x00002e4e      0x24e ./sdk/sys_man/sys_rtc.o
+ .debug_line    0x0000309c      0x39d ./sdk/sys_man/sys_trng.o
+ .debug_line    0x00003439      0x508 ./sdk/peripherals/src/hw_cpm.o
+ .debug_line    0x00003941      0x2c4 ./sdk/peripherals/src/hw_crypto.o
+ .debug_line    0x00003c05      0x3d6 ./sdk/peripherals/src/hw_dma.o
+ .debug_line    0x00003fdb      0x54d ./sdk/peripherals/src/hw_gpadc.o
+ .debug_line    0x00004528      0x2e7 ./sdk/peripherals/src/hw_gpio.o
+ .debug_line    0x0000480f      0x223 ./sdk/peripherals/src/hw_hard_fault.o
+ .debug_line    0x00004a32      0x7a6 ./sdk/peripherals/src/hw_otpc.o
+ .debug_line    0x000051d8      0x34b ./sdk/peripherals/src/hw_qspi.o
+ .debug_line    0x00005523      0x251 ./sdk/peripherals/src/hw_timer1.o
+ .debug_line    0x00005774      0x2f3 ./sdk/peripherals/src/hw_trng.o
+ .debug_line    0x00005a67      0xac7 ./sdk/peripherals/src/hw_uart.o
+ .debug_line    0x0000652e      0x293 ./sdk/peripherals/src/hw_usb_charger.o
+ .debug_line    0x000067c1      0x26d ./sdk/peripherals/src/hw_watchdog.o
+ .debug_line    0x00006a2e      0x2f5 ./sdk/peripherals/src/hw_wkup.o
+ .debug_line    0x00006d23      0x338 ./sdk/peripherals/src/sys_tcs.o
+ .debug_line    0x0000705b      0x3e8 ./sdk/osal/resmgmt.o
+ .debug_line    0x00007443      0x893 ./sdk/memory/src/qspi_automode.o
+ .debug_line    0x00007cd6      0x3e7 ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .debug_line    0x000080bd      0x4cb ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .debug_line    0x00008588      0x4eb ./sdk/free_rtos/event_groups.o
+ .debug_line    0x00008a73      0x288 ./sdk/free_rtos/list.o
+ .debug_line    0x00008cfb      0x8f7 ./sdk/free_rtos/queue.o
+ .debug_line    0x000095f2      0xdb3 ./sdk/free_rtos/tasks.o
+ .debug_line    0x0000a3a5      0x4d9 ./sdk/free_rtos/timers.o
+ .debug_line    0x0000a87e      0x5d8 ./sdk/adapters/src/ad_crypto.o
+ .debug_line    0x0000ae56      0x3cd ./main.o
+
+.debug_str      0x00000000     0xb1d0
+ .debug_str     0x00000000      0xdbb ./startup/config.o
+                                0xe60 (size before relaxing)
+ .debug_str     0x00000dbb      0xc40 ./startup/system_ARMCM0.o
+                                0xeea (size before relaxing)
+ .debug_str     0x000019fb     0x1a67 ./sdk/sys_man/sys_charger.o
+                               0x23e2 (size before relaxing)
+ .debug_str     0x00003462     0x12b6 ./sdk/sys_man/sys_clock_mgr.o
+                               0x2097 (size before relaxing)
+ .debug_str     0x00004718      0xf64 ./sdk/sys_man/sys_power_mgr.o
+                               0x2b7e (size before relaxing)
+ .debug_str     0x0000567c       0x65 ./sdk/sys_man/sys_rtc.o
+                                0x458 (size before relaxing)
+ .debug_str     0x000056e1      0x22c ./sdk/sys_man/sys_trng.o
+                                0x466 (size before relaxing)
+ .debug_str     0x0000590d      0x2e7 ./sdk/peripherals/src/hw_cpm.o
+                               0x162e (size before relaxing)
+ .debug_str     0x00005bf4      0x25b ./sdk/peripherals/src/hw_crypto.o
+                                0x73c (size before relaxing)
+ .debug_str     0x00005e4f      0x664 ./sdk/peripherals/src/hw_dma.o
+                               0x1089 (size before relaxing)
+ .debug_str     0x000064b3      0x28d ./sdk/peripherals/src/hw_gpadc.o
+                                0xc64 (size before relaxing)
+ .debug_str     0x00006740      0x951 ./sdk/peripherals/src/hw_gpio.o
+                                0xb05 (size before relaxing)
+ .debug_str     0x00007091       0x91 ./sdk/peripherals/src/hw_hard_fault.o
+                                0x537 (size before relaxing)
+ .debug_str     0x00007122      0x2b9 ./sdk/peripherals/src/hw_otpc.o
+                                0xb2a (size before relaxing)
+ .debug_str     0x000073db      0x4dc ./sdk/peripherals/src/hw_qspi.o
+                                0xada (size before relaxing)
+ .debug_str     0x000078b7       0xdc ./sdk/peripherals/src/hw_timer1.o
+                                0x723 (size before relaxing)
+ .debug_str     0x00007993       0x87 ./sdk/peripherals/src/hw_trng.o
+                                0x7fb (size before relaxing)
+ .debug_str     0x00007a1a      0x71e ./sdk/peripherals/src/hw_uart.o
+                               0x194b (size before relaxing)
+ .debug_str     0x00008138       0xc2 ./sdk/peripherals/src/hw_usb_charger.o
+                                0xe64 (size before relaxing)
+ .debug_str     0x000081fa      0x132 ./sdk/peripherals/src/hw_watchdog.o
+                                0x71c (size before relaxing)
+ .debug_str     0x0000832c      0x2ea ./sdk/peripherals/src/hw_wkup.o
+                                0xa8f (size before relaxing)
+ .debug_str     0x00008616      0x17e ./sdk/peripherals/src/sys_tcs.o
+                                0x95f (size before relaxing)
+ .debug_str     0x00008794      0x2e5 ./sdk/osal/resmgmt.o
+                                0x6da (size before relaxing)
+ .debug_str     0x00008a79      0x802 ./sdk/memory/src/qspi_automode.o
+                               0x134f (size before relaxing)
+ .debug_str     0x0000927b      0x241 ./sdk/free_rtos/portable/MemMang/heap_4.o
+                                0x3ff (size before relaxing)
+ .debug_str     0x000094bc      0x1e5 ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+                                0xd85 (size before relaxing)
+ .debug_str     0x000096a1      0x3c0 ./sdk/free_rtos/event_groups.o
+                                0x702 (size before relaxing)
+ .debug_str     0x00009a61       0xbd ./sdk/free_rtos/list.o
+                                0x2f4 (size before relaxing)
+ .debug_str     0x00009b1e      0x65b ./sdk/free_rtos/queue.o
+                                0xaa4 (size before relaxing)
+ .debug_str     0x0000a179      0x8af ./sdk/free_rtos/tasks.o
+                               0x10c8 (size before relaxing)
+ .debug_str     0x0000aa28      0x3fa ./sdk/free_rtos/timers.o
+                                0x952 (size before relaxing)
+ .debug_str     0x0000ae22      0x32b ./sdk/adapters/src/ad_crypto.o
+                                0xdaa (size before relaxing)
+ .debug_str     0x0000b14d       0x83 ./main.o
+                                0xd39 (size before relaxing)
+
+.debug_frame    0x00000000     0x3360
+ .debug_frame   0x00000000       0xa8 ./startup/config.o
+ .debug_frame   0x000000a8       0xa8 ./startup/system_ARMCM0.o
+ .debug_frame   0x00000150      0x1cc ./sdk/sys_man/sys_charger.o
+ .debug_frame   0x0000031c      0x53c ./sdk/sys_man/sys_clock_mgr.o
+ .debug_frame   0x00000858      0x3d4 ./sdk/sys_man/sys_power_mgr.o
+ .debug_frame   0x00000c2c       0x64 ./sdk/sys_man/sys_rtc.o
+ .debug_frame   0x00000c90      0x108 ./sdk/sys_man/sys_trng.o
+ .debug_frame   0x00000d98      0x1f8 ./sdk/peripherals/src/hw_cpm.o
+ .debug_frame   0x00000f90       0x78 ./sdk/peripherals/src/hw_crypto.o
+ .debug_frame   0x00001008      0x118 ./sdk/peripherals/src/hw_dma.o
+ .debug_frame   0x00001120      0x10c ./sdk/peripherals/src/hw_gpadc.o
+ .debug_frame   0x0000122c      0x148 ./sdk/peripherals/src/hw_gpio.o
+ .debug_frame   0x00001374       0x28 ./sdk/peripherals/src/hw_hard_fault.o
+ .debug_frame   0x0000139c      0x23c ./sdk/peripherals/src/hw_otpc.o
+ .debug_frame   0x000015d8       0xb4 ./sdk/peripherals/src/hw_qspi.o
+ .debug_frame   0x0000168c       0x38 ./sdk/peripherals/src/hw_timer1.o
+ .debug_frame   0x000016c4       0xb0 ./sdk/peripherals/src/hw_trng.o
+ .debug_frame   0x00001774      0x494 ./sdk/peripherals/src/hw_uart.o
+ .debug_frame   0x00001c08       0x60 ./sdk/peripherals/src/hw_usb_charger.o
+ .debug_frame   0x00001c68       0x94 ./sdk/peripherals/src/hw_watchdog.o
+ .debug_frame   0x00001cfc       0x88 ./sdk/peripherals/src/hw_wkup.o
+ .debug_frame   0x00001d84       0x9c ./sdk/peripherals/src/sys_tcs.o
+ .debug_frame   0x00001e20       0x84 ./sdk/osal/resmgmt.o
+ .debug_frame   0x00001ea4      0x350 ./sdk/memory/src/qspi_automode.o
+ .debug_frame   0x000021f4       0x9c ./sdk/free_rtos/portable/MemMang/heap_4.o
+ .debug_frame   0x00002290      0x12c ./sdk/free_rtos/portable/GCC/ARM_CM0/port.o
+ .debug_frame   0x000023bc      0x154 ./sdk/free_rtos/event_groups.o
+ .debug_frame   0x00002510       0x6c ./sdk/free_rtos/list.o
+ .debug_frame   0x0000257c      0x388 ./sdk/free_rtos/queue.o
+ .debug_frame   0x00002904      0x5c0 ./sdk/free_rtos/tasks.o
+ .debug_frame   0x00002ec4      0x168 ./sdk/free_rtos/timers.o
+ .debug_frame   0x0000302c      0x14c ./sdk/adapters/src/ad_crypto.o
+ .debug_frame   0x00003178       0xc0 ./main.o
+ .debug_frame   0x00003238       0x20 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00003258       0x20 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00003278       0x28 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x000032a0       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x000032cc       0x2c c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcmp.o)
+ .debug_frame   0x000032f8       0x28 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x00003320       0x20 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00003340       0x20 c:/diasemi/smartsnippetsstudio2.0.20/gcc/4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)

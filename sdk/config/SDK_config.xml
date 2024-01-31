@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:sdk_configuration xmlns:tns="http://www.diasemi.com/sdkConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.diasemi.com/sdkConfig config.xsd">
+   <!--Please note that the following characters should be escaped in xml:
+"   &amp;quot;
+'   &amp;apos;
+<   &amp;lt;
+>   &amp;gt;
+&amp;   &amp;-->
+   <sdk>
+      <!--Since we should be backwards compatible, add 'format_ver' element to recognize simplified sdk config files and parse them differently than old ones-->
+      <format_ver>2.0</format_ver>
+      <family>DA1468x</family>
+      <manufacturer>Dialog Semiconductor</manufacturer>
+      <name>SmartSnippets DA1468x SDK</name>
+      <version>1.0.14</version>
+      <doc_root>/doc/html/</doc_root>
+      <devices>
+         <device id="DA14680-01">
+			<filtering_configuration>
+				<!--Add here one or more patterns-->
+				<pattern>DA14680-01</pattern>
+				<pattern>DA14680/1-01</pattern>
+				<!--In the future more attributes can be added in each pattern, idicating how filtering should be applied e.g.:
+				<pattern mode="ALL" isRegex="true">DA1468.*-01$</pattern>, where mode="NAME","DESCRIPTION","ALL"-->
+			</filtering_configuration>
+         </device>
+         <device id="DA14681-01">
+			<filtering_configuration>
+				<pattern>DA14681-01</pattern>
+				<pattern>DA14680/1-01</pattern>
+			</filtering_configuration>
+         </device>
+         <device id="DA14682-00">
+			<filtering_configuration>
+				<pattern>DA14682-00</pattern>
+				<pattern>DA14682/3-00</pattern>
+			</filtering_configuration>
+	 </device>
+         <device id="DA14683-00">
+			<filtering_configuration>
+				<pattern>DA14683-00</pattern>
+				<pattern>DA14682/3-00</pattern>
+			</filtering_configuration>
+	 </device>
+         <device id="DA15000-00">
+			<filtering_configuration>
+				<pattern>DA15000-00</pattern>
+				<pattern>DA15000/1-00</pattern>
+				<pattern>DA15XXX-00</pattern>
+			</filtering_configuration>
+	 </device>
+         <device id="DA15001-00">
+			<filtering_configuration>
+				<pattern>DA15001-00</pattern>
+				<pattern>DA15000/1-00</pattern>
+				<pattern>DA15XXX-00</pattern>
+			</filtering_configuration>
+	 </device>
+         <device id="DA15100-00">
+			<filtering_configuration>
+				<pattern>DA15100-00</pattern>
+				<pattern>DA15100/1-00</pattern>
+				<pattern>DA15XXX-00</pattern>
+			</filtering_configuration>
+	 </device>
+         <device id="DA15101-00">
+			<filtering_configuration>
+				<pattern>DA15101-00</pattern>
+				<pattern>DA15100/1-00</pattern>
+				<pattern>DA15XXX-00</pattern>
+			</filtering_configuration>
+	 </device>
+      </devices>
+      <platform name="windows" default="yes">
+         <!-- Default means which configuration to be used if platform failed to detect  -->
+         <tools>
+            <tool id="toolchain">
+               <version>4_9-2015q3</version>
+            </tool>
+            <tool id="segger_jlink">
+               <version>6.12i</version>
+            </tool>
+            <tool id="segger_ozone">
+               <version>2.16d</version>
+            </tool>
+            <tool id="segger_systemview">
+               <version>2.34</version>
+            </tool>
+         </tools>
+         <tool_buttons>
+            <!--Note that status can be ommited. By default it is enabled.-->
+            <!--Use "invisible" status to add a hidden button that can be enabled by the user-->
+            <tool_button id="eclipse_ide" />
+            <tool_button id="iar_ide" status="invisible" />
+            <tool_button id="keil_ide" status="invisible" />
+            <tool_button id="smartsnippets_toolbox" />
+            <tool_button id="segger_ozone" />
+            <tool_button id="segger_systemview" />
+         </tool_buttons>
+		 <product_id_setup_script><!--Relative path to the script, from the sdk root should be added here-->
+		   utilities\scripts\config\product_id_config_win.bat
+		 </product_id_setup_script>
+      </platform>
+      <platform name="linux" default="no">
+         <tools>
+            <tool id="toolchain">
+               <version>4_9-2015q3</version>
+            </tool>
+            <tool id="segger_jlink">
+               <version>6.12i</version>
+            </tool>
+            <tool id="segger_ozone">
+               <version>2.16d</version>
+            </tool>
+            <tool id="segger_systemview">
+               <version>2.34</version>
+            </tool>
+         </tools>
+         <tool_buttons>
+            <tool_button id="eclipse_ide" />
+            <tool_button id="smartsnippets_toolbox" />
+            <tool_button id="segger_ozone" />
+            <tool_button id="segger_systemview" />
+         </tool_buttons>
+		 <product_id_setup_script>utilities/scripts/config/product_id_config_linux_mac.sh</product_id_setup_script>
+      </platform>
+	  <platform name="mac" default="no">
+         <tools>
+            <tool id="toolchain">
+               <version>4_9-2015q3</version>
+            </tool>
+            <tool id="segger_jlink">
+               <version>6.12i</version>
+            </tool>
+            <tool id="segger_ozone">
+               <version>2.16d</version>
+            </tool>
+            <tool id="segger_systemview">
+               <version>2.34</version>
+            </tool>
+         </tools>
+         <tool_buttons>
+            <tool_button id="eclipse_ide" />
+            <tool_button id="segger_ozone" />
+            <tool_button id="segger_systemview" />
+         </tool_buttons>
+		 <product_id_setup_script>
+			/utilities/scripts/config/product_id_config_linux_mac.sh
+		 </product_id_setup_script>
+      </platform>
+   </sdk>
+</tns:sdk_configuration>
+

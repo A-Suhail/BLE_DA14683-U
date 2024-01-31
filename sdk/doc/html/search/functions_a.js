@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['mcif_5fascii_5fparse_5fmessage',['mcif_ascii_parse_message',['../group___u_t_i_l_i_t_i_e_s.html#gabdff5cd6c7a1eeb1231a154b06de510d',1,'mcif.h']]],
+  ['mcif_5fascii_5fprint_5fprompt',['mcif_ascii_print_prompt',['../group___u_t_i_l_i_t_i_e_s.html#ga2bbd97e9ee4b51158afd77e2f750adf0',1,'mcif.h']]],
+  ['mcif_5fascii_5fprint_5funknown',['mcif_ascii_print_unknown',['../group___u_t_i_l_i_t_i_e_s.html#ga44485d57396ba0d6968e162e6fd224da',1,'mcif.h']]],
+  ['mcif_5fascii_5fsend_5fresponse',['mcif_ascii_send_response',['../group___u_t_i_l_i_t_i_e_s.html#ga6e20c1677c17e928024010052c908ca8',1,'mcif.h']]],
+  ['mcif_5finit',['mcif_init',['../group___u_t_i_l_i_t_i_e_s.html#ga86d4e367b182ddfa5bd05f2e9b4cd181',1,'mcif.h']]],
+  ['mcif_5fqueue_5fsend',['mcif_queue_send',['../group___u_t_i_l_i_t_i_e_s.html#gaaa7c28e3a206fd2f9c6959f56337398d',1,'mcif.h']]],
+  ['mcif_5fsetup_5fqueues',['mcif_setup_queues',['../group___u_t_i_l_i_t_i_e_s.html#ga52eb5fe705d9ff1036fd8027bcbcba3b',1,'mcif.h']]],
+  ['msg_5finit',['msg_init',['../group___m_s_g___q_u_e_u_e_s.html#ga41e9983afd23ec09300d1d2fd281153e',1,'msg_queues.h']]],
+  ['msg_5fqueue_5fcreate',['msg_queue_create',['../group___m_s_g___q_u_e_u_e_s.html#ga0575e6d65d92ee9586ef42312de0e073',1,'msg_queues.h']]],
+  ['msg_5fqueue_5fdelete',['msg_queue_delete',['../group___m_s_g___q_u_e_u_e_s.html#ga32f4cf94f71180ae7307d6072588caff',1,'msg_queues.h']]],
+  ['msg_5fqueue_5fget',['msg_queue_get',['../group___m_s_g___q_u_e_u_e_s.html#ga4dfffbdfd7c34048a2c553bb40ac903a',1,'msg_queues.h']]],
+  ['msg_5fqueue_5finit_5fmsg',['msg_queue_init_msg',['../group___m_s_g___q_u_e_u_e_s.html#ga97032243b6e77c3ff3d76809e5b87aa7',1,'msg_queues.h']]],
+  ['msg_5fqueue_5fput',['msg_queue_put',['../group___m_s_g___q_u_e_u_e_s.html#gae95a73437f7e1989db04f1996a7a80c7',1,'msg_queues.h']]],
+  ['msg_5fqueue_5fsend',['msg_queue_send',['../group___m_s_g___q_u_e_u_e_s.html#ga6bee30a6d352f4fbf89e3dded5d2e8e1',1,'msg_queues.h']]],
+  ['msg_5frelease',['msg_release',['../group___m_s_g___q_u_e_u_e_s.html#gafc730ce98b22a5d22e51b681862d4b33',1,'msg_queues.h']]],
+  ['msq_5fqueue_5fsend_5fzero_5fcopy',['msq_queue_send_zero_copy',['../group___m_s_g___q_u_e_u_e_s.html#gabbfd8c049b41ce2f3e82324b24f6a0ae',1,'msg_queues.h']]]
+];

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${none}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${python_exe}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="&quot;${workspace_loc:/python_scripts/suota/v11/mkimage.py}&quot; &quot;--sw_version&quot; &quot;${project_loc}/sw_version.h&quot; &quot;-s&quot; &quot;${workspace_loc:/python_scripts/secure_image/secure_img_cfg.xml}&quot; &quot;${project_loc}/${config_name:${project_name}}/${project_name}.bin&quot; &quot;${project_loc}/app_image.img&quot;"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${project_loc}"/>
+</launchConfiguration>

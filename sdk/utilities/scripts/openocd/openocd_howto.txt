@@ -1,0 +1,47 @@
+INSTALLATION
+=========================
+1. Download OpenOCD source (http://openocd.org/, tested with 0.9.0)
+2. Unpack
+3. run ./configure --enable-jlink
+4. verify that openocd config can support Jlink. "Segger J-Link JTAG Programmer           yes (auto)" in ./configure output
+5. make
+6. sudo make install
+
+
+USING OPENOCD
+=========================
+Execute openocd -f ./da168x.cfg
+Expected output:
+
+Open On-Chip Debugger 0.10.0-dev-00002-g79fdeb3-dirty (2015-07-17-17:08)
+Licensed under GNU GPL v2
+For bug reports, read
+        http://openocd.org/doc/doxygen/bugs.html
+Info : JLink SWD mode enabled
+adapter speed: 16000 kHz
+cortex_m reset_config sysresetreq
+Info : J-Link OB-SAM3U128 V1 compiled Nov 28 2014 10:24:11
+Info : J-Link caps 0xb97f5bbf
+Info : J-Link hw version 14010000
+Info : J-Link hw type unknown 0xe
+Info : J-Link max mem block 24888
+Info : J-Link configuration
+Info : USB-Address: 0x0
+Info : Kickstart power on JTAG-pin 19: 0xffffffff
+Info : Vref = 3.300 TCK = 0 TDI = 0 TDO = 1 TMS = 0 SRST = 1 TRST = 1
+Info : J-Link JTAG Interface ready
+Info : reduce speed request: 16000kHz to 12000kHz maximum
+Info : reduce speed request: 16000kHz to 12000kHz maximum
+Info : clock speed 16000 kHz
+Info : SWD IDCODE 0x0bb11477
+Info : DA1468x.cpu: hardware has 4 breakpoints, 2 watchpoints
+
+Now you can use telnet for openocd console
+$ telnet localhost 4444
+
+GDB: 
+$ arm-none-eabi-gdb <ELF_binary>
+
+(gdb) target remote localhost:3333
+
+

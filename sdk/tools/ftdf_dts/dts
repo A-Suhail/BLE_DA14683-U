@@ -1,0 +1,8 @@
+#/bin/bash
+ARGS=$*
+mkdir -p log
+./genFtdfPy.sh
+
+python3 dts.py $ARGS
+
+echo "Runtime $SECONDS seconds"

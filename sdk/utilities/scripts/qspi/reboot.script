@@ -1,0 +1,6 @@
+connect
+w4 0x400C3050, 1
+sleep 1000
+r
+exit
+

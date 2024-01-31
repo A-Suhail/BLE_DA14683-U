@@ -64,7 +64,7 @@ main-build: blink-led.elf secondary-outputs
 blink-led.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Werror  -g -T "C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\blink_led/DA14683-00-Release_QSPI/mem.ld" -T "C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\blink_led/DA14683-00-Release_QSPI/sections.ld" -Xlinker --gc-sections -L"C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\misc" -Wl,-Map,"blink-led.map" --specs=nano.specs --specs=nosys.specs -o "blink-led.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Werror  -g -T "C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\blink-led/DA14683-00-Release_QSPI/mem.ld" -T "C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\blink-led/DA14683-00-Release_QSPI/sections.ld" -Xlinker --gc-sections -L"C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\misc" -Wl,-Map,"blink-led.map" --specs=nano.specs --specs=nosys.specs -o "blink-led.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -87,7 +87,7 @@ clean:
 
 pre-build:
 	-@echo 'Generate linker scripts.'
-	-make generate_ldscripts PRE_BUILD_EXTRA_DEFS="" IC_REV=B IC_STEP=B APP_CONFIG_H="C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\blink_led\config\custom_config_qspi.h" CC="arm-none-eabi-gcc" BSP_CONFIG_DIR="C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config" LDSCRIPT_PATH="C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\ldscripts\non_ble_projects"
+	-make generate_ldscripts PRE_BUILD_EXTRA_DEFS="" IC_REV=B IC_STEP=B APP_CONFIG_H="C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\blink-led\config\custom_config_qspi.h" CC="arm-none-eabi-gcc" BSP_CONFIG_DIR="C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config" LDSCRIPT_PATH="C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\ldscripts\non_ble_projects"
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)

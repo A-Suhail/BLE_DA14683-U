@@ -1,6 +1,6 @@
 sdk/FreeRTOS/event_groups.o: \
  C:/Users/amir2/Downloads/GitHub/BLE_DA14683-U/sdk/sdk/bsp/free_rtos/event_groups.c \
- C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h \
+ C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_defaults.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_fem.h \
@@ -31,7 +31,7 @@ sdk/FreeRTOS/event_groups.o: \
  c:\users\amir2\downloads\github\ble_da14683-u\sdk\sdk\bsp\free_rtos\include\event_groups.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\free_rtos\include/timers.h
 
-C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h:
+C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h:
 
 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h:
 

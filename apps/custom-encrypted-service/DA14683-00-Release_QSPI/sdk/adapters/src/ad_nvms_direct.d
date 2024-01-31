@@ -1,6 +1,6 @@
 sdk/adapters/src/ad_nvms_direct.o: \
  C:/Users/amir2/Downloads/GitHub/BLE_DA14683-U/sdk/sdk/bsp/adapters/src/ad_nvms_direct.c \
- C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h \
+ C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_defaults.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_fem.h \
@@ -42,7 +42,7 @@ sdk/adapters/src/ad_nvms_direct.o: \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\adapters\include/partition_table.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/1M/partition_table.h
 
-C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h:
+C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h:
 
 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h:
 

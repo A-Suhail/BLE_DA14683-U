@@ -1,6 +1,6 @@
 sdk/ble/src/manager/ble_mgr_l2cap.o: \
  C:/Users/amir2/Downloads/GitHub/BLE_DA14683-U/sdk/sdk/interfaces/ble/src/manager/ble_mgr_l2cap.c \
- C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h \
+ C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_defaults.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_fem.h \
@@ -97,7 +97,7 @@ sdk/ble/src/manager/ble_mgr_l2cap.o: \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble\src\stack\ip\ble\hl\src\host\gap/gap_cfg.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble\src\stack\ip\ble\hl\src\host\l2c\l2cc/l2cc_pdu.h
 
-C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h:
+C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h:
 
 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h:
 

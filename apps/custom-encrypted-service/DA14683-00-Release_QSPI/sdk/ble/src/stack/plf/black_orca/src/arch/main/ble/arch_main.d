@@ -1,6 +1,6 @@
 sdk/ble/src/stack/plf/black_orca/src/arch/main/ble/arch_main.o: \
  C:/Users/amir2/Downloads/GitHub/BLE_DA14683-U/sdk/sdk/interfaces/ble/src/stack/plf/black_orca/src/arch/main/ble/arch_main.c \
- C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h \
+ C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_defaults.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_fem.h \
@@ -171,7 +171,7 @@ sdk/ble/src/stack/plf/black_orca/src/arch/main/ble/arch_main.o: \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\peripherals\include/hw_ecc.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\system\sys_man\include/sys_trng.h
 
-C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h:
+C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h:
 
 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h:
 

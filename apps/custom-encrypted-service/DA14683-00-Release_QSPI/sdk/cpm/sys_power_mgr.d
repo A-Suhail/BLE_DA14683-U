@@ -1,6 +1,6 @@
 sdk/cpm/sys_power_mgr.o: \
  C:/Users/amir2/Downloads/GitHub/BLE_DA14683-U/sdk/sdk/bsp/system/sys_man/sys_power_mgr.c \
- C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h \
+ C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_defaults.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_fem.h \
@@ -88,7 +88,7 @@ sdk/cpm/sys_power_mgr.o: \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\adapters\include/ad_battery.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\peripherals\include/hw_dma.h
 
-C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h:
+C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h:
 
 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h:
 

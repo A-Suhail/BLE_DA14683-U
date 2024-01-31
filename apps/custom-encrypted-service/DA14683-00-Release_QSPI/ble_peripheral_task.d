@@ -1,5 +1,5 @@
 ble_peripheral_task.o: ../ble_peripheral_task.c \
- C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h \
+ C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_defaults.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_fem.h \
@@ -63,7 +63,7 @@ ble_peripheral_task.o: ../ble_peripheral_task.c \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble\include/ble_l2cap.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble\include/ble_gap.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble\include/util/list.h \
- C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config/ble_peripheral_config.h \
+ C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config/ble_peripheral_config.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble_services\include/bas.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble_services\include/ble_service.h \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble_services\include/cts.h \
@@ -73,7 +73,7 @@ ble_peripheral_task.o: ../ble_peripheral_task.c \
  C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble_services\include/scps.h \
  ../custom_service.h
 
-C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config\custom_config_qspi.h:
+C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config\custom_config_qspi.h:
 
 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\bsp\config/bsp_definitions.h:
 
@@ -201,7 +201,7 @@ C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble\include/ble
 
 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble\include/util/list.h:
 
-C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-services\config/ble_peripheral_config.h:
+C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service\config/ble_peripheral_config.h:
 
 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\sdk\sdk\interfaces\ble_services\include/bas.h:
 

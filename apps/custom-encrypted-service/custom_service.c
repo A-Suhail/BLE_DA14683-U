@@ -245,7 +245,7 @@ ble_service_t *custom_service_init(cs_callbacks_t *cb)
         /*
          * 0 inc services
          * 3 characteristics
-         * 1 descriptor
+         * 4 descriptor
          */
         num_attr = ble_gatts_get_num_attr(INC_SVC,TOT_CHR,TOT_DESC);
 

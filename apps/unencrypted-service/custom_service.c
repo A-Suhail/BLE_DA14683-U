@@ -21,6 +21,10 @@
 #define UUID_CS_READ           "0783b03e-8535-b5a0-7140-a304d2492003"
 #define UUID_CS_NOTIFY         "0783b03e-8535-b5a0-7140-a304d2492004"
 
+static const char *cs_read_desc = "Read Data";
+static const char *cs_write_desc = "Write Data";
+static const char *cs_notify_desc = "Notify Data";
+
 /*
  * INC_SVC      :       total included services within service
  * TOT_CHR      :       total characteristics provided by service
@@ -30,7 +34,7 @@
  */
 #define INC_SVC         0
 #define TOT_CHR         3
-#define TOT_DESC        1
+#define TOT_DESC        4
 
 
 /*
@@ -171,6 +175,7 @@ static void cleanup(ble_service_t *svc)
  */
 ble_service_t *chat_service_init(const cs_parameter_t *cs_param, cs_callbacks_t *cb)
 {
+        uint16_t cs_read_desc_h, cs_write_desc_h, cs_notify_desc_h;
         cs_service_t *cs;
         uint16_t num_attr;
         att_uuid_t uuid;
@@ -190,7 +195,7 @@ ble_service_t *chat_service_init(const cs_parameter_t *cs_param, cs_callbacks_t 
         /*
          * 0 inc services
          * 3 characteristics
-         * 1 descriptor
+         * 4 descriptor
          */
         num_attr = ble_gatts_get_num_attr(INC_SVC,TOT_CHR,TOT_DESC);
 
@@ -202,10 +207,14 @@ ble_service_t *chat_service_init(const cs_parameter_t *cs_param, cs_callbacks_t 
         /*Adding Read Characteristic*/
         ble_uuid_from_string(UUID_CS_READ, &uuid);
         ble_gatts_add_characteristic(&uuid, GATT_PROP_READ, ATT_PERM_READ, strlen(cs_param->custom_msg), flag, NULL, &cs->read_char_handle);
+        ble_uuid_create16(UUID_GATT_CHAR_USER_DESCRIPTION, &uuid);
+        ble_gatts_add_descriptor(&uuid, ATT_PERM_READ, strlen(cs_read_desc), 0, &cs_read_desc_h);
 
         /*Adding Write Characteristic*/
         ble_uuid_from_string(UUID_CS_WRITE, &uuid);
         ble_gatts_add_characteristic(&uuid, GATT_PROP_WRITE, ATT_PERM_WRITE, 24, 0, NULL, &cs->write_char_handle);
+        ble_uuid_create16(UUID_GATT_CHAR_USER_DESCRIPTION, &uuid);
+        ble_gatts_add_descriptor(&uuid, ATT_PERM_READ, strlen(cs_write_desc), 0, &cs_write_desc_h);
 
         /*Adding Notify Characteristic*/
         ble_uuid_from_string(UUID_CS_NOTIFY, &uuid);
@@ -214,13 +223,20 @@ ble_service_t *chat_service_init(const cs_parameter_t *cs_param, cs_callbacks_t 
         ble_uuid_create16(UUID_GATT_CLIENT_CHAR_CONFIGURATION, &uuid);
         ble_gatts_add_descriptor(&uuid, ATT_PERM_RW, 1, 0, &cs->notify_cccd_handle);
 
+        ble_uuid_create16(UUID_GATT_CHAR_USER_DESCRIPTION, &uuid);
+        ble_gatts_add_descriptor(&uuid, ATT_PERM_READ, strlen(cs_notify_desc), 0, &cs_notify_desc_h);
+
 
         //this should write custom user message to read service
         ble_gatts_set_value(cs->read_char_handle, strlen(cs_param->custom_msg), cs_param->custom_msg);
 
         /*register ble service*/
-        ble_gatts_register_service(&cs->svc.start_h,&cs->write_char_handle, &cs->notify_char_handle, &cs->notify_cccd_handle, &cs->read_char_handle, 0);
+        ble_gatts_register_service(&cs->svc.start_h,&cs->write_char_handle, &cs->notify_char_handle, &cs->notify_cccd_handle, &cs->read_char_handle,
+                                        &cs_read_desc_h, &cs_write_desc_h, &cs_notify_desc_h, 0);
 
+        ble_gatts_set_value(cs_read_desc_h, strlen(cs_read_desc), cs_read_desc);
+        ble_gatts_set_value(cs_write_desc_h, strlen(cs_write_desc), cs_write_desc);
+        ble_gatts_set_value(cs_notify_desc_h, strlen(cs_notify_desc), cs_notify_desc);
 
         //declare handlers for specific ble events
         cs->svc.write_req = handle_write_req;

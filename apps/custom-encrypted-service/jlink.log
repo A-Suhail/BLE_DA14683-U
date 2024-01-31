@@ -1,0 +1,61 @@
+SEGGER J-Link GDB Server V6.12i LogFile
+Logging started @ 2023-03-06 20:04
+03-00000000-00-00000000-0023: -----GDB Server start settings-----
+03-00000000-00-00000000-0023: GDBInit file:                  none
+03-00000000-00-00000000-0023: GDB Server Listening port:     2331
+03-00000000-00-00000000-0023: SWO raw output listening port: 2332
+03-00000000-00-00000000-0023: Terminal I/O port:             2333
+03-00000000-00-00000000-002D: Accept remote connection:      localhost only
+03-00000000-00-00000000-0021: Generate logfile:              on
+03-00000000-00-00000000-0022: Verify download:               off
+03-00000000-00-00000000-0022: Init regs on start:            off
+03-00000000-00-00000000-0021: Silent mode:                   on
+03-00000000-00-00000000-0021: Single run mode:               on
+03-00000000-00-00000000-0023: Target connection timeout:     0 ms
+03-00000000-00-00000001-0023: ------J-Link related settings------
+03-00000000-00-00000001-0022: J-Link Host interface:         USB
+03-00000000-00-00000001-0023: J-Link script:                 none
+03-00000000-00-00000001-0023: J-Link settings file:          none
+03-00000000-00-00000001-0023: ------Target related settings------
+03-00000000-00-00000001-0028: Target device:                 Cortex-M0
+03-00000000-00-00000001-0022: Target interface:              SWD
+03-00000000-00-00000001-0026: Target interface speed:        4000kHz
+03-00000000-00-00000001-0025: Target endian:                 little
+03-00000000-00-00000004-0017: Connecting to J-Link...
+02-00000000-00-00000008-003D: Firmware: J-Link OB-SAM3U128 V3 compiled Sep 22 2022 13:22:46
+02-00000000-00-00000008-000F: Hardware: V3.00
+02-00000000-00-00000014-0051: S/N: 483051285WEBSRV Webserver running on local port 19080 (0010ms, 0013ms total)
+02-00000000-00-00000014-0033: T4178 000:008   returns O.K. (0010ms, 0013ms total)
+03-00000000-00-00000014-0014: J-Link is connected.
+02-00000000-00-00000147-00B3: T4178 000:018 JLINK_ExecCommand("device = Cortex-M0", ...). C:\Program Files (x86)\SEGGER\JLink_V612i\JLinkDevices.xml evaluated successfully.  returns 0x00 (0133ms, 0146ms total)
+02-00000000-00-00000147-006A: T4178 000:151 JLINK_ExecCommand("SetFlashRewriteBehavior = 1", ...).   returns 0x00 (0000ms, 0146ms total)
+02-00000000-00-00000147-0041: T4178 000:151 JLINK_GetFirmwareString(...) (0000ms, 0146ms total)
+03-00000000-00-00000147-003D: Firmware: J-Link OB-SAM3U128 V3 compiled Sep 22 2022 13:22:46
+02-00000000-00-00000147-004F: T4178 000:151 JLINK_GetHardwareVersion()  returns 0x7530 (0000ms, 0146ms total)
+03-00000000-00-00000147-000F: Hardware: V3.00
+03-00000000-00-00000147-000E: S/N: 483051285
+02-00000000-00-00000148-0049: T4178 000:151 JLINK_GetHWStatus(...)  returns 0x00 (0001ms, 0147ms total)
+02-00000000-00-00000148-003C: T4178 000:152 JLINK_EnableSoftBPs(ON) (0000ms, 0147ms total)
+03-00000000-00-00000148-001A: Checking target voltage...
+03-00000000-00-00000148-0016: Target voltage: 3.30 V
+03-00000000-00-00000148-001D: Listening on TCP/IP port 2331
+03-00000000-00-00000148-0017: Connecting to target...
+02-00000000-00-00000148-0035: T4178 000:152 JLINK_ClrError() (0000ms, 0147ms total)
+02-00000000-00-00000148-0049: T4178 000:152 JLINK_GetHWStatus(...)  returns 0x00 (0000ms, 0147ms total)
+02-00000000-00-00000149-0055: T4178 000:152 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0148ms total)
+02-00000000-00-00000150-0039: T4178 000:154 JLINK_SetSpeed(4000) (0000ms, 0148ms total)
+02-00000000-00-00000150-0044: T4178 000:154 JLINK_GetSpeed()  returns 0xA6B (0000ms, 0148ms total)
+02-00000000-00-00000150-0077: T4178 000:154 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0148ms total)
+02-00000000-00-00000150-003B: T4178 000:154 JLINK_SetResetDelay(0) (0000ms, 0148ms total)
+02-00000000-00-00000150-0055: T4178 000:154 JLINK_SetEndian(ARM_ENDIAN_LITTLE)  returns 0x00 (0000ms, 0148ms total)
+02-00000000-00-00000157-01F3: T4178 000:154 JLINK_Connect() >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP-IDR: 0x04770021, Type: AHB-APAHB-AP ROM: 0xE00FF000 (Base addr. of first ROM table) >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF>
+02-00000000-00-00000163-01FB:  >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M0 r0p0, Little endian. -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)CoreSight components:ROMTbl 0 @ E00FF000 -- CPU_ReadMem(16 bytes @ 0xE00FF000) -- CPU_ReadMem(16 bytes @ 0xE000EFF0) -- CPU_ReadMem(16 bytes @ 0xE000EFE0)
+02-00000000-00-00000166-0165: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS -- CPU_ReadMem(16 bytes @ 0xE0001FF0) -- CPU_ReadMem(16 bytes @ 0xE0001FE0)ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT -- CPU_ReadMem(16 bytes @ 0xE0002FF0) -- CPU_ReadMem(16 bytes @ 0xE0002FE0)ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB  returns 0x00 (0016ms, 0164ms total)
+02-00000000-00-00000166-00A2: T4178 000:170 JLINK_GetIdData(...) >0x0D TIF> >0x21 TIF> ScanLen=4 NumDevices=1 aId[0]=0x0BB11477 aIrRead[0]=0 aScanLen[0]=0 aScanRead[0]=0 (0000ms, 0164ms total)
+02-00000000-00-00000166-0047: T4178 000:170 JLINK_GetDeviceFamily()  returns 6 (0000ms, 0164ms total)
+02-00000000-00-00000166-004D: T4178 000:170 JLINK_CORE_GetFound()  returns 0x60000FF (0000ms, 0164ms total)
+02-00000000-00-00000167-0044: T4178 000:171 JLINK_IsHalted()  returns FALSE (0000ms, 0165ms total)
+02-00000000-00-00000170-003F: T4178 000:171 JLINK_Halt()  returns 0x00 (0003ms, 0168ms total)
+02-00000000-00-00000170-0043: T4178 000:174 JLINK_IsHalted()  returns TRUE (0000ms, 0168ms total)
+03-00000000-00-00000170-0013: Connected to target
+03-00000000-00-00000170-001D: Waiting for GDB connection...

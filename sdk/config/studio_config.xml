@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:welcome_configuration xmlns:tns="http://www.diasemi.com/studioConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.diasemi.com/studioConfig studio_config.xsd">
+   <!--Please note that the following characters should be escaped in xml:
+"   &amp;quot;
+'   &amp;apos;
+<   &amp;lt;
+>   &amp;gt;
+&amp;   &amp;-->
+   <sdk_rd_config>
+      <family>DA1468x</family>
+      <devices>
+         <device id="DA14680-01">
+            <name>DA14680-01</name>
+            <part_numbers>
+               <part_num>
+                  <number>DA14680-01F08A91</number>
+               </part_num>
+               <part_num>
+                  <number>DA14680-01F08A92</number>
+               </part_num>
+            </part_numbers>
+         </device>
+         <device id="DA14681-01">
+            <name>DA14681-01</name>
+            <part_numbers>
+               <part_num>
+                  <number>DA14681-01000A91</number>
+               </part_num>
+               <part_num>
+                  <number>DA14681-01000U22</number>
+               </part_num>
+               <part_num>
+                  <number>DA14681-01000A92</number>
+               </part_num>
+               <part_num>
+                  <number>DA14681-01A9DEVKT-B</number>
+               </part_num>
+               <part_num>
+                  <number>DA14681-01A9DEVKT-P</number>
+               </part_num>
+               <part_num>
+                  <number>DA14681-01U2DB-P</number>
+               </part_num>
+               <part_num>
+                  <number>DA14681-01A9DB-P</number>
+               </part_num>
+            </part_numbers>
+         </device>
+         <device id="DA14682-00">
+            <name>DA14682-00</name>
+            <part_numbers>
+               <part_num>
+                  <number>DA14682-00F08A91</number>
+               </part_num>
+               <part_num>
+                  <number>DA14682-00F08A92</number>
+               </part_num>
+            </part_numbers>
+         </device>
+         <device id="DA14683-00">
+            <name>DA14683-00</name>
+            <part_numbers>
+               <part_num>
+                  <number>DA14683-00000A91</number>
+               </part_num>
+               <part_num>
+                  <number>DA14683-00000A92</number>
+               </part_num>
+               <part_num>
+                  <number>DA14683-00000U22</number>
+               </part_num>
+               <part_num>
+                  <number>DA14683-00A9DB-P</number>
+               </part_num>
+               <part_num>
+                  <number>DA14683-00A9DEVKT-B</number>
+               </part_num>
+               <part_num>
+                  <number>DA14683-00A9DEVKT-P</number>
+               </part_num>
+               <part_num>
+                  <number>DA14683-00U2DB-P</number>
+               </part_num>
+            </part_numbers>
+         </device>
+         <device id="DA15100-00">
+            <name>DA15100-00</name>
+            <part_numbers>
+               <part_num>
+                  <number>DA15100-00F08A91</number>
+               </part_num>
+               <part_num>
+                  <number>DA15100-00F08A92</number>
+               </part_num>
+            </part_numbers>
+         </device>
+         <device id="DA15101-00">
+            <name>DA15101-00</name>
+            <part_numbers>
+               <part_num>
+                  <number>DA15101-00000A91</number>
+               </part_num>
+               <part_num>
+                  <number>DA15101-00000A92</number>
+               </part_num>
+               <part_num>
+                  <number>DA15101-00000U22</number>
+               </part_num>
+               <part_num>
+                  <number>DA15101-00A9DB-P</number>
+               </part_num>
+               <part_num>
+                  <number>DA15101-00A9DEVKT-B</number>
+               </part_num>
+               <part_num>
+                  <number>DA15101-00A9DEVKT-P</number>
+               </part_num>
+               <part_num>
+                  <number>DA15101-00U2DB-P</number>
+               </part_num>
+            </part_numbers>
+         </device>
+         <device id="DA15000-00">
+            <name>DA15000-00</name>
+            <part_numbers>
+               <part_num>
+                  <number>DA15000-00F08A91</number>
+               </part_num>
+               <part_num>
+                  <number>DA15000-00F08A92</number>
+               </part_num>
+            </part_numbers>
+         </device>
+         <device id="DA15001-00">
+            <name>DA15001-00</name>
+            <part_numbers>
+               <part_num>
+                  <number>DA15001-00000A91</number>
+               </part_num>
+               <part_num>
+                  <number>DA15001-00000A92</number>
+               </part_num>
+               <part_num>
+                  <number>DA15001-00000U22</number>
+               </part_num>
+               <part_num>
+                  <number>DA15001-00A9DB-P</number>
+               </part_num>
+               <part_num>
+                  <number>DA15001-00A9DEVKT-B</number>
+               </part_num>
+               <part_num>
+                  <number>DA15001-00A9DEVKT-P</number>
+               </part_num>
+               <part_num>
+                  <number>DA15001-00U2DB-P</number>
+               </part_num>
+            </part_numbers>
+         </device>
+      </devices>
+      <resources>
+         <resource id="product_documentation">
+            <name>Product Documentation</name>
+            <link id="product_1">
+               <name>DA14680</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14680</url>
+            </link>
+            <link id="product_2">
+               <name>DA14681</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14681</url>
+            </link>
+            <link id="product_3">
+               <name>DA14683</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14682-and-da14683</url>
+            </link>
+         </resource>
+         <resource id="forum">
+            <name>Forums</name>
+            <link id="forum">
+               <name>SmartBond Forums</name>
+               <url>https://support.dialog-semiconductor.com/forum</url>
+            </link>
+         </resource>
+         <resource id="ref_designs">
+            <name>Reference Designs</name>
+            <link id="smartbond_ref_designs">
+               <name>Wearable Development Kit</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/reference-designs</url>
+            </link>
+         </resource>
+         <resource id="partner">
+            <name>Find Your Partner</name>
+            <link id="smartbond_partner_eco">
+               <name>SmartBond Partner Ecosystem</name>
+               <url>https://support.dialog-semiconductor.com/ecosystem</url>
+            </link>
+         </resource>
+      </resources>
+    
+   </sdk_rd_config>
+
+   <no_sdk_config>
+      <!--No list of devices needed, message "please select sdk first" appears in device list-->
+      <resources>
+         <resource id="product_documentation">
+            <name>Product Documentation</name>
+            <link id="product_1">
+               <name>DA14580</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14580?qt-product_restricted_=6</url>
+            </link>
+            <link id="product_2">
+               <name>DA14581</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14581</url>
+            </link>
+            <link id="product_3">
+               <name>DA14582</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14582</url>
+            </link>
+            <link id="product_4">
+               <name>DA14583</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14583</url>
+            </link>
+            <link id="product_5">
+               <name>DA14585</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14585</url>
+            </link>
+            <link id="product_6">
+               <name>DA14586</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14586</url>
+            </link>
+            <link id="product_7">
+               <name>DA14680</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14680</url>
+            </link>
+            <link id="product_8">
+               <name>DA14681</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14681</url>
+            </link>
+            <link id="product_9">
+               <name>DA14683</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/product/da14682-and-da14683</url>
+            </link>
+         </resource>
+         <resource id="forum">
+            <name>Forums</name>
+            <link id="forum">
+               <name>SmartBond Forums</name>
+               <url>https://support.dialog-semiconductor.com/forum</url>
+            </link>
+         </resource>
+         <resource id="ref_designs">
+            <name>Reference Designs</name>
+            <link id="smartbond_ref_designs">
+               <name>For Proximity, Smart Home Wearables and other applications</name>
+               <url>https://support.dialog-semiconductor.com/connectivity/reference-designs</url>
+            </link>
+         </resource>
+         <resource id="partner">
+            <name>Find Your Partner</name>
+            <link id="smartbond_partner_eco">
+               <name>SmartBond Partner Ecosystem</name>
+               <url>https://support.dialog-semiconductor.com/ecosystem</url>
+            </link>
+         </resource>
+      </resources>
+   </no_sdk_config>
+   <!--List of all supported tools and tool versions-->
+   <tools_config>
+      <tool id="keil">
+         <name>uVision IDE Keil for ARM Embedded Processors</name>
+		 <offcial_url>https://www.keil.com/</offcial_url>
+         <version number="5.20">
+            <platforms>
+               <!--Add the download url for the platforms for which this tool is supported. Platforms are windows, linux and mac-->
+               <windows>
+                  <official_download_url direct_download="no">https://www.keil.com/demo/eval/arm.htm</official_download_url>
+                  <!-- User has to register -->
+               </windows>
+            </platforms>
+         </version>
+         <version number="5.23">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="no">https://www.keil.com/demo/eval/arm.htm</official_download_url>
+               </windows>
+            </platforms>
+         </version>
+      </tool>
+      <tool id="toolchain">
+		<offcial_url>https://launchpad.net/gcc-arm-embedded</offcial_url>
+         <name>GNU Tools for ARM Embedded Processors</name>
+         <version number="4_9-2015q3">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.zip</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+         <version number="4_9-2015q1">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q1-update/+download/gcc-arm-none-eabi-4_9-2015q1-20150306-win32.zip</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q1-update/+download/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q1-update/+download/gcc-arm-none-eabi-4_9-2015q1-20150306-mac.tar.bz2</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+      </tool>
+      <tool id="segger_jlink">
+         <name>J-Link software package components</name>
+		 <official_url>https://www.segger.com/j-link-software.html</official_url>
+         <version number="5.12f">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="no">Setup_JLink_V512f.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="no">JLink_Linux_V512f_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="no">JLink_MacOSX_V512f.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+         <version number="5.12e">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="no">Setup_JLink_V512e.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="no">JLink_Linux_V512e_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="no">JLink_MacOSX_V512e.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		 <version number="6.12i">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="no">JLink_Windows_V612i.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="no">JLink_Linux_V612i_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="no">JLink_MacOSX_V612i.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		 <version number="6.14h">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="no">JLink_Windows_V614h.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="no">JLink_Linux_V614h_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="no">JLink_MacOSX_V614h.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		 <version number="6.16a">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="no">JLink_Windows_V616a.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="no">JLink_Linux_V616a_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="no">JLink_MacOSX_V616a.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+      </tool>
+      <tool id="segger_ozone">
+         <name>Segger Ozone</name>
+		 <offcial_url>https://www.segger.com/ozone.html</offcial_url>
+         <version number="2.16d">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Setup_Windows_V216d_x86.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Linux_V216d_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_MacOSX_V216d_Universal.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		 <version number="2.30c">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Setup_Windows_V230c_x86.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Linux_V230c_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_MacOSX_V230c_Universal.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		 <version number="2.30d">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Setup_Windows_V230d_x86.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Linux_V230d_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_MacOSX_V230d_Universal.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		 <version number="2.32">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Setup_Windows_V232_x86.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Linux_V232_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_MacOSX_V232_Universal.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		 <version number="2.40b">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Setup_Windows_V240b_x86.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_Linux_V240b_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/jlink/Ozone_MacOSX_V240b_Universal.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+      </tool>
+      <tool id="segger_systemview">
+	  	 <offcial_url>https://www.segger.com/systemview.html</offcial_url>
+         <name>SystemView</name>
+         <version number="2.34">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/Setup_SystemView_V234.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/SystemView_Linux_V234_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/SystemView_MacOSX_V234.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		  <version number="2.42">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/Setup_SystemView_V242.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/SystemView_Linux_V242_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/SystemView_MacOSX_V242.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+		 <version number="2.50">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/Setup_SystemView_V250.exe</official_download_url>
+               </windows>
+               <linux>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/SystemView_Linux_V250_x86_64.tgz</official_download_url>
+               </linux>
+               <mac>
+                  <official_download_url direct_download="yes">https://www.segger.com/downloads/free_tools/SystemView_MacOSX_V250.pkg</official_download_url>
+               </mac>
+            </platforms>
+         </version>
+      </tool>
+	  <tool id="iar">
+         <name>IAR Embedded Workbench IDE</name>
+		 <offcial_url>https://www.iar.com/iar-embedded-workbench/</offcial_url>
+         <version number="latest">
+            <platforms>
+               <windows>
+                  <official_download_url direct_download="no">https://www.iar.com/iar-embedded-workbench/#!?architecture=ARM</official_download_url>
+               </windows>
+            </platforms>
+         </version>
+      </tool>
+   </tools_config>
+   <!--List of all supported buttons in welcome page-->
+   <tool_buttons_config>
+	  <tool_button id="ide"> <!--Needded to still support old SDK config xml files, still using this id-->
+         <name>IDE</name>
+         <tooltip>Switch to the IDE in the C/C++ perspective</tooltip>
+         <platforms windows="yes" linux="yes" mac="yes" />
+	  </tool_button>
+      <tool_button id="eclipse_ide">
+         <name>IDE</name>
+         <tooltip>Switch to the IDE in the C/C++ perspective</tooltip>
+         <platforms windows="yes" linux="yes" mac="yes" />
+      </tool_button>
+      <tool_button id="keil_ide">
+         <name>Keil IDE</name>
+         <tooltip>Opens Keil uVision as an external application</tooltip>
+         <platforms windows="yes" linux="no" mac="no" />
+      </tool_button>
+      <tool_button id="iar_ide">
+         <name>IAR Embedded Workbench IDE</name>
+         <tooltip>Opens IAR Embedded Workbench IDE as an external application</tooltip>
+         <platforms windows="yes" linux="no" mac="no" />
+      </tool_button>
+      <tool_button id="smartsnippets_toolbox">
+         <name>SmartSnippets Toolbox</name>
+         <tooltip>Launch SmartSnippets Toolbox as an external application</tooltip>
+         <platforms windows="yes" linux="yes" mac="no" />
+      </tool_button>
+      <tool_button id="rf_master">
+         <name>RF Master</name>
+         <tooltip>Opens SmartSnippets RF Master as an external application</tooltip>
+         <platforms windows="yes" linux="yes" mac="no" />
+      </tool_button>
+      <tool_button id="segger_systemview">
+         <name>Segger Systemview</name>
+         <tooltip>Opens Segger&amp;apos;s SystemView as an external application</tooltip>
+         <platforms windows="yes" linux="yes" mac="yes" />
+      </tool_button>
+      <tool_button id="segger_ozone">
+         <name>Segger Ozone</name>
+         <tooltip>Opens Segger&amp;apos;s Ozone (JLink Debugger) as an external application</tooltip>
+         <platforms windows="yes" linux="yes" mac="yes" />
+      </tool_button>
+      <tool_button id="project_initializer">
+         <name>Application Creator</name>
+         <tooltip>Opens the Application Creator view</tooltip>
+         <platforms windows="yes" linux="yes" mac="no" />
+      </tool_button>
+      <tool_button id="application_logger">
+         <name>Application Logger</name>
+         <tooltip>Opens the Application Logger view</tooltip>
+         <platforms windows="yes" linux="yes" mac="no" />
+      </tool_button>
+      <tool_button id="battery_profiler">
+         <name>Battery Profiler</name>
+         <tooltip>Opens Battery Profiler for DA1468x as an external application</tooltip>
+         <platforms windows="yes" linux="no" mac="no" />
+      </tool_button>
+   </tool_buttons_config>
+</tns:welcome_configuration>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${none}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="C:\Python27\python.exe"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-i ${workspace_loc:/scripts/debugging/dump_memory/tools/dump_globals.py} -g arm-none-eabi-gdb-py -f &quot;${project_loc:}\${config_name:${project_name}}\${project_name}.elf&quot; -x &quot;${file_prompt:the corresponding xml register file found in &lt;SDK&gt;/doc path:${project_loc}}&quot;"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/scripts/debugging/dump_memory/tools}"/>
+</launchConfiguration>

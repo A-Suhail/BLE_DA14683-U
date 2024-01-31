@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['uds_5fcp_5fconsent_5fcfm',['uds_cp_consent_cfm',['../uds_8h.html#aec348029b16159a5327e625f131cb8c9',1,'uds.h']]],
+  ['uds_5fcp_5fdelete_5fuser_5fcfm',['uds_cp_delete_user_cfm',['../uds_8h.html#aad6a27a398abc00878cb672be7e6332b',1,'uds.h']]],
+  ['uds_5fcp_5fregister_5fnew_5fuser_5fcfm',['uds_cp_register_new_user_cfm',['../uds_8h.html#ad83213e9ec12c08636512a2e170a170f',1,'uds.h']]],
+  ['uds_5fdb_5fread_5fcfm',['uds_db_read_cfm',['../uds_8h.html#a1ac30088672f032e7229c1c7a0365c1d',1,'uds.h']]],
+  ['uds_5fdb_5fwrite_5fcfm',['uds_db_write_cfm',['../uds_8h.html#aba6947fdc61332f97ffa54912c29c5fa',1,'uds.h']]],
+  ['uds_5fget_5fuser_5fid',['uds_get_user_id',['../uds_8h.html#a07accc5304e60f373e327476211dd08d',1,'uds.h']]],
+  ['uds_5finit',['uds_init',['../uds_8h.html#a1e1261cf4e41ca8318aad0b3e856e73b',1,'uds.h']]],
+  ['uds_5fset_5fdb_5fincrement',['uds_set_db_increment',['../uds_8h.html#a3b732f2533b68f5b68bb6612b27c6a31',1,'uds.h']]],
+  ['uds_5fset_5fuser_5fid',['uds_set_user_id',['../uds_8h.html#a0db3c6c2a2c7256171a012d8cec9a62d',1,'uds.h']]],
+  ['unpack_5fdate_5ftime',['unpack_date_time',['../svc__types_8h.html#a5c95e04c761fca857e5900c919681db9',1,'svc_types.h']]],
+  ['unpack_5fieee11703_5ffloat',['unpack_ieee11703_float',['../svc__types_8h.html#a4ca98084579fc5239603f38e64c5b7de',1,'svc_types.h']]],
+  ['unpack_5fieee11703_5fsfloat',['unpack_ieee11703_sfloat',['../svc__types_8h.html#aaeba90bbc6805d286a19c035b7b8af07',1,'svc_types.h']]],
+  ['usb_5fcharger_5fconnected',['usb_charger_connected',['../group___u_s_b___c_h_a_r_g_e_r.html#ga97ddcc2c36ce187bf568cfe622ff4851',1,'sys_charger.h']]],
+  ['usb_5fcharger_5fdisconnected',['usb_charger_disconnected',['../group___u_s_b___c_h_a_r_g_e_r.html#ga77f436875cc8366b1ffb986153152cc6',1,'sys_charger.h']]],
+  ['usb_5fcharger_5finit',['usb_charger_init',['../group___u_s_b___c_h_a_r_g_e_r.html#gadc198289cb8baa1ebbd3516d32507e7f',1,'sys_charger.h']]],
+  ['usb_5fcharger_5fis_5fbattery_5flow',['usb_charger_is_battery_low',['../group___u_s_b___c_h_a_r_g_e_r.html#ga6b3fe3265780566db84bd80977a7cf74',1,'sys_charger.h']]],
+  ['usb_5freset_5fprecharge_5fcurrent',['usb_reset_precharge_current',['../group___u_s_b___c_h_a_r_g_e_r.html#ga466d6bde66e61d40a09836e07a1270aa',1,'sys_charger.h']]],
+  ['usb_5fset_5fprecharge_5fcurrent',['usb_set_precharge_current',['../group___u_s_b___c_h_a_r_g_e_r.html#ga1ba576f2b252a92bd3224bf5affebb12',1,'sys_charger.h']]]
+];

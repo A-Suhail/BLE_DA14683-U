@@ -1,0 +1,10 @@
+Address	Size	Type	RW or RO	ShortName	Description	Default	Number of Options
+7F8E9C0	184	Region		Chip Configuration Section (CCS)
+7F8E9C0	8	Flag	RW	Mirrored/Cached At startup	0: Mirrored, 1: Cached	0	2	0	Mirrored	1	Cached
+7F8E9C8	8	Flag	RW	Non-Volatile Memory	0: OTP, 1: FLASH	1	2	0	OTP	1	FLASH
+7F8E9D0	8	Byte	RW	Product Ready	0x00: Not ready, 0xAA: Ready	0x00	2	0x00	Not Ready	0xAA	Ready
+7F8EBF8	3072	Region		Elliptic Curve Contents Section (ECCS)
+7F8EBF8	8	8Bytes	RW	ECC image length	"B7-B5: Inverted value of B3-B0
+B3-B2: Image CRC “ xxxx”
+B1-B0: Image Length in 32-bit words"	N/A	0
+7F8EC00	3064	uCode	RW	ECC MicroCode		N/A	0

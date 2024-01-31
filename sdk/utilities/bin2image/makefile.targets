@@ -1,0 +1,10 @@
+.PHONY: install
+
+ifneq ($(WINDIR),)
+EXE_EXT=.exe
+endif
+
+$(INFO WINDIR=$(WINDIR))
+
+install: bin2image$(EXE_EXT)
+	install $< ../../../binaries

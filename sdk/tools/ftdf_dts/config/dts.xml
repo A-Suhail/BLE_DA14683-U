@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<test>
+<!--
+
+ @file dts.xml
+
+ @brief DTS host configuration file
+
+ Copyright (C) 2015. Dialog Semiconductor, unpublished work. This computer
+ program includes Confidential, Proprietary Information and is a Trade Secret of
+ Dialog Semiconductor. All use, disclosure, and/or reproduction is prohibited
+ unless authorized in writing. All Rights Reserved.
+
+-->
+
+<!--
+
+Scripts which are not to be used in regression are:
+
+<script>scripts/evaluation/acknowledgment/LD02_Acknowledgment_FR4450_FR4500.py</script> 
+    - The purpose of this script is to send an ack frame transparently. Since the ack is very time critical,
+      this script will almost always fail because it cannot send the transparent message from the Python environment
+      to the device within the required time.
+
+<script>scripts/evaluation/csl/LD02_CSL_channel.py</script>
+    - This script was made to test CSL channel hopping. However, during implementation it was decided that CSL 
+      channel hopping was not to be implemented in the MAC. Therefore, this script is declared invalid.
+
+<script>scripts/evaluation/other/LD03_aTurnaroundTime_FR1220_FR1330.py</script>
+    - This script is used to test if the MAC conforms to the aTurnaroundTime constant in respect to the
+      time between a CCA and the transmission of a frame. This can only be tested by using a logic analyzer.
+      Therefore, this is not a regression test.
+
+<script>scripts/evaluation/security/LD02_Security_FR3600.py</script>
+    - There is a limitation in DTS of the number of device tables, security tables and key tables.
+      Due to this limitation, this requirement cannot be tested in the regression test.
+
+<script>scripts/evaluation/TSCH/LD03_tsch_FR6200_FR6280.py</script>
+    - This script is used to manually test the correct value of the ASN in frames. This must be done with
+      a logic analyzer. Therefore, this is not a regression test.
+
+<script>scripts/evaluation/TSCH/LD03_tsch_FR6320.py</script>
+    - This script is used to manually test the phy states during empty links. This must be done with
+      a logic analyzer. Therefore, this is not a regression test.
+
+<script>scripts/evaluation/TSCH/LD03_tsch_synch.py</script>
+    - This script is used to test the durability of the TSCH timekeeping functionality of the UMAC.
+      This durability test runs for approximately 3 days, therefore it is not suited for use in regression.
+
+<script>scripts/evaluation/other/LD02_CCA.py</script>
+<script>scripts/evaluation/TSCH/LD03_tsch_CCA.py</script>
+    - These scripts used to test CHANNEL_ACCESS_FAILURE results by using dummy DPHY registers.
+      With the radio module, these scripts can no longer succeed since the radio does allow
+      for CCA failure faking.
+-->
+
+  <dts>
+    <logName>log/dts.txt</logName>
+    <logMode>w</logMode>
+    <logLevel>debug</logLevel>
+    <logLevelConsole>debug</logLevelConsole>
+    <logAddTime>true</logAddTime>
+    <atFail>continue</atFail>
+    <license>http://www.dialog-semiconductor.com/</license>
+    <dut address="0000000000000010" id="1" port="/dev/ttyUSB0" />
+    <dut address="0000000000000020" id="2" port="/dev/ttyUSB2" />
+    <script>scripts/evaluation/other/LD01_DataFrame.py</script>
+    <script>scripts/evaluation/other/LD01_DataFrame_FCS.py</script>
+    <script>scripts/evaluation/other/LD01_macPromiscuousMode.py</script>
+    <script>scripts/evaluation/other/LD02_ProvReq.py</script>
+    <script>scripts/evaluation/other/LD02_incidentalbeacon.py</script>
+    <script>scripts/evaluation/other/LD02_Indirect.py</script>
+    <script>scripts/evaluation/other/LD03_IEField.py</script>
+    <script>scripts/evaluation/other/LD03_ProvReq.py</script>
+    <script>scripts/evaluation/other/LD03_Sleep.py</script>
+    <script>scripts/evaluation/transparent/LD02_Transparent_FR3010_FR4080.py</script>
+    <script>scripts/evaluation/transparent/LD02_Transparent_FR3020_FR4070.py</script>
+    <script>scripts/evaluation/transparent/LD03_Transparent_FR4040.py</script>
+    <script>scripts/evaluation/transparent/LD02_Transparent_FR4050.py</script>
+    <script>scripts/evaluation/association/LD02_AssociationDisassociation.py</script>
+    <script>scripts/evaluation/csl/LD02_CSL.py</script>
+    <script>scripts/evaluation/csl/LD02_CSL_Security.py</script>
+    <script>scripts/evaluation/scan/LD02_EDScan.py</script>
+    <script>scripts/evaluation/scan/LD02_PassiveScan.py</script>
+    <script>scripts/evaluation/scan/LD02_ActiveScan.py</script>
+    <script>scripts/evaluation/scan/LD02_EnhActiveScan.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR2460.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR2480_FR2490.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR2600_FR3500.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR2650.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR2700_FR2720_FR2420_FR2440.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR2740.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR3510.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR3520.py</script>
+    <script>scripts/evaluation/security/LD02_Security_FR3550.py</script>
+    <script>scripts/evaluation/acknowledgment/LD02_Acknowledgment_FR4100_FR4260.py</script>
+    <script>scripts/evaluation/acknowledgment/LD02_Acknowledgment_FR4180_FR4300_FR4240.py</script>
+    <script>scripts/evaluation/acknowledgment/LD02_Acknowledgment_FR4220_FR4320_FR4460.py</script>
+    <script>scripts/evaluation/acknowledgment/LD02_Acknowledgment_FR4400_FR4420_FR4440.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_setup_transmission.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_FR6220_FR6240.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_FR6300.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_FR6340.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_FR6600.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_FR6650.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_FR6660.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_Security.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_AssociationDisassociation.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_keepalive.py</script>
+    <script>scripts/evaluation/TSCH/LD03_tsch_Hopping_Sequence.py</script>
+  </dts>
+</test>

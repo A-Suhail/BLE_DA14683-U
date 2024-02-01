@@ -1,49 +1,20 @@
-BLE peripheral application {#ble_peripheral}
-===============================
-
-## Overview
-
-This application is a sample implementation of device using GAP peripheral
-role. It does not implement any particular profile, instead it registers
-couple of different services for testing purposes. It can be also used to
-execute PTS test cases against services it exposes. These services can be
-controller using debug service (for example, 1st client can interact with
-services and 2nd client can control them via debug service).
-
-Features:
-
-- All features enabled in application can be controller via config.h file, all
-  parameters are described there.
-
-## Installation procedure
-
-The project is located in the \b `projects/dk_apps/features/ble_peripheral` folder.
-
-To install the project follow the [General Installation and Debugging Procedure](@ref install_and_debug_procedure).
-
-## Manual testing
-
-When enabled in config.h, application will register custom debug service
-in ATT database with control point (CP) characteristic as follows:
-- service UUID is 6b559111-c4df-4660-818e-234f9e17b290
-- CP characteristic UUID is 6b559111-c4df-4660-818e-234f9e17b291
-- CP characteristic properties are: WRITE, NOTIFY
-- CP descriptor: Client Characteristic Configuration
-- CP descriptor: Characteristic Presentation Format
-
-Client should enable notifications on CP in order to receive feedback from
-application.
-
-Following commands can be written to CP (string values) to interact with
-services registered by application:
-
-
-~~~{.c}
- - bas set <lvl>         set BAS instance battery level to <lvl>`
- - cts adjust <reason>   notify current time with adjust reason <reason>`
-                         possible <reason> values:`
-                         - manual (manual update)`
-                         - tz (timezone)`
-                         - dst (daylight saving time)`
-                         - reftime (reference time update)`
-~~~
+### VI. Secure BLE service - Security Request pair
+-  Developers could mistake a security request with pairing process, both are fundamentally different from one another, confusion can lead bad and insecure ble service highly vulnerable to design mistakes in app development... i have seen it.
+-  A pairing request can only be initiated from master to peripheral in a ble connection
+-  While we have a mechanism called service request, in which peripheral can request master device to initiate this pairing - this is basically security request - initiated by peripheral to master.
+-  The working mechanism of peripheral sending a security request is shown below
+        <img src="/images/6.1.png"  height="400">
+-  Now you may wonder why I chose strong words like vulnerable design mistakes. To implement a service with SR is different from implementing it robustly
+-  When talking in the context of DA1468x, the app should follow below process
+        <img src="/images/6.2.jpg"  height="500">
+-  One important thing which developers miss is Block/Wait Process, which leads to the service data being open to anybody even if pairing is failed or rejected.
+-  For those who thought why not just directly check for BLE Pair Success? Good question and this is the point which devs miss... you also have to send ble pair reply first accepting security request, and before replying you need to wait for peripheral to process the SR - thaty why we wait - and then reply and then check for ble pair success. if we were to directly check for ble pair success we would nullify the whole process of SR basically as if SR weren't implemented in the first place.
+-  Now we can move on to flash the app in DA14683-U using same procedures as decribed below:
+  ```sh
+  - Select security-request-pair-service project
+  - from build options select DA14683-00-Realse-QSPI
+  - after build is finished from external tools, select program_qspi_serial_win
+  - script will run and in the terminal you have to give the port number for connected DA14683-U
+  - press reset when prompted
+  - press reset when app is flashed successfully --prod
+ ```

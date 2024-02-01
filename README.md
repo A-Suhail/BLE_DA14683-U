@@ -37,9 +37,9 @@ This repo is only developed and tested on Windows environment and will continue 
 ##### 3. Download Repo on local machine
 - Clone the [Repo](https://github.com/A-Suhail/BLE_DA14683-U.git) and place it your workspace folder. 
 ##### 4.  Setup workspace in SmartSnippets IDE
--   Open SmartSnippets Studio and locate the sdk folder inside the cloned repo (BLE_DA14683-U) in your workspace.
+-   Open SmartSnippets Studio and locate the sdk folder inside the cloned repo (BLE_DA14683-U) in your workspace.  
       <img src="images/3.4.1.png"  height="500">
--   SmartSnippets Studio will open Welcome page where you need to  select the connected device as DA14683-00
+-   SmartSnippets Studio will open Welcome page where you need to  select the connected device as DA14683-00  
       <img src="images/3.4.2.png"  height="500">
 -   Now select Open IDE
 -   Import the scripts. These scripts were developed by Renesas to facilitate easy flashing of your Dialog board.
@@ -50,10 +50,10 @@ This repo is only developed and tested on Windows environment and will continue 
     
 -   Import the apps folder and select all projects inside it
     -     Import Existing Project
-    -     navigate to [workspace]/BLE_DA14683-U/apps -> Select all -> finish
+    -     navigate to [workspace]/BLE_DA14683-U/apps -> Select all -> finish  
       <img src="images/3.4.7.png"  height="500">
 
--   The Project Structure should look like this after all imports
+-   The Project Structure should look like this after all imports  
       <img src="images/3.4.8.png"  height="500">
      > Note: Ignore the missing path warnings, build is required to set project variables
 

@@ -38,65 +38,84 @@ This repo is only developed and tested on Windows environment and will continue 
 - Clone the [Repo](https://github.com/A-Suhail/BLE_DA14683-U.git) and place it your workspace folder. 
 ##### 4.  Setup workspace in SmartSnippets IDE
 -   Open SmartSnippets Studio and locate the sdk folder inside the cloned repo (BLE_DA14683-U) in your workspace.  
-      <img src="images/3.4.1.png"  height="500">
+      <img src="/images/3.4.1.png"  height="500">
 -   SmartSnippets Studio will open Welcome page where you need to  select the connected device as DA14683-00  
-      <img src="images/3.4.2.png"  height="500">
+      <img src="/images/3.4.2.png"  height="500">
 -   Now select Open IDE
 -   Import the scripts. These scripts were developed by Renesas to facilitate easy flashing of your Dialog board.
     -     Import Existing Project  
-      <img src="images/3.4.4.png"  height="500">
+      <img src="/images/3.4.4.png"  height="500">
     -     navigate to [workspace]/BLE_DA14683-U/sdk/utilities/scripts -> finish  
-      <img src="images/3.4.5.png"  height="500">
+      <img src="/images/3.4.5.png"  height="500">
     
 -   Import the apps folder and select all projects inside it
     -     Import Existing Project
     -     navigate to [workspace]/BLE_DA14683-U/apps -> Select all -> finish  
-      <img src="images/3.4.7.png"  height="500">
+      <img src="/images/3.4.7.png"  height="500">
 
 -   The Project Structure should look like this after all imports  
-      <img src="images/3.4.8.png"  height="500">
+      <img src="/images/3.4.8.png"  height="500">
      > Note: Ignore the missing path warnings, build is required to set project variables
 
 ### IV. Blink
 -   Blink-led project is a simple app that consecutively switch on/off  LED-1.2 (LED @ port1 and pin2)and LED-4.1 (LED @ port4 and pin1).
 -   Select blink-led project
 -   from build options select DA14683-00-Realse-QSPI  
-      <img src="images/4.1.png"  height="500">
+      <img src="/images/4.1.png"  height="500">
 -   after build is finished from external tools, select program_qspi_serial_win  
-      <img src="images/4.2.png"  height="500">
+      <img src="/images/4.2.png"  height="500">
 -   script will run and in the terminal you have to give the port number for connected DA14683-U  
-      <img src="images/4.3.png"  height="200">
+      <img src="/images/4.3.png"  height="200">
 -   to check port number: windows+X -> Device manager-> ports  
-     <img src="images/4.4.png"  height="200">
+     <img src="/images/4.4.png"  height="200">
 -   press reset when prompted
 -   press reset when app is flashed successfully  
-      <img src="images/4.5.png"  height="400">
+      <img src="/images/4.5.png"  height="400">
 ### V. Unsecure BLE service
 -  Unencrypted-service project implements a ble service with read, write and notification characteristic
--  Select unencrypted-service project
--  from build options select DA14683-00-Realse-QSPI
--  after build is finished from external tools, select program_qspi_serial_win
--  script will run and in the terminal you have to give the port number for connected DA14683-U
--  press reset when prompted
--  press reset when app is flashed successfully
+-  Follow below steps to build and flash the app on DA14683-U
+  ```sh
+  - Select unencrypted-service project
+  - from build options select DA14683-00-Realse-QSPI
+  - after build is finished from external tools, select program_qspi_serial_win
+  - script will run and in the terminal you have to give the port number for connected DA14683-U
+  - press reset when prompted
+  - press reset when app is flashed successfully --prod
+ ```
 ### VI. Secure BLE service - Security Request pair
 -  Developers could mistake a security request with pairing process, both are fundamentally different from one another, confusion can lead bad and insecure ble service highly vulnerable to design mistakes in app development... i have seen it.
 -  A pairing request can only be initiated from master to peripheral in a ble connection
 -  While we have a mechanism called service request, in which peripheral can request master device to initiate this pairing - this is basically security request - initiated by peripheral to master.
 -  The working mechanism of peripheral sending a security request is shown below
-        <img src="images/6.1.png"  height="400">
+        <img src="/images/6.1.png"  height="400">
 -  Now you may wonder why I chose strong words like vulnerable design mistakes. To implement a service with SR is different from implementing it robustly
 -  When talking in the context of DA1468x, the app should follow below process
-        <img src="images/6.2.jpg"  height="500">
+        <img src="/images/6.2.jpg"  height="500">
 -  One important thing which developers miss is Block/Wait Process, which leads to the service data being open to anybody even if pairing is failed or rejected.
 -  For those who thought why not just directly check for BLE Pair Success? Good question and this is the point which devs miss... you also have to send ble pair reply first accepting security request, and before replying you need to wait for peripheral to process the SR - thaty why we wait - and then reply and then check for ble pair success. if we were to directly check for ble pair success we would nullify the whole process of SR basically as if SR weren't implemented in the first place.
--  Now we can move on to flash the app in DA14683-U using same procedures as decribed previous section.
+-  Now we can move on to flash the app in DA14683-U using same procedures as decribed below:
+  ```sh
+  - Select security-request-pair-service project
+  - from build options select DA14683-00-Realse-QSPI
+  - after build is finished from external tools, select program_qspi_serial_win
+  - script will run and in the terminal you have to give the port number for connected DA14683-U
+  - press reset when prompted
+  - press reset when app is flashed successfully --prod
+ ```
 ### VII. Secure BLE service - Encrypted Characteristics/Service
 -  As explained above master can only iniate the pairing process, but we can build a service inherently secure in peripheral when declaring it as "encrypted".
 -  This declaration by peripheral device prompts the master device to suto moto initiate the pairing process.
 -  This process is robust and if pairing process gets interrupted and fails, the service remains inaccesible to unkown devices inherently, unlike service request where peripheral has the responsibility to check for pair success.
 -  > Note: Making an encrypted notify characteristics is not as straight-forward and requires its client_char_configurationto be set with write encryption flag only.
--  To flash this service proceed with the same procedures as described in earlier sections.
+-  To flash this service proceed with the same procedures as described below:
+  ```sh
+  - Select custom-encrypted-service project
+  - from build options select DA14683-00-Realse-QSPI
+  - after build is finished from external tools, select program_qspi_serial_win
+  - script will run and in the terminal you have to give the port number for connected DA14683-U
+  - press reset when prompted
+  - press reset when app is flashed successfully --prod
+ ```
 ### VIII. Flashing DA14683-U using binary files
 -  > Note: In this section i have no idea what i did - if it was correct way to do it or not - any risks involved or not - i didn't find anything on official channels or unofficial on how to flash DA14683-U. I had intuitively came up with this method within couple hour. Use this method on your own discretion.
 -   Directly bin flashing can be optimal soln when your non-technical member wants to run apps and doens't want the whole ide setup - its cumbersome.

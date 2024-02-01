@@ -131,8 +131,16 @@ This repo is only developed and tested on Windows environment and will continue 
 -   import the bin file -> Burn
         <img src="/images/8.4.png"  height="500">
 -   Press Reset button on DA14683-U and it should run the flashed code immediately
-  
-### IX. Concluding Words
+
+### IX. Troubleshoot:
+-  If path errors arrises perform clean build, if error persists check the Linked resources paths as well preprocessor build paths.
+-  When running script "program_qspi_serial_win", if ide complains about empty path or loc/file not found, make your build project is selected - just left click on it.
+-  Sometimes on smartphone, connection issue arises or no services showing etc, restart your phone and in bluetooth settings remove pairing information for Dialog board , sometimes internal ble stack of phone also gets stuck.
+
+### X. Known Issues:
+-  Sometimes when trying to connect to Dialog board, Phone shows connecting but fails to do so – happens rarely and only once not consecutively
+
+### XI. Concluding Words
 -  This is a solid api build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.
 -  I had to build my knowledge of their sdk from ground up and found it intuitive if done correctly. Yes the code were initially build upon the examples they have provided, but lacked in building a custom secured robust ble service. I developed these apps with my own understanding and were duly tested. 
 -  I wish to share my understanding of their sdk by making a blog or video but as of now my time is limited.

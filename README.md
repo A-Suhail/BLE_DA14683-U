@@ -10,6 +10,8 @@ This repo will have few example codes with guide on how to use them with proper 
 
 Renesas provides a sdk for BLE service development for their boards, they are basically wrappers around native BLE functions in C that aim to simply low-level handling of protocols and tasks.
 
+This blog doesn't contain guide on how to develop the service as of now, but i plan to build a programming guide on that as well in future.
+
 ## Getting Started With DA15683-U
 
 ### II. Important Reads
@@ -96,6 +98,7 @@ This repo is only developed and tested on Windows environment and will continue 
 ### IX. Concluding Words
 -  This is a solid api build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.
 -  I had to build my knowledge of their sdk from ground up and found it intuitive if done correctly. Yes the code were initially build upon the examples they have provided, but lacked in building a custom secured robust ble service. I developed these apps with my own understanding and were duly tested. 
--  I wish to share my understanding of their sdk by making a blog or video as of now but my time is limited.
+-  I wish to share my understanding of their sdk by making a blog or video but as of now my time is limited.
+-  This blog doesn't contain guide on how to develop the service as of now, but i plan to build a programming guide on that as well in future...stay tight.
 -  I am happy to help in any open-source project building upon Dialog boards.
 

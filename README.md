@@ -123,13 +123,13 @@ This repo is only developed and tested on Windows environment and will continue 
 -   Navigate to /blink-led/DA14683-00-Release_QSPI/ and find blink-led.bin file. This file can be conveniently transferred to any team member and follow below steps.
 -   To flash this binary, download and install [SmartSnippets Toolbox](https://www.renesas.com/us/en/software-tool/smartbond-development-tools).
 -   Open SmartSnippets Toolbox -> Select Detect Device (make sure board is connected to your machine) -> select OK after detection completes successfully
-        <img src="images/8.1.png"  height="500">
-        <img src="images/8.2.png"  height="500">
+        <img src="/images/8.1.png"  height="500">
+        <img src="/images/8.2.png"  height="500">
 -   Select Programmer -> Flash Code -> Connect
-        <img src="images/8.3.png"  height="500">
+        <img src="/images/8.3.png"  height="500">
 -   make sure no errors are present upto this point in the terminal
 -   import the bin file -> Burn
-        <img src="images/8.4.png"  height="500">
+        <img src="/images/8.4.png"  height="500">
 -   Press Reset button on DA14683-U and it should run the flashed code immediately
   
 ### IX. Concluding Words

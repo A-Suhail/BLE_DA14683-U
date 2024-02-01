@@ -70,7 +70,32 @@ This repo is only developed and tested on Windows environment and will continue 
 -   press reset when app is flashed successfully  
       <img src="images/4.5.png"  height="400">
 ### V. Unsecure BLE service
+-  Unencrypted-service project implements a ble service with read, write and notification characteristic
+-  Select unencrypted-service project
+-  from build options select DA15683-00-Realse-QSPI
+-  after build is finished from external tools, select program_qspi_serial_win
+-  script will run and in the terminal you have to give the port number for connected DA15683-U
+-  press reset when prompted
+-  press reset when app is flashed successfully
 ### VI. Secure BLE service - Security Request pair
+-  Developers could mistake a security request with pairing process, both are fundamentally different from one another, confusion can lead bad and insecure ble service highly vulnerable to design mistakes in app development... i have seen it.
+-  A pairing request can only be initiated from master to peripheral in a ble connection
+-  While we have a mechanism called service request, in which peripheral can request master device to initiate this pairing - this is basically security request - initiated by peripheral to master.
+-  The working mechanism of peripheral sending a security request is shown below
+-  Now you may wonder why I chose strong words like vulnerable design mistakes. To implement a service with SR is different from implementing it robustly
+-  When talking in the context of DA1568x, the app should follow below process
+-  One important thing which developers miss is Block/Wait Process, which leads to the service data being open to anybody even if pairing is failed or rejected.
+-  Now we can move on to flash the app in DA15683-U using same procedures as decribed previous section.
 ### VII. Secure BLE service - Encrypted Characteristics/Service
+-  As explained above master can only iniate the pairing process, but we can build a service inherently secure in peripheral when declaring it as "encrypted".
+-  This declaration by peripheral device prompts the master device to suto moto initiate the pairing process.
+-  This process is robust and if pairing process gets interrupted and fails, the service remains inaccesible to unkown devices inherently, unlike service request where peripheral has the responsibility to check for pair success.
+-  > Note: Making an encrypted notify characteristics is not as straight-forward and requires its client_char_configurationto be set with write encryption flag only.
+-  To flash this service proceed with the same procedures as described in earlier sections.
 ### VIII. Flashing DA15683-U using binary files
+### IX. Concluding Words
+-  This is a solid api build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.
+-  I had to build my knowledge of their sdk from ground up and found it intuitive if done correctly. Yes the code were initially build upon the examples they have provided, but lacked in building a custom secured robust ble service. I developed these apps with my own understanding and were duly tested. 
+-  I wish to share my understanding of their sdk by making a blog or video as of now but my time is limited.
+-  I am happy to help in any open-source project building upon Dialog boards.
 

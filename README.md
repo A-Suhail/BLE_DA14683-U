@@ -10,7 +10,7 @@ This repo will have few example codes with guide on how to use them with proper 
 
 Renesas provides a sdk for BLE service development for their boards, they are basically wrappers around native BLE functions in C that aim to simply low-level handling of protocols and tasks.
 
-This blog doesn't contain guide on how to develop the service as of now, but i plan to build a programming guide on that as well in future.
+>Note: This guide doesn't contain guide on how to develop the service as of now, but i may plan to build a programming guide on that as well in future.
 
 ## Getting Started With DA14683-U
 
@@ -84,9 +84,12 @@ This repo is only developed and tested on Windows environment and will continue 
 -  A pairing request can only be initiated from master to peripheral in a ble connection
 -  While we have a mechanism called service request, in which peripheral can request master device to initiate this pairing - this is basically security request - initiated by peripheral to master.
 -  The working mechanism of peripheral sending a security request is shown below
+        <img src="images/6.1.png"  height="400">
 -  Now you may wonder why I chose strong words like vulnerable design mistakes. To implement a service with SR is different from implementing it robustly
 -  When talking in the context of DA1468x, the app should follow below process
+        <img src="images/6.2.jpg"  height="500">
 -  One important thing which developers miss is Block/Wait Process, which leads to the service data being open to anybody even if pairing is failed or rejected.
+-  For those who thought why not just directly check for BLE Pair Success? Good question and this is the point which devs miss... you also have to send ble pair reply first accepting security request, and before replying you need to wait for peripheral to process the SR - thaty why we wait - and then reply and then check for ble pair success. if we were to directly check for ble pair success we would nullify the whole process of SR basically as if SR weren't implemented in the first place.
 -  Now we can move on to flash the app in DA14683-U using same procedures as decribed previous section.
 ### VII. Secure BLE service - Encrypted Characteristics/Service
 -  As explained above master can only iniate the pairing process, but we can build a service inherently secure in peripheral when declaring it as "encrypted".
@@ -101,15 +104,19 @@ This repo is only developed and tested on Windows environment and will continue 
 -   Navigate to /blink-led/DA14683-00-Release_QSPI/ and find blink-led.bin file. This file can be conveniently transferred to any team member and follow below steps.
 -   To flash this binary, download and install [SmartSnippets Toolbox](https://www.renesas.com/us/en/software-tool/smartbond-development-tools).
 -   Open SmartSnippets Toolbox -> Select Detect Device (make sure board is connected to your machine) -> select OK after detection completes successfully
+        <img src="images/8.1.png"  height="500">
+        <img src="images/8.2.png"  height="500">
 -   Select Programmer -> Flash Code -> Connect
+        <img src="images/8.3.png"  height="500">
 -   make sure no errors are present upto this point in the terminal
 -   import the bin file -> Burn
+        <img src="images/8.4.png"  height="500">
 -   Press Reset button on DA14683-U and it should run the flashed code immediately
   
 ### IX. Concluding Words
 -  This is a solid api build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.
 -  I had to build my knowledge of their sdk from ground up and found it intuitive if done correctly. Yes the code were initially build upon the examples they have provided, but lacked in building a custom secured robust ble service. I developed these apps with my own understanding and were duly tested. 
 -  I wish to share my understanding of their sdk by making a blog or video but as of now my time is limited.
--  This blog doesn't contain guide on how to develop the service as of now, but i plan to build a programming guide on that as well in future...stay tight.
+-  This guide doesn't contain guide on how to develop the service as of now, but i may plan to build a programming guide on that as well in future.
 -  I am happy to help in any open-source project building upon Dialog boards.
 

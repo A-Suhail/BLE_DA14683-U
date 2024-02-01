@@ -15,11 +15,11 @@ Renesas provides a sdk for BLE service development for their boards, they are ba
 ### II. Important Reads
 Before we start with the setup, I want to emphasize on self-reading about the Dialog Board DA15683-U and BLE related topics. Go through below links before proceeding with the blog:
 
--[Product page for DA-15683-U](https://www.renesas.com/us/en/products/wireless-connectivity/bluetooth-low-energy/da14683-00a9devkt-u-smartbond-da14683-bluetooth-low-energy-basic-development-kit)
--[Product page for DA-15683-pro](https://www.renesas.com/us/en/products/wireless-connectivity/bluetooth-low-energy/da14683-00a9devkt-p-smartbond-da14683-bluetooth-low-energy-50-development-kit-pro)
--[Development tools for Dialog boards](https://www.renesas.com/us/en/software-tool/smartbond-development-tools)
--[Official video for creating custom ble service on DA-15683-pro](https://www.youtube.com/watch?v=DGRdqP9Se8E)
--[Other important docs that i referred](https://github.com/A-Suhail/BLE_DA14683-U/tree/main/doc%20resources)
+-[Product page for DA-15683-U](https://www.renesas.com/us/en/products/wireless-connectivity/bluetooth-low-energy/da14683-00a9devkt-u-smartbond-da14683-bluetooth-low-energy-basic-development-kit)  
+-[Product page for DA-15683-pro](https://www.renesas.com/us/en/products/wireless-connectivity/bluetooth-low-energy/da14683-00a9devkt-p-smartbond-da14683-bluetooth-low-energy-50-development-kit-pro)  
+-[Development tools for Dialog boards](https://www.renesas.com/us/en/software-tool/smartbond-development-tools)  
+-[Official video for creating custom ble service on DA-15683-pro](https://www.youtube.com/watch?v=DGRdqP9Se8E)  
+-[Other important docs that i referred](https://github.com/A-Suhail/BLE_DA14683-U/tree/main/doc%20resources)  
 
 These are the fraction of docs that I went through while working on this project, it’s can be very challenging to get the right stuff at right time. For example, on the DA15683-U box itself there’s a QR code to be scanned which directs you to their product page, guess what the box (atleast in my case) lead me to DA15683-Pro page and being completely new to the board it took me several hours just to find the right resource page. Attaching few resources, including pro’s resource page since it also contains some insights.
 
@@ -36,26 +36,39 @@ This repo is only developed and tested on Windows environment and will continue 
 - Clone the [Repo](https://github.com/A-Suhail/BLE_DA14683-U.git) and place it your workspace folder. 
 ##### 4.  Setup workspace in SmartSnippets IDE
 -   Open SmartSnippets Studio and locate the sdk folder inside the cloned repo (BLE_DA14683-U) in your workspace.
+      <img src="images/3.4.1.png"  height="500">
 -   SmartSnippets Studio will open Welcome page where you need to  select the connected device as DA15683-00
+      <img src="images/3.4.2.png"  height="500">
 -   Now select Open IDE
 -   Import the scripts. These scripts were developed by Renesas to facilitate easy flashing of your Dialog board.
-    -     Import Existing Project 
-    -     navigate to [workspace]/BLE_DA14683-U/sdk/utilities/scripts -> finish
+    -     Import Existing Project  
+      <img src="images/3.4.4.png"  height="500">
+    -     navigate to [workspace]/BLE_DA14683-U/sdk/utilities/scripts -> finish  
+      <img src="images/3.4.5.png"  height="500">
     
 -   Import the apps folder and select all projects inside it
-    -     Import Existing Project 
-    -     navigate to [workspace]/BLE_DA14683-U/apps -> finish
+    -     Import Existing Project
+    -     navigate to [workspace]/BLE_DA14683-U/apps -> Select all -> finish
+      <img src="images/3.4.7.png"  height="500">
+
+-   The Project Structure should look like this after all imports
+      <img src="images/3.4.8.png"  height="500">
      > Note: Ignore the missing path warnings, build is required to set project variables
 
 ### IV. Blink
 -   Blink-led project is a simple app that consecutively switch on/off  LED-1.2 (LED @ port1 and pin2)and LED-4.1 (LED @ port4 and pin1).
 -   Select blink-led project
--   from build options select DA15683-00-Realse-QSPI
--   after build is finished from external tools, select program_qspi_serial_win
--   script will run and in the terminal you have to give the port number for connected DA15683-U
--   to check port number: windows+X -> Device manager-> ports
+-   from build options select DA15683-00-Realse-QSPI  
+      <img src="images/4.1.png"  height="500">
+-   after build is finished from external tools, select program_qspi_serial_win  
+      <img src="images/4.2.png"  height="500">
+-   script will run and in the terminal you have to give the port number for connected DA15683-U  
+      <img src="images/4.3.png"  height="200">
+-   to check port number: windows+X -> Device manager-> ports  
+     <img src="images/4.4.png"  height="200">
 -   press reset when prompted
--   press reset when app is flashed successfully
+-   press reset when app is flashed successfully  
+      <img src="images/4.5.png"  height="400">
 ### V. Unsecure BLE service
 ### VI. Secure BLE service - Security Request pair
 ### VII. Secure BLE service - Encrypted Characteristics/Service

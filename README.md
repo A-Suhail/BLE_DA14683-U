@@ -143,11 +143,11 @@ This repo is only developed and tested on Windows environment and will continue 
 
 ### X. Known Issues:
 -  Sometimes when trying to connect to Dialog board, Phone shows connecting but fails to do so – happens rarely and only once not consecutively
--  App like LightBlue encounters some notification reading issue but nRFConnect works fine with Encrypted Service App.
+-  App like LightBlue encounters some notification reading issue but nRFConnect works fine, I recommend nRF Connect app to testing purpose, only con is service names aren't visible by default in nRF connect but can use descriptor characteristics to read the same.
 -  Security request service gets hang when you try to read again from it
 
 ### XI. Concluding Words
--  This is a solid api build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.
+-  This is a solid sdk build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.
 -  I had to build my knowledge of their sdk from ground up and found it intuitive if done correctly. Yes the code were initially build upon the examples they have provided, but lacked in building a custom secured robust ble service. I developed these apps with my own understanding and were duly tested. 
 -  I wish to share my understanding of their sdk by making a blog or video but as of now my time is limited.
 -  This guide doesn't contain guide on how to develop the service as of now, but i may plan to build a programming guide on that as well in future.

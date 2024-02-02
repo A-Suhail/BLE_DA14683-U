@@ -12,3 +12,9 @@
 -   press reset when prompted
 -   press reset when app is flashed successfully  
       <img src="/images/4.5.png"  height="400">
+
+#### Output
+Alternate blinking of both leds (red and white)
+<img src="/images/DA14683-red.jpeg"  height="400">
+<img src="/images/DA14683-white%20.jpeg"  height="400">
+      

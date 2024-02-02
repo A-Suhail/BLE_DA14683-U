@@ -19591,7 +19591,7 @@ OUTPUT(custom-encrypted-service.elf elf32-littlearm)
  .comment       0x00000000       0x71 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg.o)
  .comment       0x00000000       0x71 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg_task.o)
 
-.debug_info     0x00000000    0x6f611
+.debug_info     0x00000000    0x6f610
  .debug_info    0x00000000      0xf5f ./startup/config.o
  .debug_info    0x00000f5f       0xdb ./startup/startup_ARMCM0.o
  .debug_info    0x0000103a     0x1132 ./startup/system_ARMCM0.o
@@ -19669,10 +19669,10 @@ OUTPUT(custom-encrypted-service.elf elf32-littlearm)
  .debug_info    0x0005e90f     0x114a ./sdk/FreeRTOS/timers.o
  .debug_info    0x0005fa59     0x1d7b ./ble_peripheral_task.o
  .debug_info    0x000617d4     0x1ef5 ./custom_service.o
- .debug_info    0x000636c9     0x15f7 ./main.o
- .debug_info    0x00064cc0     0x6fd1 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(rom_patch.o)
- .debug_info    0x0006bc91      0x5d2 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg.o)
- .debug_info    0x0006c263     0x33ae C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg_task.o)
+ .debug_info    0x000636c9     0x15f6 ./main.o
+ .debug_info    0x00064cbf     0x6fd1 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(rom_patch.o)
+ .debug_info    0x0006bc90      0x5d2 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg.o)
+ .debug_info    0x0006c262     0x33ae C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\custom-encrypted-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg_task.o)
 
 .debug_abbrev   0x00000000     0xf08d
  .debug_abbrev  0x00000000      0x317 ./startup/config.o

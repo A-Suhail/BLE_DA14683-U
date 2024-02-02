@@ -138,11 +138,13 @@ This repo is only developed and tested on Windows environment and will continue 
 
 ### IX. Troubleshoot:
 -  If path errors arrises perform clean build, if error persists check the Linked resources paths as well preprocessor build paths.
--  When running script "program_qspi_serial_win", if ide complains about empty path or loc/file not found, make your build project is selected - just left click on it.
+-  When running script "program_qspi_serial_win", if ide complains about empty path or loc/file not found, make sure your build project is selected - just left click on it.
 -  Sometimes on smartphone, connection issue arises or no services showing etc, restart your phone and in bluetooth settings remove pairing information for Dialog board , sometimes internal ble stack of phone also gets stuck.
 
 ### X. Known Issues:
 -  Sometimes when trying to connect to Dialog board, Phone shows connecting but fails to do so – happens rarely and only once not consecutively
+-  App like LightBlue encounters some notification reading issue but nRFConnect works fine with Encrypted Service App.
+-  Security request service gets hang when you try to read again from it
 
 ### XI. Concluding Words
 -  This is a solid api build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.

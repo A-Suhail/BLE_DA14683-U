@@ -1,16 +1,4 @@
-/**
- ****************************************************************************************
- *
- * @file ble_peripheral_task.c
- *
- * @brief BLE peripheral task
- *
- * Copyright (C) 2015-2018 Dialog Semiconductor.
- * This computer program includes Confidential, Proprietary Information
- * of Dialog Semiconductor. All Rights Reserved.
- *
- ****************************************************************************************
- */
+
 
 #include <stdbool.h>
 #include <stdio.h>

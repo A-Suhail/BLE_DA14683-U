@@ -82,6 +82,7 @@ This repo is only developed and tested on Windows environment and will continue 
   - press reset when prompted
   - press reset when app is flashed successfully --prod
  ```
+>Note: Pics of working setup shown in individual readme files present in respective app directory
 ### VI. Secure BLE service - Security Request pair
 -  Developers could mistake a security request with pairing process, both are fundamentally different from one another, confusion can lead bad and insecure ble service highly vulnerable to design mistakes in app development... i have seen it.
 -  A pairing request can only be initiated from master to peripheral in a ble connection
@@ -102,6 +103,7 @@ This repo is only developed and tested on Windows environment and will continue 
   - press reset when prompted
   - press reset when app is flashed successfully --prod
  ```
+>Note: Pics of working setup shown in individual readme files present in respective app directory
 ### VII. Secure BLE service - Encrypted Characteristics/Service
 -  As explained above master can only iniate the pairing process, but we can build a service inherently secure in peripheral when declaring it as "encrypted".
 -  This declaration by peripheral device prompts the master device to suto moto initiate the pairing process.
@@ -116,6 +118,7 @@ This repo is only developed and tested on Windows environment and will continue 
   - press reset when prompted
   - press reset when app is flashed successfully --prod
  ```
+>Note: Pics of working setup shown in individual readme files present in respective app directory
 ### VIII. Flashing DA14683-U using binary files
 -  > Note: In this section i have no idea what i did - if it was correct way to do it or not - any risks involved or not - i didn't find anything on official channels or unofficial on how to flash DA14683-U. I had intuitively came up with this method within couple hour. Use this method on your own discretion.
 -   Directly bin flashing can be optimal soln when your non-technical member wants to run apps and doens't want the whole ide setup - its cumbersome.
@@ -130,7 +133,8 @@ This repo is only developed and tested on Windows environment and will continue 
 -   make sure no errors are present upto this point in the terminal
 -   import the bin file -> Burn
         <img src="/images/8.4.png"  height="500">
--   Press Reset button on DA14683-U and it should run the flashed code immediately
+-   Press Reset button on DA14683-U and it should run the flashed code immediately  
+> Note: After directly flashing bin file using toolbox, when using program_sqpi_serial_win script though ide may experience some issues such as even after a successfull flash previous flashed app still running in Dialog DA14683-U. For this use the erase_qspi_serial_win script through ide and retry flashing.   
 
 ### IX. Troubleshoot:
 -  If path errors arrises perform clean build, if error persists check the Linked resources paths as well preprocessor build paths.

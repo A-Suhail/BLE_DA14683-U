@@ -19603,7 +19603,7 @@ OUTPUT(security-request-pair-service.elf elf32-littlearm)
  .comment       0x00000000       0x71 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\security-request-pair-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg.o)
  .comment       0x00000000       0x71 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\security-request-pair-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg_task.o)
 
-.debug_info     0x00000000    0x6f34d
+.debug_info     0x00000000    0x6f34c
  .debug_info    0x00000000      0xf5f ./startup/config.o
  .debug_info    0x00000f5f       0xe0 ./startup/startup_ARMCM0.o
  .debug_info    0x0000103f     0x1132 ./startup/system_ARMCM0.o
@@ -19681,10 +19681,10 @@ OUTPUT(security-request-pair-service.elf elf32-littlearm)
  .debug_info    0x0005e919     0x114a ./sdk/FreeRTOS/timers.o
  .debug_info    0x0005fa63     0x21a3 ./ble_peripheral_task.o
  .debug_info    0x00061c06     0x17ff ./custom_service.o
- .debug_info    0x00063405     0x15f7 ./main.o
- .debug_info    0x000649fc     0x6fd1 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\security-request-pair-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(rom_patch.o)
- .debug_info    0x0006b9cd      0x5d2 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\security-request-pair-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg.o)
- .debug_info    0x0006bf9f     0x33ae C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\security-request-pair-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg_task.o)
+ .debug_info    0x00063405     0x15f6 ./main.o
+ .debug_info    0x000649fb     0x6fd1 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\security-request-pair-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(rom_patch.o)
+ .debug_info    0x0006b9cc      0x5d2 C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\security-request-pair-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg.o)
+ .debug_info    0x0006bf9e     0x33ae C:\Users\amir2\Downloads\GitHub\BLE_DA14683-U\apps\security-request-pair-service/../../sdk/sdk/interfaces/ble_stack/DA14683-00-Release\libble_stack_da14683_00.a(dbg_task.o)
 
 .debug_abbrev   0x00000000     0xf05d
  .debug_abbrev  0x00000000      0x317 ./startup/config.o

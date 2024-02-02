@@ -1,16 +1,3 @@
-/**
- ****************************************************************************************
- *
- * @file ble_peripheral_task.c
- *
- * @brief BLE peripheral task
- *
- * Copyright (C) 2015-2018 Dialog Semiconductor.
- * This computer program includes Confidential, Proprietary Information
- * of Dialog Semiconductor. All Rights Reserved.
- *
- ****************************************************************************************
- */
 
 #include <stdbool.h>
 #include <stdio.h>
@@ -39,6 +26,7 @@
 
 #include "custom_service.h"
 
+extern uint8_t *ptr_ble_flag;
 
 /*
  * Notification bits reservation
@@ -315,12 +303,14 @@ void ble_peripheral_task(void *params)
                                         printf(NEWLINE "BLE_CONNECTED" NEWLINE);
 
                                         handle_evt_gap_connected((ble_evt_gap_connected_t *) hdr);
+                                        *ptr_ble_flag = 1;
                                         break;
 
                                 case BLE_EVT_GAP_DISCONNECTED:
                                         printf(NEWLINE "BLE_DISCONNECTED"NEWLINE);
                                         fflush(stdout);
                                         handle_evt_gap_disconnected((ble_evt_gap_disconnected_t *) hdr);
+                                        *ptr_ble_flag = 0;
                                         break;
 
                                 case BLE_EVT_GAP_PAIR_REQ:

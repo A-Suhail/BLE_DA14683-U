@@ -1,16 +1,4 @@
-/**
- ****************************************************************************************
- *
- * @file main.c
- *
- * @brief BLE peripheral application
- *
- * Copyright (C) 2015-2018 Dialog Semiconductor.
- * This computer program includes Confidential, Proprietary Information
- * of Dialog Semiconductor. All Rights Reserved.
- *
- ****************************************************************************************
- */
+
 /* Standard includes. */
 #include <string.h>
 #include <stdbool.h>
@@ -29,10 +17,17 @@
 
 /* Task priorities */
 #define mainBLE_PERIPHERAL_TASK_PRIORITY              ( OS_TASK_PRIORITY_NORMAL )
+#define mainLED_CONTROL_TASK_PRIORITY                 ( OS_TASK_PRIORITY_LOWEST )
 
 #if dg_configUSE_WDOG
 INITIALISED_PRIVILEGED_DATA int8_t idle_task_wdog_id = -1;
 #endif
+
+/*
+ * Variable the stores ble connection status
+ */
+static uint8_t ble_connected = 0;
+uint8_t *ptr_ble_flag = &ble_connected;
 
 /*
  * Perform any application specific hardware configuration.  The clocks,
@@ -43,6 +38,39 @@ static void prvSetupHardware( void );
  * Task functions .
  */
 void ble_peripheral_task(void *params);
+
+/*
+ * led task
+ */
+void led_control_task(void *pvParameters)
+{
+        OS_TICK_TIME xNextWakeTime;
+
+        xNextWakeTime = OS_GET_TICK_COUNT();
+
+        for( ;; )
+        {
+
+                if (ble_connected == 1){
+                        //device connected , turn white led
+                        hw_gpio_set_inactive(HW_GPIO_PORT_1, HW_GPIO_PIN_2 );
+
+                        hw_gpio_set_active(HW_GPIO_PORT_4, HW_GPIO_PIN_1 );
+                        vTaskDelayUntil( &xNextWakeTime, OS_MS_2_TICKS(400));
+                        hw_gpio_set_inactive(HW_GPIO_PORT_4, HW_GPIO_PIN_1 );
+                        vTaskDelayUntil( &xNextWakeTime, OS_MS_2_TICKS(2000));
+                }
+                else{
+                        //device not connected, turn red led
+                        hw_gpio_set_inactive(HW_GPIO_PORT_4, HW_GPIO_PIN_1 );
+
+                        hw_gpio_set_active(HW_GPIO_PORT_1, HW_GPIO_PIN_2 );
+                        vTaskDelayUntil( &xNextWakeTime, OS_MS_2_TICKS(200));
+                        hw_gpio_set_inactive(HW_GPIO_PORT_1, HW_GPIO_PIN_2 );
+                        vTaskDelayUntil( &xNextWakeTime, OS_MS_2_TICKS(200));
+                }
+        }
+}
 
 
 /**
@@ -96,6 +124,7 @@ static void system_init( void *pvParameters )
 
 
         printf(NEWLINE NEWLINE"INITIALISING BLE STACK ");
+        fflush(stdout);
 
         /* Initialize BLE Manager */
         ble_mgr_init();
@@ -106,7 +135,7 @@ static void system_init( void *pvParameters )
                        ble_peripheral_task,             /* The function that implements the task. */
                        NULL,                            /* The parameter passed to the task. */
 #if defined CONFIG_RETARGET
-                       756,                            /* The number of bytes to allocate to the
+                       1024,                            /* The number of bytes to allocate to the
                                                            stack of the task. */
 #else
                        200 * OS_STACK_WORD_SIZE,        /* The number of bytes to allocate to the
@@ -118,6 +147,21 @@ static void system_init( void *pvParameters )
 
         printf(" : DONE "NEWLINE);
         fflush(stdout);
+
+        printf(NEWLINE"INITIALISING LEDS");
+        fflush(stdout);
+        OS_TASK task_h = NULL;
+        OS_TASK_CREATE( "Led Task",            /* The text name assigned to the task, for
+                                                            debug only; not used by the kernel. */
+                         led_control_task,                /* The function that implements the task. */
+                         NULL,                           /* The parameter passed to the task. */
+                         764,       /* The number of bytes to allocate to the
+                                                            stack of the task. */
+                         mainLED_CONTROL_TASK_PRIORITY,     /* The priority assigned to the task. */
+                         task_h );                       /* The task handle */
+         OS_ASSERT(task_h);
+         printf(" : DONE"NEWLINE);
+         fflush(stdout);
 
         /* the work of the SysInit task is done */
         OS_TASK_DELETE(OS_GET_CURRENT_TASK());
@@ -139,7 +183,7 @@ int main( void )
                                                              debug only; not used by the kernel. */
                                 system_init,              /* The System Initialization task. */
                                 ( void * ) 0,             /* The parameter passed to the task. */
-                                1024,                     /* The number of bytes to allocate to the
+                                764,                     /* The number of bytes to allocate to the
                                                              stack of the task. */
                                 OS_TASK_PRIORITY_HIGHEST, /* The priority assigned to the task. */
                                 handle );                 /* The task handle */
@@ -170,6 +214,12 @@ static void periph_init(void)
         hw_gpio_set_pin_function(HW_GPIO_PORT_2, HW_GPIO_PIN_3, HW_GPIO_MODE_OUTPUT,
                                                                         HW_GPIO_FUNC_UART2_RX);
 #endif
+
+        /*Led pins init*/
+        hw_gpio_set_pin_function(HW_GPIO_PORT_1,HW_GPIO_PIN_2, HW_GPIO_MODE_OUTPUT,
+                        HW_GPIO_FUNC_GPIO);
+        hw_gpio_set_pin_function(HW_GPIO_PORT_4,HW_GPIO_PIN_1, HW_GPIO_MODE_OUTPUT,
+                        HW_GPIO_FUNC_GPIO);
 
 }
 

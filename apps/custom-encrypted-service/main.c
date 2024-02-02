@@ -1,16 +1,4 @@
-/**
- ****************************************************************************************
- *
- * @file main.c
- *
- * @brief BLE peripheral application
- *
- * Copyright (C) 2015-2018 Dialog Semiconductor.
- * This computer program includes Confidential, Proprietary Information
- * of Dialog Semiconductor. All Rights Reserved.
- *
- ****************************************************************************************
- */
+
 /* Standard includes. */
 #include <string.h>
 #include <stdbool.h>

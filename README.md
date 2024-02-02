@@ -33,7 +33,9 @@ This repo is only developed and tested on Windows environment and will continue 
 ##### 1. Installing SmartSnippets Studio
 - Install the IDE and its required dependencies as described in this [guide](https://s3.eu-west-2.amazonaws.com/lpccs-docs.dialog-semiconductor.com/um-b-056-da1468x_getting_started/05_Software_Development_Tools/Software_Development_Tools.html), follow steps in Section 11.2.1 only.
 ##### 2. Installing RealTerm - Serial/TCP Terminal
-- Install Realterm for serial communication of DA14683-U to pc using usb, from [here](https://sourceforge.net/projects/realterm/).
+- Install Realterm for serial communication of DA14683-U to pc using usb, from [here](https://sourceforge.net/projects/realterm/).  
+> Note: to use RealTerm for debugging, select baudrate as 115200 and select open  
+> <img src="/images/realterm.png"  height="500">  
 ##### 3. Download Repo on local machine
 - Clone the [Repo](https://github.com/A-Suhail/BLE_DA14683-U.git) and place it your workspace folder. 
 ##### 4.  Setup workspace in SmartSnippets IDE
@@ -134,7 +136,8 @@ This repo is only developed and tested on Windows environment and will continue 
 -   import the bin file -> Burn
         <img src="/images/8.4.png"  height="500">
 -   Press Reset button on DA14683-U and it should run the flashed code immediately  
-> Note: After directly flashing bin file using toolbox, when using program_sqpi_serial_win script though ide may experience some issues such as even after a successfull flash previous flashed app still running in Dialog DA14683-U. For this use the erase_qspi_serial_win script through ide and retry flashing.   
+> Note: After directly flashing bin file using toolbox, when using program_sqpi_serial_win script though ide may experience some issues such as even after a successfull flash previous flashed app still running in Dialog DA14683-U. For this use the erase_qspi_serial_win script through ide and retry flashing.
+> <img src="/images/troubleshoot1.png"  height="500">
 
 ### IX. Troubleshoot:
 -  If path errors arrises perform clean build, if error persists check the Linked resources paths as well preprocessor build paths.
@@ -143,11 +146,11 @@ This repo is only developed and tested on Windows environment and will continue 
 
 ### X. Known Issues:
 -  Sometimes when trying to connect to Dialog board, Phone shows connecting but fails to do so – happens rarely and only once not consecutively
--  App like LightBlue encounters some notification reading issue but nRFConnect works fine with Encrypted Service App.
+-  App like LightBlue encounters some notification reading issue but nRFConnect works fine, I recommend nRF Connect app to testing purpose, only con is service names aren't visible by default in nRF connect but can use descriptor characteristics to read the same.
 -  Security request service gets hang when you try to read again from it
 
 ### XI. Concluding Words
--  This is a solid api build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.
+-  This is a solid sdk build by renesas devs but the community is lacking as well as official guide to development using sdk - mind you they do have docs for this and you should go through them - but its not enough and lacking in itself.
 -  I had to build my knowledge of their sdk from ground up and found it intuitive if done correctly. Yes the code were initially build upon the examples they have provided, but lacked in building a custom secured robust ble service. I developed these apps with my own understanding and were duly tested. 
 -  I wish to share my understanding of their sdk by making a blog or video but as of now my time is limited.
 -  This guide doesn't contain guide on how to develop the service as of now, but i may plan to build a programming guide on that as well in future.

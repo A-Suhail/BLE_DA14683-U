@@ -12,3 +12,8 @@
   - press reset when prompted
   - press reset when app is flashed successfully --prod
  ```
+#### Output
+Realterm logs of peripheral responding  
+<img src="/images/encrypted%20service/1.png"  height="500">  
+Screen record of nRF Connect communicating  
+<img src="/images/encrypted%20service/v1.gif"  height="600"> 

@@ -134,7 +134,8 @@ This repo is only developed and tested on Windows environment and will continue 
 -   import the bin file -> Burn
         <img src="/images/8.4.png"  height="500">
 -   Press Reset button on DA14683-U and it should run the flashed code immediately  
-> Note: After directly flashing bin file using toolbox, when using program_sqpi_serial_win script though ide may experience some issues such as even after a successfull flash previous flashed app still running in Dialog DA14683-U. For this use the erase_qspi_serial_win script through ide and retry flashing.   
+> Note: After directly flashing bin file using toolbox, when using program_sqpi_serial_win script though ide may experience some issues such as even after a successfull flash previous flashed app still running in Dialog DA14683-U. For this use the erase_qspi_serial_win script through ide and retry flashing.
+> <img src="/images/troubleshoot1.png"  height="500">
 
 ### IX. Troubleshoot:
 -  If path errors arrises perform clean build, if error persists check the Linked resources paths as well preprocessor build paths.

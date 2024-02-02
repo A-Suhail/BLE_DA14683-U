@@ -33,7 +33,9 @@ This repo is only developed and tested on Windows environment and will continue 
 ##### 1. Installing SmartSnippets Studio
 - Install the IDE and its required dependencies as described in this [guide](https://s3.eu-west-2.amazonaws.com/lpccs-docs.dialog-semiconductor.com/um-b-056-da1468x_getting_started/05_Software_Development_Tools/Software_Development_Tools.html), follow steps in Section 11.2.1 only.
 ##### 2. Installing RealTerm - Serial/TCP Terminal
-- Install Realterm for serial communication of DA14683-U to pc using usb, from [here](https://sourceforge.net/projects/realterm/).
+- Install Realterm for serial communication of DA14683-U to pc using usb, from [here](https://sourceforge.net/projects/realterm/).  
+> Note: to use RealTerm for debugging, select baudrate as 115200 and select open  
+> <img src="/images/realterm.png"  height="500">  
 ##### 3. Download Repo on local machine
 - Clone the [Repo](https://github.com/A-Suhail/BLE_DA14683-U.git) and place it your workspace folder. 
 ##### 4.  Setup workspace in SmartSnippets IDE
